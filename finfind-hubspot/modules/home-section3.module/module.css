@@ -1,0 +1,50 @@
+.home-section3-desc--small{
+    font-size: 30px;
+    color: #002137;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.home-section3 .section__title{
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.home-section3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.home-section3 .section__desc{
+    text-align: center;
+}
+
+.home-section3-item-circle-chart{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.circle-chart-percent-round-wrap{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    top: 50%;
+    /* background: Red; */
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.circle-chart-percent-wrap{
+    font-size: 46px;
+    background: white;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    /* background: Red; */
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

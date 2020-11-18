@@ -560,3 +560,160 @@ body .tns-nav button:focus {
 body .team-member__description {
   background-color: {{ secondary_color }};
 }
+
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-nav .nav-link{
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 22px;
+  padding: 0px 15px !important;
+}
+
+.header-logo-wrap .hs-image-widget {
+  width: 200px !important;
+}
+
+.header-login-link{
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #21c6ab;
+  margin-left: 30px;
+  border-left: 1px solid #333333;
+  padding-left: 30px;
+  line-height: 22px;
+}
+
+.nav-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container--large{
+  width: 90%;
+  margin: auto;
+}
+
+.navbar{
+  padding: 60px 0px;
+}
+
+.link{
+  font-size: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  min-width: 400px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.link:hover{
+  text-decoration: none;
+}
+
+.link--gradient{
+  background-image: linear-gradient(to right, #209fd6, #21c4ae);
+  color: #FFFFFF;
+}
+
+.link--gradient:hover{
+  color: #FFFFFF;
+}
+
+.fs-30{
+  font-size: 30px;
+}
+
+.navbar{
+  z-index: 10;
+}
+
+.down-btn-wrap{
+  width: 105px;
+  height: 105px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.down-btn-inner-wrap{
+  background: #209dd8;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.down-btn__img{
+  width: 45px;
+}
+
+.container--w-80{
+  width: 80%;
+  margin: auto;
+}
+
+.section__title{
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 95px;
+  text-align: center;
+}
+
+.item__desc{
+  font-size: 30px;
+}
+
+.link-wrap{
+  margin-top: 50px;
+}
+
+.link--blue{
+  background: #209dd8;
+  color:#FFFFFF;
+}
+
+.link--blue:hover{
+  color:#FFFFFF;
+}
+
+.link--white{
+  background: #FFFFFF;
+  color: #333333;
+}
+
+.link--white:hover{
+  color: #333333;
+}
+
+.section__desc{
+  font-size: 31px;
+  color: #002137;
+}
+
+footer{
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background-color: #FFFFFF !important;
+}
+
+.is-sticky #nav_bar{
+  z-index: 10 !important;
+  background: #FFFFFF;
+}

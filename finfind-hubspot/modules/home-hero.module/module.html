@@ -1,0 +1,23 @@
+<div class="home-hero">
+    <div class="container--w-80">
+        <div class="home-hero-content-wrap">
+            <div class="home-hero-content-col home-hero-content-col--left">
+                <div class="home-hero-text fs-30">{{ module.left_text }}</div>
+                <a class="link link--gradient" href="{{ module.left_link.href }}">{{ module.left_link_text }}</a>
+            </div>
+            <div class="home-hero-content-col home-hero-content-col--right">
+                <div class="home-hero-text fs-30">{{ module.right_text }}</div>
+                <a class="link link--gradient" href="{{ module.right_link.href }}">{{ module.right_link_text }}</a>
+            </div>
+        </div>
+    </div>
+    <div class="home-hero-wave-img-wrap">
+        <img class="home-hero-wave__img" src="{{get_asset_url('../images/home-hero-wave.png')}}">
+    </div>
+    <img class="home-hero-women__img" src="{{get_asset_url('../images/home-hero-women.png')}}">
+    <div class="home-hero-btn-wrap down-btn-wrap">
+        <div class="down-btn-inner-wrap">
+            <img class="down-btn__img" src="{{get_asset_url('../images/triangle-down.png')}}">
+        </div>
+    </div>
+</div>

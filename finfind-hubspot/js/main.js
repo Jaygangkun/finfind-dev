@@ -137,4 +137,6 @@
       closeToggle.addEventListener('click', closeAll);
     }
   });
+
+  $("#nav_bar").sticky({topSpacing:0});
 })();

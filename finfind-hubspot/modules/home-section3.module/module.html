@@ -1,0 +1,51 @@
+
+<div class="home-section3">
+    <div class="container--w-80">
+        <h2 class="section__title">{{module.title}}</h2>
+        <div class="section__desc">{{module.description}}</div>
+        <div class="row">
+            {% for item in module.items %}
+            <div class="col-lg-4 home-section3-item-col">
+                <div class="home-sectoin3-item-chart-wrap">
+                    <div class="home-section3-item-circle-chart" id="circle_{{loop.index}}"></div>
+                </div>
+                <div class="item__desc">{{item.description}}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="link-wrap">
+            <a class="link link--blue">{{module.link_text}}</a>
+        </div>
+        <div class="home-section3-desc--small">{{module.small_description}}</div>
+    </div>
+</div>
+<script>
+    var a = 0;
+    $(window).scroll(function() {
+
+        var oTop = $('.home-section3').offset().top - window.innerHeight;
+        if (a == 0 && $(window).scrollTop() > oTop) {
+            {% for item in module.items %}
+            var myCircle = Circles.create({
+                id:                  'circle_{{loop.index}}',
+                radius:              100,
+                value:               {{item.percent}},
+                maxValue:            100,
+                width:               20,
+                text:                function(value){
+                    return '<div class="circle-chart-percent-round-wrap" style="border: 1px solid {{item.color.color}}"></div><div class="circle-chart-percent-wrap">' + value + '%' + '</div>';
+                },
+                colors:              ['#e6e6e6', '{{item.color.color}}'],
+                duration:            400,
+                wrpClass:            'circles-wrp',
+                textClass:           'circles-text',
+                valueStrokeClass:    'circles-valueStroke',
+                maxValueStrokeClass: 'circles-maxValueStroke',
+                styleWrapper:        true,
+                styleText:           true
+            });
+            {% endfor %}
+            a = 1;
+        }
+    });
+</script>

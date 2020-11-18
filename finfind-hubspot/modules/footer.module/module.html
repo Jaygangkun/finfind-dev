@@ -1,0 +1,54 @@
+<div class="footer-module">
+    <img class="footer-logo__img" src="{{module.logo.src}}" alt="{{module.logo.alt}}">
+    <div class="footer-copyright">{{module.copyright_text}}</div>
+    <div class="footer-social-links">
+        {% for social_link in module.social_links %}
+            {% set social_icon = social_link.account %}
+            <a class="social-links__link" href="{{ social_link.url.src }}"
+            {% if social_link.open_in_new_tab %}target="_blank"{% endif %}>
+                <div class="social-links__link-wrap">
+                    {% if social_link.account == 'facebook'%}
+                        <i class="fa fa-facebook"></i>
+                    {% elif social_link.account == 'twitter'%}
+                        <i class="fa fa-twitter"></i>
+                    {% endif %}
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+    <div class="container">
+        <div class="footer-links-container">
+            <div class="row">
+                <div class="col-lg-6 footer-menu-links-col">
+                    <div class="footer-title">{{module.menu.title}}</div>
+                    {% for menu_item in module.menu.menu_items %}
+                        <div class="footer-link-wrap">
+                            <a class="footer-menu-link" href="{{menu_item.url.url}}">{{menu_item.text}}</a>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="col-lg-6 footer-social-links-col">
+                    <div class="footer-title">{{module.contact.title}}</div>
+                    {% for contact_item in module.contact.contact_items%}
+                        <div class="footer-contact-row">
+                            <span class="footer-contact__title">{{contact_item.contact_name}}</span>
+                            <span class="footer-contact__value">{{contact_item.contact_value}}</span>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container--w-80">
+        <div class="footer-logos-list">
+            <div class="row">
+                {% for logo in module.logos %}
+                <div class="col-lg-3 footer-logo-item-col">
+                    <img class="footer-partner-logo__img" src="{{logo.image.src}}">
+                </div>                
+                {% endfor %}
+            </div>
+        </div>
+        <div class="footer-note-text">{{module.footer_note}}</div>
+    </div>
+</div>

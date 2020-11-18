@@ -1,0 +1,21 @@
+<div class="home-section1">
+    <div class="container--w-80">
+        <h2 class="section__title">{{module.title}}</h2>
+        <div class="row">
+            {% for step in module.steps %}
+            <div class="col-lg-3 home-section-item-col">
+                <div class="home-section1-item-wrap">
+                    <div class="home-section1-item-step-number-wrap">
+                        <span class="home-section1-item-step__number">{{step.number}}</span>
+                    </div>
+                    <div class="item__desc">{{step.description}}</div>
+                    <div class="home-section1-item-hr"></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="link-wrap">
+            <a class="link link--blue" href="{{module.link_url.src}}">{{module.link_text}}</a>
+        </div>
+    </div>
+</div>
