@@ -1,0 +1,95 @@
+[
+  {
+    "label": "Heading content",
+    "name": "heading",
+    "type": "group",
+    "children": [
+      {
+        "label": "Heading",
+        "name": "main_title",
+        "type": "text",
+        "default": "Upcoming Events"
+      },
+      {
+        "label": "Heading icon",
+        "name": "main_icon",
+        "type": "icon",
+        "default": {
+          "name": "gripfire"
+        }
+      },
+      {
+        "label": "Heading link text",
+        "name": "main_link_text",
+        "type": "text",
+        "default": "View all"
+      },
+      {
+        "label": "Heading link",
+        "name": "main_link",
+        "type": "link",
+        "default": {
+          "url": {
+            "href": "https://www.hubspot.com",
+            "type": "EXTERNAL"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "label": "Events",
+    "name": "event",
+    "type": "group",
+    "occurrence": {
+      "default": 1,
+      "min": 0,
+      "max": 25
+    },
+    "children": [
+      {
+        "label": "Date and time",
+        "name": "date",
+        "type": "date",
+        "default": 1575964800000
+      },
+      {
+        "label": "Event icon",
+        "name": "event_icon",
+        "type": "icon",
+        "default": {
+          "name": "calendar"
+        }
+      },
+      {
+        "label": "Title",
+        "name": "title",
+        "type": "text",
+        "default": "SEMI-ANNUAL EDUCATION GALA"
+      },
+      {
+        "label": "Address",
+        "name": "address",
+        "type": "text",
+        "default": "2 Canal Park, Cambridge, MA"
+      },
+      {
+        "label": "Link",
+        "name": "link",
+        "type": "link",
+        "default": {
+          "url": {
+            "href": "https://www.hubspot.com",
+            "type": "EXTERNAL"
+          }
+        }
+      },
+      {
+        "label": "Link text",
+        "name": "link_text",
+        "type": "text",
+        "default": "Learn more"
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Avance automático",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Mantener siempre los subtítulos debajo de la imagen",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Superponer títulos en la parte superior de las imágenes",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Posición de subtítulos",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Buscar",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galería de Lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Control deslizante estándar",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navegación en miniatura",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modo de visualización",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Buscar",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Filas para la galería de lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Filas para la galería de lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Diapositivas de bucle",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tiempo en segundos entre el desplazamiento automático",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Mostrar botones de navegación",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Altura variable",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Altura fija",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Altura variable",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Buscar",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Subtítulo",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Imagen",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Diapositiva",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL del enlace",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Abrir enlace en una nueva pestaña",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Mostrar subtítulo",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Descolorarse",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Diapositiva",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Transiciones de diapositivas",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Buscar",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Galería de imágenes",
+    "description": null,
+    "placeholders": null
+  }
+}

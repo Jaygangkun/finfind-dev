@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Εναλλαγή γλώσσας",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Υβριδική",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Με τοπική προσαρμογή",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Γλώσσα σελίδας",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Η γλώσσα του κειμένου στον επιλογέα γλώσσας. Η επιλογή Γλώσσα σελίδας σημαίνει ότι τα ονόματα των γλωσσών θα εμφανίζονται στη γλώσσα στην οποία είναι ενεργοποιημένος ο επιλογέας. Η επιλογή Με τοπική προσαρμογή σημαίνει ότι το όνομα κάθε γλώσσας θα εμφανίζεται στη συγκεκριμένη γλώσσα. Η επιλογή Υβριδική είναι ένας συνδυασμός των δύο.",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Λειτουργία προβολής",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  }
+}

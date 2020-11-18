@@ -1,0 +1,49 @@
+.card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+
+.card hr {
+  background: none;
+  border-top: 1.5px solid #ced4db;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-body ul {
+  padding: 0;
+}
+
+.card-subtitle,
+.card-body li {
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+
+.card-body li {
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0;
+  text-align: left;
+}
+
+.card-body svg {
+  display: inline-block;
+  margin-right: 10px;
+  max-width: 20px;
+}

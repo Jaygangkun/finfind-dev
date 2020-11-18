@@ -1,0 +1,42 @@
+{
+  "name": {
+    "message": "Galeria de logotipos",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Reconhecido por",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Logotipo da Agriflora",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Imagens de logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Cor de fundo do banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Cor do primeiro plano do banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Opções de estilo",
+    "description": "",
+    "placeholders": null
+  }
+}

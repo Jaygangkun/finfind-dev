@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Kaartgedeelte",
+    "description": "",
+    "placeholders": null
+  },
+  "content.label": {
+    "message": "Inhoud",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_field.label": {
+    "message": "Koppeling",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.default": {
+    "message": "Meer informatie",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.label": {
+    "message": "Tekst link",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.default": {
+    "message": "<p style=\"text-align: center;\">Vivamus sagittis lacus vel<br>augue laoreet rutrum.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.label": {
+    "message": "Beschrijving",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.default": {
+    "message": "Leraren die om jouw succes geven",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.default.alt": {
+    "message": "Een hoorcollege",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.label": {
+    "message": "Afbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.icon_field.label": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.label": {
+    "message": "Afbeelding en pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Als je deze optie inschakelt, kun je de standaard themastijlen overschrijven. Als je deze optie uitschakelt wordt de module weer gekoppeld aan de standaard themastijlen.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Standaardstijl overschrijven",
+    "description": "",
+    "placeholders": null
+  },
+  "style.accent.label": {
+    "message": "Accentkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "style.icon_fill.label": {
+    "message": "Kleur pictogramvulling",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stijlopties",
+    "description": "",
+    "placeholders": null
+  }
+}

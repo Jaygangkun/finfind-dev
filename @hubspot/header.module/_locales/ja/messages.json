@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1が最大で、次に大きいのがH2..のように続きます",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "ヘッダーのタイプ",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "検索",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "明確で目立つヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "ヘッダーコンテンツ",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "ヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "ヘッダー レベル コントロールを非表示",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "ヘッダー レベル コントロールを非表示にすると、コンテンツツールでヘッダーレベルを変更できなくなります",
+    "description": null,
+    "placeholders": null
+  }
+}

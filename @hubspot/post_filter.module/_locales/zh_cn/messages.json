@@ -1,0 +1,87 @@
+{
+  "expand_link_text.default": {
+    "message": "查看全部",
+    "description": null,
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "要显示的数量超过最大值时会显示的文本。留空可忽略链接",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "作者",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "月份",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "标签",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "过滤器链接值列表",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "搜索",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "按标签显示帖子",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "列出要显示的标题",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "可显示的最大过滤器值的数量。留空会显示所有",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "名称",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "帖子数量",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "过滤器链接值排序",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "搜索",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "默认情况下，系统会在博客模板中使用当前的博客，而在其他地方使用主要博客。",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "选择要显示的博客",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "帖子过滤器",
+    "description": null,
+    "placeholders": null
+  }
+}

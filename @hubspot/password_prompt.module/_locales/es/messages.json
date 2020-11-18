@@ -1,0 +1,37 @@
+{
+  "bad_password_message.default": {
+    "message": "Lo sentimos. Inténtalo de nuevo.",
+    "description": null,
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Mensaje de contraseña incorrecta",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Solicitud de contraseña",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Contraseña",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Parámetro de sustitución de contraseña",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Enviar",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Texto del botón de enviar",
+    "description": null,
+    "placeholders": null
+  }
+}

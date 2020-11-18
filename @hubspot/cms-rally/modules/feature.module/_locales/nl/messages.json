@@ -1,0 +1,77 @@
+{
+  "feature_description.default": {
+    "message": "Maak gebruik van de intuïtieve fantastische software die je tijd bespaart en je bedrijf redt. Dat is een belofte.",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_description.label": {
+    "message": "Functiebeschrijving",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon.label": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_border_color.label": {
+    "message": "Randkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Functiepictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_image.label": {
+    "message": "Functieafbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.icon": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.image": {
+    "message": "Afbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.label": {
+    "message": "Functieafbeelding/-pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.default": {
+    "message": "Snel en eenvoudig",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.label": {
+    "message": "Functietitel",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Kenmerk",
+    "description": "",
+    "placeholders": null
+  }
+}

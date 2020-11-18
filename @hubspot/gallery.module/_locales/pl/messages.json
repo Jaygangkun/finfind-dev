@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Automatyczny postęp",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Zawsze utrzymuj napisy poniżej obrazów",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Nałóż napis na obrazy",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Pozycja napisu",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galeria lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardowy suwak",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Nawigacja za pomocą miniaturek",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Tryb wyświetlania",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rzędy galerii lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Rzędy dla galerii lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Pętla slajdów",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Czas w sekundach pomiędzy automatycznym przesuwaniem",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Pokaż przyciski nawigacyjne",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Zmienna wysokość",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Stała wysokość",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Zmienna wysokość",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Napis",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Obraz",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slajd",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Łącze URL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Otwórz łącze w nowej karcie",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Pokaż napis",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Zanikanie",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slajd",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Przejścia między slajdami",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Galeria obrazów",
+    "description": null,
+    "placeholders": null
+  }
+}

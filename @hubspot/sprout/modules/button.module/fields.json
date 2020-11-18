@@ -1,0 +1,100 @@
+[
+  {
+    "label": "Button text",
+    "name": "button_text",
+    "type": "text",
+    "required": true,
+    "default": "Add a button link here"
+  },
+  {
+    "label": "Button options",
+    "name": "button_options",
+    "type": "group",
+    "children": [
+      {
+        "label": "Use as link",
+        "name": "button_link_toggle",
+        "id": "button_link_toggle",
+        "type": "boolean",
+        "default": false
+      },
+      {
+        "label": "Add icon",
+        "name": "button_icon_toggle",
+        "id": "button_icon_toggle",
+        "type": "boolean",
+        "default": false
+      }
+    ]
+  },
+  {
+    "label": "Button link",
+    "name": "button_link",
+    "type": "link",
+    "visibility": {
+      "controlling_field": "button_link_toggle",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "supported_types": ["EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG"],
+    "default": {
+      "url": {
+        "type": "EXTERNAL",
+        "href": "www.hubspot.com"
+      }
+    }
+  },
+  {
+    "label": "Icon",
+    "name": "button_icon",
+    "type": "group",
+    "children": [
+      {
+        "label": "",
+        "name": "icon_field",
+        "type": "icon",
+        "visibility": {
+          "controlling_field": "button_icon_toggle",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL"
+        }
+      },
+      {
+        "label": "Position",
+        "name": "icon_position",
+        "type": "choice",
+        "visibility": {
+          "controlling_field": "button_icon_toggle",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL"
+        },
+        "choices": [["left", "Left"], ["right", "Right"]],
+        "display": "select",
+        "default": "left"
+      }
+    ]
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "children": [
+      {
+        "label": "Button style",
+        "name": "button_type",
+        "type": "choice",
+        "choices": [["primary", "Primary"], ["secondary", "Secondary"], ["simple", "Simple"]],
+        "display": "select",
+        "default": "primary"
+      },
+      {
+        "label": "Button size",
+        "name": "button_size",
+        "type": "choice",
+        "choices": [["small", "Small"], ["regular", "Regular"], ["large", "Large"]],
+        "display": "select",
+        "default": "regular"
+      }
+    ]
+  }
+]

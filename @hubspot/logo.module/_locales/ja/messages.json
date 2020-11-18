@@ -1,0 +1,52 @@
+{
+  "link.help_text": {
+    "message": "URLが指定されていない場合、ロゴはプライマリードメインにリンクされます",
+    "description": null,
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "リンクURL",
+    "description": null,
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "訪問者がクリックしたときに、新規タブでリンクを開く",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "ロゴ",
+    "description": null,
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "見出しのスタイルを選択します。H1が最大で、次に大きいのがH2..のように続きます",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "見出しのスタイル",
+    "description": "",
+    "placeholders": null
+  }
+}

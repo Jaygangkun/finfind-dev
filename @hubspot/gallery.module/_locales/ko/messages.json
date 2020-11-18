@@ -1,0 +1,147 @@
+{
+  "name": {
+    "message": "이미지 갤러리",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "캡션",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "가변 높이",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "탐색 버튼 표시",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "섬네일 탐색",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "검색",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "루프 슬라이드",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "가변 높이",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "검색",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "디스플레이 모드",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "검색",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "표준 슬라이더",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "이미지 맨위에 캡션을 겹쳐서 표시",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "캡션 위치",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "슬라이드",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "캡션을 항상 이미지 아래에 유지",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "새 탭에서 링크 열기",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "자동 스크롤 간격(초)",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "페이드",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "라이트박스 갤러리 열",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "캡션 표시",
+    "description": null,
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "자동 전환",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "고정 높이",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "검색",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "슬라이드 전환",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "링크 URL",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "슬라이드",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "이미지",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "라이트박스 갤러리",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "Image gallery",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "host_template_types": ["PAGE"],
+  "icon": "../../images/module-icons/image-gallery.svg",
+  "js_assets": [],
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "master_language": "en",
+  "is_available_for_new_content": true
+}

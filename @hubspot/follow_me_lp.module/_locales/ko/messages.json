@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "가운데",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "왼쪽",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "오른쪽",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "정렬",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "흑백",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "회색",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "흰색",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "색상표",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "아이콘",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "아이콘 및 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "디스플레이",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "글꼴 스타일",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "원형",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "원본",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "정사각형",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "아이콘 모양",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "확장",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "소셜 네트워크",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "사용자 정의 아이콘",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "이메일",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "웹사이트",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "네트워크",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "네트워크 이미지",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "지원 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "텍스트만",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "팔로우 미 - LP",
+    "description": "",
+    "placeholders": null
+  }
+}

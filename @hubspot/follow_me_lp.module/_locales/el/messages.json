@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Κέντρο",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Αριστερά",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Δεξιά",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Στοίχιση",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Ασπρόμαυρο",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Γκρι",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Λευκό",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Συνδυασμός χρωμάτων",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Εικονίδιο",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Εικονίδιο και κείμενο",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Προβολή",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Στυλ γραμματοσειράς",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Κυκλικό",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Αρχικό",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Τετράγωνο",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Σχήμα εικονιδίου",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Κλίμακα",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Κοινωνικό δίκτυο",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Προσαρμοσμένο εικονίδιο",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Ιστότοπος",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Δίκτυο",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Εικόνα δικτύου",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Υποστηρικτικό κείμενο",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Διάκενο",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Μόνο κείμενο",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Ακολούθησέ με - LP",
+    "description": "",
+    "placeholders": null
+  }
+}

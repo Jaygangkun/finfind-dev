@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Événements",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.default": {
+    "message": "2 Canal Park, Cambridge, MA, États-Unis",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.label": {
+    "message": "Adresse",
+    "description": "",
+    "placeholders": null
+  },
+  "event.date.label": {
+    "message": "Date et heure",
+    "description": "",
+    "placeholders": null
+  },
+  "event.event_icon.label": {
+    "message": "Icône d'événement",
+    "description": "",
+    "placeholders": null
+  },
+  "event.label": {
+    "message": "Événements",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link.label": {
+    "message": "Lien",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.default": {
+    "message": "En savoir plus",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.label": {
+    "message": "Texte du lien",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.default": {
+    "message": "GALA UNIVERSITAIRE SEMESTRIEL",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.label": {
+    "message": "Titre",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.label": {
+    "message": "Contenu de l'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_icon.label": {
+    "message": "Icône d'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link.label": {
+    "message": "Lien d'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.default": {
+    "message": "Afficher tout",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.label": {
+    "message": "Texte du lien d'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.default": {
+    "message": "Événements à venir",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.label": {
+    "message": "En-tête",
+    "description": "",
+    "placeholders": null
+  }
+}

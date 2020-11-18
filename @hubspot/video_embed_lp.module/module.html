@@ -1,0 +1,29 @@
+{% macro new_CssDeclarationBlock(declarationBlockDict) %}
+    {% for cssProp, cssValue in declarationBlockDict.items() %}
+      {{ cssProp|replace('_', '-') ~ ': ' ~ cssValue }};
+    {%- endfor %}
+{% endmacro %}
+
+{% set inlineDynamicStyles = {
+      'max_width': (module.max_width ? module.max_width ~ 'px' : null),
+      'max_height': (module.max_height ? module.max_height ~ 'px' : null),
+      'padding_bottom': module.max_height / module.max_width * 100 ~ '%'
+  }
+%}
+{%- unless module.is_full_width == 'true' -%}
+{% require_css %}
+  <style id="{{ name ~ '__styles'}}">
+    {{ '#hs-oembed__starter--target_' ~ name }} {
+        {{ new_CssDeclarationBlock(inlineDynamicStyles)}}
+    }
+  </style>
+{% end_require_css %}
+{%- endunless -%}
+
+  <div class="hs-oembed__starter loading"
+    id="{{'hs-oembed__starter--target_' ~ name }}"
+    data-id="oembedder"
+    data-url="{{ module.url }}"
+    data-maxwidth="{{ module.max_width }}"
+    data-maxheight="{{ module.max_height }}">
+  </div>

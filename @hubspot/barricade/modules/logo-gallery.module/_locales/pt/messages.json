@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Galeria de logotipos",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Logotipo do Salesforce",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Imagens de logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Cor de fundo do banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Cor do primeiro plano do banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Opções de estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.bottom": {
+    "message": "Sobrepor a seção abaixo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.none": {
+    "message": "Sem sobreposição",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.top": {
+    "message": "Sobrepor a seção acima",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.help_text": {
+    "message": "Configurações para permitir a sobreposição do banner acima ou abaixo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.label": {
+    "message": "Configurações de sobreposição do banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "Substituir estilo padrão",
+    "description": "",
+    "placeholders": null
+  }
+}

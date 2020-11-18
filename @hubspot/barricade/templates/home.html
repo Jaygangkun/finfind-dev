@@ -1,0 +1,450 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Home
+  screenshotPath: ../images/template-previews/home.png
+-->
+
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+<main>
+  {% dnd_area "dnd_area_main_banner" label='Main Content' %}
+    {# Hero Section #}
+    {% dnd_section
+      background_image = {
+        'backgroundPosition': 'MIDDLE_CENTER',
+        'backgroundSize': 'cover',
+        'imageUrl': get_asset_url("../images/hero-bg.png")
+      }
+    %}
+      {% dnd_column 
+        offset=0,
+        width=7
+        %}
+        {% dnd_row %}
+          {% dnd_module
+            path="@hubspot/rich_text", 
+            flexbox_positioning="TOP_CENTER"
+          %}
+            {% module_attribute "html" %}
+            <div class="hero__text">
+              <h1 style="color: #ffffff; font-size: 80px; line-height: 75px;"> Ready to take on your toughest projects.</h1>
+              <p style="color: #ffffff; font-size: 18px;">Proin facilisis quis ante lobortis dignissim. Etiam vel massa quis augue convallis malesuada. Praesent sed sagittis justo. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
+            </div>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module 
+            path="../modules/button",
+            button_text='Learn more'
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+    {# End of Hero Section#}
+
+    {# Card Section #}
+    {% dnd_section
+      vertical_alignment='MIDDLE',
+      background_color={
+        r: 242,
+        g: 244,
+        b: 246,
+        a: 1.0
+      }
+    %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module
+          path="@hubspot/rich_text", 
+          %}
+            {% module_attribute "html" %}
+            <div class="cards__label container">
+              <h6>Services</h6>
+              <h2>Any job big or small.</h2>
+            </div>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module
+            path="../modules/card-section", 
+            flexbox_positioning="TOP_CENTER",
+            card=[
+              {
+                image:{ 
+                  src: "{{get_asset_url('../images/card-icons/icon1.svg')}}",
+                  alt: "crane icon"
+                },
+                title: "<h3>Mechanical Engineering</h3>",
+                text: "Moreover the striking, brilliant and vivid colors are the reason why we are attracted to the posters that we see. Posters had…",        
+                learn_more: "Learn more",
+                learn_more_link: {
+                  url: {
+                    type: "EXTERNAL",
+                    content_id: null,
+                    href: "#"
+                  },
+                  open_in_new_tab: false,
+                  no_follow: false
+                }
+              },
+              {
+                image:{ 
+                  src: "{{get_asset_url('../images/card-icons/icon2.svg')}}",
+                  alt: "crane icon"
+                },
+                title: "<h3>General Construction</h3>",
+                text: "Buying the right telescope to take your love of astronomy to the next level is a big next step in the development of your passion…",
+                learn_more: "Learn more",
+                learn_more_link: {
+                  url: {
+                    type: "EXTERNAL",
+                    content_id: null,
+                    href: "#"
+                  },
+                  open_in_new_tab: false,
+                  no_follow: false
+                }
+              },
+              {
+                image:{ 
+                  src: "{{get_asset_url('../images/card-icons/icon3.svg')}}",
+                  alt: "crane icon"
+                },
+                title: "<h3>Residential Construction</h3>",
+                text: "While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun and excitement it provides, others…",
+                learn_more: "Learn more",
+                learn_more_link: {
+                  url: {
+                    type: "EXTERNAL",
+                    content_id: null,
+                    href: "#"
+                  },
+                  open_in_new_tab: false,
+                  no_follow: false
+                }
+              },
+              {
+                image:{ 
+                  src: "{{get_asset_url('../images/card-icons/icon1.svg')}}",
+                  alt: "crane icon"
+                },
+                title: "<h3>Mechanical Engineering</h3>",
+                text: "Moreover the striking, brilliant and vivid colors are the reason why we are attracted to the posters that we see. Posters had…",
+                learn_more: "Learn more",
+                learn_more_link: {
+                  url: {
+                    type: "EXTERNAL",
+                    content_id: null,
+                    href: "#"
+                  },
+                  open_in_new_tab: false,
+                  no_follow: false
+                }
+              },
+              {
+                image:{ 
+                  src: "{{get_asset_url('../images/card-icons/icon2.svg')}}",
+                  alt: "crane icon"
+                },
+                title: "<h3>General Construction</h3>",
+                text: "Buying the right telescope to take your love of astronomy to the next level is a big next step in the development of your passion…",
+                learn_more: "Learn more",
+                learn_more_link: {
+                  url: {
+                    type: "EXTERNAL",
+                    content_id: null,
+                    href: "#"
+                  },
+                  open_in_new_tab: false,
+                  no_follow: false
+                }
+              },
+              {
+                image:{ 
+                  src: "{{get_asset_url('../images/card-icons/icon3.svg')}}",
+                  alt: "crane icon"
+                },
+                title: "<h3>Residential Construction</h3>",
+                text: "While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun and excitement it provides, others…",
+                learn_more: "Learn more",
+                learn_more_link: {
+                  url: {
+                    type: "EXTERNAL",
+                    content_id: null,
+                    href: "#"
+                  },
+                  open_in_new_tab: false,
+                  no_follow: false
+                }
+              }              
+            ]
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+    {# End of Card Section#}}
+
+    {# Info 1 Section #}
+      {% dnd_section
+        vertical_alignment='MIDDLE',
+        background_color={
+          r: 242,
+          g: 244,
+          b: 246,
+          a: 1.0
+        }
+      %}
+      {% dnd_column %}
+        {% dnd_row 
+          margin={
+            'bottom': 40
+          }
+        %}
+            {% dnd_module path="@hubspot/rich_text" %}
+              {% module_attribute "html" %}
+                <h6 style="text-align: center;">About</h6>
+                <h2 style="text-align: center;">Going strong since 1963.</h2>
+              {% end_module_attribute %}
+            {% end_dnd_module %}
+          {% end_dnd_row %}
+        {% dnd_row %}
+      {% dnd_column
+        offset=0,
+        width=6
+      %}
+        {% dnd_row %}
+          {% dnd_module path="@hubspot/linked_image",
+            img={
+              "src": get_asset_url("../images/crane.png"),
+              "alt": "Computer and phone",
+              "size_type": "auto"
+            }
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}     
+      {% dnd_column
+        offset=6,
+        width=6
+      %}
+        {% dnd_row %}
+          {% dnd_module path="@hubspot/rich_text" %}
+            {% module_attribute "html" %}
+              <div class="info__text">
+                <em>We are here to guide you whenever you need.</em>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet sapien sed efficitur 
+                elementum. Fusce dapibus faucibus neque volutpat facilisis.</p>
+                <p> The information sections take the height of the image placed in them.</p>
+                <p>Aliquam porta pulvinar nulla quis vehicula. Proin facilisis quis ante lobortis dignissim. Etiam vel massa quis augue convallis malesuada. Praesent sed sagittis justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam diam erat, euismod varius purus ut, faucibus laoreet massa. In mattis, arcu at viverra convallis, mi libero pellentesque arcu, eu eleifend augue lacus in nisl.</p>
+                <p>Aliquam porta pulvinar nulla quis vehicula. Proin facilisis quis ante lobortis dignissim. Etiam vel massa quis augue convallis malesuada. Praesent sed sagittis justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam diam erat, euismod varius purus ut, faucibus laoreet massa. In mattis, arcu at viverra convallis, mi libero pellentesque arcu, eu eleifend augue lacus in nisl.</p>
+              </div>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module 
+            path='../modules/button',
+            button_text='Learn More',
+            style={
+              button_type: 'secondary'
+            }
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_row %}
+  {% end_dnd_column %}
+{% end_dnd_section %}
+{# Info 1 Section #}
+
+  {# Card Section #}
+  {% dnd_section %}
+    {% dnd_column %}
+      {% dnd_row %}
+        {% dnd_module
+        path="@hubspot/rich_text", 
+        %}
+          {% module_attribute "html" %}
+          <div class="cards__label container">
+            <h6>Projects</h6>
+            <h2>Work you can be proud of.</h2>
+          </div>
+          {% end_module_attribute %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+      {% dnd_row %}
+        {% dnd_module
+          path="../modules/latest-posts", 
+          flexbox_positioning="TOP_CENTER"
+        %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}
+  {# End of Card Section#}}
+
+  {# Featured Info Section #}
+  {% dnd_section 
+    vertical_alignment='MIDDLE',
+    background_image={      
+      'backgroundPosition': 'MIDDLE_RIGHT',
+      'backgroundSize': 'contain',
+      'imageUrl': get_asset_url("../images/featured-construction.png")
+    },
+    padding={
+      'top': 100,
+      'bottom': 100
+    }
+  %}
+    {% dnd_column 
+      width=2
+    %}
+      {% dnd_row %}
+        {% dnd_module 
+          path="@hubspot/horizontal_spacer"
+        %}        
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+    {% dnd_column
+      offset=2,
+      width=5
+    %}
+      {% dnd_row 
+        background_color={
+          r: 255,
+          g: 255,
+          b: 255,
+          a: 1.0
+        },
+        padding={
+          'top': 40,
+          'right': 40,
+          'bottom': 40,
+          'left': 40
+        }
+      %}
+        {% dnd_module path="@hubspot/rich_text" %}
+          {% module_attribute "html" %}
+            <div class="featured-info__text">
+              <h6>Featured</h6>
+              <h2>Big Project</h2>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet sapien sed efficitur 
+              elementum. Fusce dapibus faucibus neque volutpat facilisis.</p>
+              <p> The information sections take the height of the image placed in them.</p>
+              <button class="button "> Learn More </button>
+          </div>
+          {% end_module_attribute %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}
+  {# End of Featured Info Section #}
+
+  {# Logo Section #}
+  {% dnd_section 
+    padding={
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0
+    },
+    background_color={
+      r: 242,
+      g: 244,
+      b: 246,
+      a: 1.0
+    }
+  %}
+    {% dnd_module
+      path="../modules/logo-gallery", 
+      width=12,
+      logo_images=[
+        {
+          src: "{{get_asset_url('../images/module-logos/agriflora.png')}}",
+          alt: "Agriflora logo image"
+        },
+        {
+          src: "{{get_asset_url('../images/module-logos/cloud-city.png')}}",
+          alt: "Cloud City logo image"
+        },
+        {
+          src: "{{get_asset_url('../images/module-logos/snackzo.png')}}",
+          alt: "Snackzo logo image"
+        },
+        {
+          src: "{{get_asset_url('../images/module-logos/craftscan.png')}}",
+          alt: "Craftscan logo image"
+        },
+        {
+          src: "{{get_asset_url('../images/module-logos/Vedantra-studio.png')}}",
+          alt: "Vedantra Studio logo image"
+        }
+      ]
+    %} 
+    {% end_dnd_module %}
+  {% end_dnd_section %}
+  {# End of Logo Section#}
+
+  {# Testimonials Section #}
+  {% dnd_section %}
+    {% dnd_column %}
+      {% dnd_row %}
+        {% dnd_module path="@hubspot/rich_text" %}
+          {% module_attribute "html" %}
+            <div class="testimonials__label">
+              <h6>Testimonials</h6>
+              <h2>What our clients say</h2>
+            </div>
+          {% end_module_attribute %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+      {% dnd_row %}
+        {% dnd_module
+          path="../modules/testimonial-slider", 
+          flexbox_positioning="TOP_CENTER"
+        %} 
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}
+  {# End of Testimonials Section#}
+
+  {# CTA Section #}
+  {% dnd_section 
+    padding={
+      'top': 100,
+      'bottom': 100,
+      'left': 25,
+      'right': 25
+    },
+    background_image = {
+      'backgroundPosition': 'MIDDLE_CENTER',
+      'backgroundSize': 'cover',
+      'imageUrl': get_asset_url("../images/crane_gradient.png")
+    }
+    %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module path="@hubspot/rich_text" %}
+            {% module_attribute "html" %}
+                  <h6 style="color: #ffffff;"> Newsletter </h6>
+                  <h2 style="color: #ffffff;"> Sign Up Now </h2>
+                  <p style="color: #ffffff;"> Subheadlines are the best, you can say all the things you ran out of room for in your headline! <p>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+  {# End of CTA Section#}
+{% end_dnd_area %}
+</main>
+
+      
+{% endblock body %}

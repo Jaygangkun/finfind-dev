@@ -1,0 +1,22 @@
+{
+  "guid.default": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "guid.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "guid.label": {
+    "message": "CTA",
+    "description": "CTA is an abbreviation for call to action",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Call-to-Action",
+    "description": null,
+    "placeholders": null
+  }
+}

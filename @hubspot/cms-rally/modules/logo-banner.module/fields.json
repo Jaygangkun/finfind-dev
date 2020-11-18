@@ -1,0 +1,67 @@
+[
+  {
+    "label": "Header text",
+    "name": "header_text",
+    "type": "text",
+    "required": true,
+    "default": "We've helped companies like:"
+  },
+  {
+    "label": "Logo images",
+    "name": "logo_images",
+    "type": "image",
+    "help_text": "Upload logo images here",
+    "occurrence": { "min": 1, "max": 6 },
+    "default": [
+      {
+        "src": "https://cdn2.hubspot.net/hubfs/7303166/Logos/white/agriflora.png",
+        "alt": "Agriflora logo",
+        "height": 50
+      },
+      {
+        "src": "https://cdn2.hubspot.net/hubfs/7303166/Logos/white/cloud_city.png",
+        "alt": "Cloud City logo",
+        "height": 50
+      },
+      {
+        "src": "https://cdn2.hubspot.net/hubfs/7303166/Logos/white/craftscan.png",
+        "alt": "Craftscan logo",
+        "width": 59,
+        "height": 46
+      },
+      {
+        "src": "https://cdn2.hubspot.net/hubfs/7303166/Logos/white/vedantra_studio.png",
+        "alt": "Vedantra Studio logo",
+        "height": 50
+      }
+    ]
+  },
+  {
+    "id": "style",
+    "name": "style",
+    "label": "Style options",
+    "required": false,
+    "locked": false,
+    "type": "group",
+    "children": [
+      {
+        "label": "Banner background color",
+        "name": "banner_bg_color",
+        "type": "color",
+        "default": {
+          "color": "#000000",
+          "opacity": 100
+        }
+      },
+      {
+        "label": "Banner foreground color",
+        "name": "banner_fg_color",
+        "type": "color",
+        "default": {
+          "color": "#FFFFFF",
+          "opacity": 40
+        }
+      }
+    ]
+  }
+]

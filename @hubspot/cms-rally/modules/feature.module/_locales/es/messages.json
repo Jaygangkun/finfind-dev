@@ -1,0 +1,77 @@
+{
+  "feature_description.default": {
+    "message": "Saca provecho del súper sorprendente software intuitivo que te ahorra tiempo y que rescatará a tu empresa. Es una promesa.",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_description.label": {
+    "message": "Descripción de las características",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon.label": {
+    "message": "Ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_bg_color.label": {
+    "message": "Color de fondo",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_border_color.label": {
+    "message": "Color del borde",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Ícono de la característica",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_image.label": {
+    "message": "Imagen de la característica",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.icon": {
+    "message": "Ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.image": {
+    "message": "Imagen",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.none": {
+    "message": "Ninguno",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.label": {
+    "message": "Imagen/ícono destacado",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.default": {
+    "message": "Rápido y sencillo",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.label": {
+    "message": "Título de la característica",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Característica",
+    "description": "",
+    "placeholders": null
+  }
+}

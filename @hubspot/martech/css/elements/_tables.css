@@ -1,0 +1,35 @@
+table {
+  background-color: #fff;
+  border-spacing: 0;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #e9eff5;
+  padding: 15px;
+  text-align: center;
+  vertical-align: top;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(#e9eff5, 0.35);
+}
+
+thead th,
+thead td {
+  background-color: #0d2547;
+  border: none;
+  border-bottom-width: 2px;
+  color: #fff;
+}
+
+thead th {
+  border-bottom: none;
+  vertical-align: bottom;
+}
+
+tbody + tbody {
+  border-top: none;
+}

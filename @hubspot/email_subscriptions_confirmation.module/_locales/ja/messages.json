@@ -1,0 +1,47 @@
+{
+  "header.label": {
+    "message": "ヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "ヘッダーテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "このEメールアドレスが自分のものでない場合、このページに関連付けられたEメールが転送された可能性が非常に高いため、このページは無視してください。",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "サブヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Eメールの設定を正常に更新しました。",
+    "description": null,
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "サブスクリプション更新時のメッセージ",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "すべてのEメールコミュニケーションを正常にサブスクライブ解除しました。",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "配信解除時のメッセージ",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "サブスクリプション確認メッセージ",
+    "description": null,
+    "placeholders": null
+  }
+}

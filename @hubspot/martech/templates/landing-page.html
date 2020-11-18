@@ -1,0 +1,106 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Landing page
+  screenshotPath: ../images/template-previews/landing-page.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block header %}
+  {% global_partial path="./partials/header-no-navigation.html" %}
+{% endblock header %}
+
+{% block body %}
+<main class="body-container-wrapper">
+  {% dnd_area "landing_page" label='Main section' class="landing-page" %}
+    {# Landing Page Video Hero #}
+    {% dnd_section
+      background_linear_gradient = {
+        'direction': 'to bottom right',
+        'colors': [
+          '#009FFD',
+          '#2D399C'
+        ]
+      },
+      padding={
+        'top': 100,
+        'left': 25,
+        'right': 25
+      }
+    %}
+      {% dnd_column width=5, offset=0 %}
+        {% dnd_row %}
+          {% dnd_module
+            path="@hubspot/linked_image",
+            img={
+              'src': get_asset_url('../images/fpo-landing-page.jpg'),
+              'size_type': 'auto'
+            }
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+      {% dnd_column width=1, offset=5 %}
+        {% dnd_row %}
+          {% dnd_module path="@hubspot/horizontal_spacer" %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+      {% dnd_column width=6, offset=6 %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+            {% module_attribute "html"%}
+              <p style="color: white;" class="lead">Webinar</p>
+              <h1 style="color: white;">Video: How to Maximize Your Work Flow</h1>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+    {# Landing Page Two Column Section #}
+    {% dnd_section %}
+      {% dnd_column width=5, offset=0 %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+            {% module_attribute "html"%}
+              <h2>This webinar is everything you need in life &amp; more.</h2>
+              <p>Morbi et dolor est. Donec at dolor vehicula, molestie erat non, rutrum tellus.
+              Vestibulum in eros non augue convallis pulvinar. Aliquam erat volutpat. Cras interdum
+              felis at sem pharetra, sed convallis elit auctor. Nulla semper ut ante eu dapibus. Mauris
+              dui orci, pulvinar sit amet ligula vel. </p>
+
+              <p> Suspendisse faucibus ullamcorper massa, nec eleifend ante imperdiet in.
+              Aliquam consequat bibendum ante, vitae placerat odio gravida eu. Maecenas
+              eleifend est risus, sed luctus neque faucibus sit amet.</p>
+
+              <ul>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorum</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, illo!</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, accusamus.</li>
+              </ul>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+      {% dnd_column width=1, offset=5 %}
+        {% dnd_row %}
+          {% dnd_module path="@hubspot/horizontal_spacer" %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+      {% dnd_column width=6, offset=6 %}
+        {% dnd_row padding={'left': 50 } %}
+          {% dnd_module path='@hubspot/form' %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+  {% end_dnd_area %}
+</main>
+{% endblock body %}
+
+{% block footer %}
+  {% global_partial path="./partials/footer-no-navigation.html" %}
+{% endblock footer %}

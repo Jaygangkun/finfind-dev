@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Avancera automatiskt",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Bevara alltid bidtexten nedanför bilden",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Lägg bidtexten ovanpå bilderna",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Bildtextens position",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Sök",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Ljuslådegalleri",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardreglage",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniatyrbildsnavigering",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningsläge",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Sök",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rader för ljuslådegalleri",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Rader för ljuslådegalleri",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Slingbilder",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tid i sekunder mellan automatisk bläddring",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Visa navigeringsknappar",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Varierande höjd",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fast höjd",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Varierande höjd",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Sök",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Bildtext",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Bild",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Bild",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Länk-URL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Öppna länk i ny flik",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Visa bildtext",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Avta",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Bild",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Bildövergångar",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Sök",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Bildgalleri",
+    "description": null,
+    "placeholders": null
+  }
+}

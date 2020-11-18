@@ -1,0 +1,87 @@
+{
+  "button_text.default": {
+    "message": "Eメールの設定を更新",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "環境設定ボタンのテキストを更新",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "コミュニケーション設定",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "ヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "はい、再サブスクライブします！",
+    "description": null,
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "ボタンのテキストを再表示",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "このEメールアドレスが自分のものでない場合、このページに関連付けられたEメールが転送された可能性が非常に高いため、このページは無視してください。",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "サブヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "すべてのメーリングリストをサブスクライブ解除します。",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "すべてのラベルを表示しない",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "または、今後Eメールを受信しない場合はここにチェックを付けます：",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "すべてのヘルプテキストを表示しない",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "現在すべてのEメールをサブスクライブ解除しています。再びEメールを受信しますか？",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "現在配信解除中のユーザーにすべてのヘルプテキストを表示しない",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "受信したくないEメールのタイプのチェックを外してください：",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "環境設定選択のヘルプテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "サブスクリプション設定",
+    "description": null,
+    "placeholders": null
+  }
+}

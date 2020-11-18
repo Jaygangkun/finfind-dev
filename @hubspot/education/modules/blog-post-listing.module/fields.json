@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Title text",
+    "name": "title_text",
+    "type": "text",
+    "required": true,
+    "default": "In the News"
+  },
+  {
+    "label": "Button text",
+    "name": "button_text",
+    "type": "text",
+    "required": true,
+    "default": "View all"
+  },
+  {
+    "label": "Select blog",
+    "name": "blog_id",
+    "type": "blog",
+    "required": true
+  },
+  {
+    "label": "Filter",
+    "name": "filter",
+    "id": "filter",
+    "type": "choice",
+    "choices": [[ "id_only", "By blog" ], [ "id_and_tags", "By blog and tag" ]],
+    "display": "radio",
+    "required": true,
+    "default": "id_only"
+  },
+  {
+    "label": "Read more text",
+    "name": "read_more",
+    "type": "text",
+    "default": "Read More"
+  },
+  {
+    "label": "Tag",
+    "name": "tag",
+    "type": "tag",
+    "visibility": {
+      "controlling_field": "filter",
+      "controlling_value_regex": "id_and_tags",
+      "operator": "EQUAL"
+    },
+    "tag_value": "SLUG",
+    "required": true
+  }
+]

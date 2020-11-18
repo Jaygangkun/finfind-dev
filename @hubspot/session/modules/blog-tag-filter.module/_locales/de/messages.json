@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Blog-Tag-Filter",
+    "description": "",
+    "placeholders": null
+  },
+  "default_filter_text.default": {
+    "message": "Kategorie auswählen",
+    "description": "",
+    "placeholders": null
+  },
+  "default_filter_text.label": {
+    "message": "Standardfiltertext",
+    "description": "",
+    "placeholders": null
+  }
+}

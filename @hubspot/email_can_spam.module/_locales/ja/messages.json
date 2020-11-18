@@ -1,0 +1,17 @@
+{
+  "html.default": {
+    "message": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\"> {{site_settings.company_name}}&nbsp;&nbsp;{{site_settings.company_street_address_1}} &nbsp;{{site_settings.company_street_address_2}} &nbsp;{{site_settings.company_city}} &nbsp;{{site_settings.company_state}} &nbsp;&nbsp;{{site_settings.company_zip}} &nbsp;&nbsp;{{site_settings.company_country}} <br><br> {{site_settings.company_name}}からの{{ subscription_name }}をサブスクライブされている方に、このEメールを送信させていただいています。 <br><br> 受信するEメールのタイプを選択するには、<a target=\"_blank\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">Eメールの設定</a>を更新してください。 <br><br> &nbsp;<a target=\"_blank\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">今後すべてのEメールをサブスクライブ解除する</a> &nbsp;</p>",
+    "description": null,
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "場所テキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "オフィス所在地情報",
+    "description": null,
+    "placeholders": null
+  }
+}

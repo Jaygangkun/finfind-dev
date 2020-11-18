@@ -1,0 +1,67 @@
+{
+  "list_title.default": {
+    "message": "最近の記事",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "表示するタイトルをリストする",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "閲覧回数 - 全期間",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "閲覧回数 - 過去1か月間",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "閲覧回数 - 過去6か月間",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "閲覧回数 - 過去１年間",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "最新",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "ブログ記事を次の基準でリストする",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "検索",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "リストする最大ブログ記事数",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "既定の設定では、ブログテンプレートで使用する場合に現在のブログを使用し、他で使用する場合にプライマリブログを使用します。",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "表示するブログを選択",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "記事一覧",
+    "description": null,
+    "placeholders": null
+  }
+}

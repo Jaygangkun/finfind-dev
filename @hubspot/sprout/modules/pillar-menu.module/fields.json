@@ -1,0 +1,75 @@
+[
+  {
+    "label" : "Title",
+    "name" : "title",
+    "type" : "text",
+    "help_text": "Menu items are automatically created when adding the 'Pillar section' module to the page",
+    "default" : "Table of Contents"
+  },
+  {
+    "label" : "Style options",
+    "name" : "style",
+    "type" : "group",
+    "children" : [
+      {
+        "label": "Bottom border",
+        "name": "border",
+        "type": "group",
+        "children": [
+          {
+            "label": "Style",
+            "name": "style",
+            "id": "style.border.style",
+            "type": "choice",
+            "sortable": false,
+            "display": "select",
+            "choices": [
+              [ "none", "None" ],
+              [ "solid", "Solid" ],
+              [ "dotted", "Dotted" ],
+              [ "dashed", "Dashed" ],
+              [ "double", "Double" ],
+              [ "groove", "Groove" ],
+              [ "ridge", "Ridge" ],
+              [ "inset", "Inset" ],
+              [ "outset", "Outset" ]
+            ],
+            "default": "solid"
+          },
+          {
+            "label": "Width",
+            "name": "width",
+            "type": "number",
+            "help_text": "Value is in pixels",
+            "visibility": {
+              "controlling_field": "style.border.style",
+              "controlling_value_regex": "none",
+              "operator": "NOT_EQUAL"
+            },
+            "display": "slider",
+            "max": 100,
+            "min": 1,
+            "step": 1,
+            "default": 1
+          },
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color",
+            "visibility": {
+              "controlling_field": "style.border.style",
+              "controlling_value_regex": "none",
+              "operator": "NOT_EQUAL",
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#D0D0D0"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

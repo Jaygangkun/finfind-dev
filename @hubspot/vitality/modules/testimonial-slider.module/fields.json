@@ -1,0 +1,101 @@
+[
+  {
+    "label": "Testimonials",
+    "name": "testimonial_slider",
+    "type": "group",
+    "occurrence": {
+      "default": 3,
+      "max": null,
+      "min": 1
+    },
+    "children": [
+      {
+        "label": "Testimonial text",
+        "name": "content",
+        "type": "text",
+        "required": true,
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+      },
+      {
+        "label": "Author",
+        "name": "author",
+        "type": "group",
+        "children": [
+          {
+            "label": "Author's name",
+            "name": "author_name",
+            "type": "text",
+            "required": false,
+            "default": "Lori Hahn"
+          }
+        ]
+      }
+    ],
+    "default": [
+      {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        "author": {
+          "author_name": "Lori Hahn"
+        }
+      },
+      {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        "author": {
+          "author_name": "Lori Hahn"
+        }
+      },
+      {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        "author": {
+          "author_name": "Lori Hahn"
+        }
+      }
+    ]
+  },
+  {
+    "id": "override_default_style",
+    "label": "Override default style",
+    "name": "override_default_style",
+    "type": "boolean",
+    "help_text": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "default": false
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "override_default_style",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Navigation color",
+        "name": "navigation_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#D2D8DF"
+        }
+      },
+      {
+        "label": "Navigation active color",
+        "name": "navigation_active_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#E73335"
+        }
+      }
+    ]
+  }
+]

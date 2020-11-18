@@ -1,0 +1,37 @@
+<div class="feature" id="{{ name }}">
+  {%if module.feature_media_choice == "icon" and module.feature_icon.unicode != 'null' %}
+  <span class="feature__icon">	
+    {% icon
+      name="{{ module.feature_icon.icon.name }}"
+      style="{{ module.feature_icon.icon.type }}"
+      unicode="{{ module.feature_icon.icon.unicode }}"
+    %}
+  </span>
+  {% elif module.feature_media_choice == "image" %}
+    {% if module.feature_image.src %}
+      <div class="feature__image">
+        {% set sizeAttrs = 'width="{{ module.feature_image.width }}" height="{{ module.feature_image.height }}"' %}
+        {% if module.feature_image.size_type == 'auto' %}
+          {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+        {% elif module.feature_image.size_type == 'auto_custom_max' %}
+          {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ module.feature_image.max_width }}px; max-height: {{ module.feature_image.max_height }}px"' %}
+        {% endif %}
+        <img src="{{ module.feature_image.src }}" alt="{{ module.feature_image.alt }}" {{ sizeAttrs }}>
+      </div>
+    {% endif %}
+  {% endif %}
+  <h5 class="feature__title">{{ module.feature_title }}</h5>
+  <div clas="feature__description">{{ module.feature_description }}</div>
+</div>
+
+{% require_css %}
+<style>
+  #hs_cos_wrapper_{{name}} .feature__icon > span {
+    background-color: {{ module.feature_icon.icon_bg_color.color }}; 
+    border-color: {{ module.feature_icon.icon_border_color.color }}; 
+  }
+  #hs_cos_wrapper_{{name}} .feature__icon svg {
+    fill: {{ module.feature_icon.icon_color.color }}; 
+  }
+</style>
+{% end_require_css %}

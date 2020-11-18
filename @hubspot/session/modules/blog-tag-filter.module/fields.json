@@ -1,0 +1,11 @@
+[
+  {
+    "name": "default_filter_text",
+    "label": "Default filter text",
+    "required": true,
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "Select Category"
+  }
+]

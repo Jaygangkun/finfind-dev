@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Al centro",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "A sinistra",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "A destra",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Allineamento",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Bianco e nero",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Grigio",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Bianco",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Combinazione dei colori",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Icona e testo",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Mostra",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Stile carattere",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Circolare",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Originale",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Quadrato",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Forma dell'icona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Scala",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Social network",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Personalizza icona",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Sito web",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Rete",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Immagine di rete",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Testo di supporto",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Solo testo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Seguimi - LP",
+    "description": "",
+    "placeholders": null
+  }
+}

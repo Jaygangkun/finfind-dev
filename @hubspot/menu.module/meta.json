@@ -1,0 +1,20 @@
+{
+  "content_tags": [
+    { "name": "NONPROFIT", "source": "MARKETPLACE" },
+    { "name": "COMPATIBLE_BLOG", "source": "MARKETPLACE" },
+    { "name": "COMPATIBLE_PAGE", "source": "MARKETPLACE" }
+  ],
+  "css_assets": [],
+  "editable_contexts": ["TEMPLATE"],
+  "external_js": [],
+  "extra_classes": "widget-type-menu",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-menu.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Menu"
+}

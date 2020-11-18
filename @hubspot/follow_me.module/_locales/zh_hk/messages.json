@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "在新視窗開啟連結",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "模組標題",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "追蹤我",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Μία γραμμή κειμένου",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Μία γραμμή με επιπλέον πληροφορίες",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Κείμενο",
+    "description": null,
+    "placeholders": null
+  }
+}

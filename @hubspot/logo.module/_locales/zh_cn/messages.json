@@ -1,0 +1,52 @@
+{
+  "link.help_text": {
+    "message": "如果没有指定 URL，徽标将链接到您的主域名",
+    "description": null,
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "链接 URL",
+    "description": null,
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "访问者点击时，在新标签页中打开链接",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "徽标",
+    "description": null,
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "选择标题样式。H1 最大，H2 次之，以此类推",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "标题样式",
+    "description": "",
+    "placeholders": null
+  }
+}

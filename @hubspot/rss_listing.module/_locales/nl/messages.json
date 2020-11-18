@@ -1,0 +1,167 @@
+{
+  "attribution_text.default": {
+    "message": "door",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.help_text": {
+    "message": "De tekst die een schrijver aan een bericht toewijst",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.label": {
+    "message": "Tekst toewijzing schrijver",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.default": {
+    "message": "Meer info",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.help_text": {
+    "message": "De tekst die wordt weergegeven voor de doorkliklink aan het einde van de samenvatting van een bericht",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.label": {
+    "message": "Doorkliktekst samenvatting",
+    "description": null,
+    "placeholders": null
+  },
+  "content_group_id.label": {
+    "message": "Blog",
+    "description": null,
+    "placeholders": null
+  },
+  "include_featured_image.label": {
+    "message": "Uitgelichte afbeelding opnemen",
+    "description": null,
+    "placeholders": null
+  },
+  "limit_to_chars.label": {
+    "message": "Lengte samenvatting beperken (aantal tekens)",
+    "description": null,
+    "placeholders": null
+  },
+  "number_of_items.label": {
+    "message": "Maximum aantal weer te geven berichten",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.MMMM d, yyyy 'at' h:mm a": {
+    "message": "6 juni, 2006 om 12:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.h:mm a 'on' MMMM d, yyyy": {
+    "message": "12:00 op 6 juni, 2006",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.long": {
+    "message": "6 juni, 2017 12:00:00 pm EDT",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.medium": {
+    "message": "6 juni, 2006 12:00:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.short": {
+    "message": "11/06/06 12:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.help_text": {
+    "message": "Opmaak voor publicatiedatum",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.label": {
+    "message": "Opmaak publicatiedatum",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.placeholder": {
+    "message": "Datumopmaak selecteren",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.default": {
+    "message": "geplaatst op",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.help_text": {
+    "message": "De tekst die aangeeft wanneer een bericht was gepubliceerd",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.label": {
+    "message": "Tekst datumindicator plaatsen",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.blog": {
+    "message": "Een door HubSpot gehoste blog gebruiken",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.external": {
+    "message": "Een externe RSS-feed gebruiken",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.label": {
+    "message": "Een RSS-feed toevoegen",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.placeholder": {
+    "message": "Zoeken",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_url.label": {
+    "message": "RSS URL",
+    "description": null,
+    "placeholders": null
+  },
+  "show_author.label": {
+    "message": "Naam schrijver weergeven",
+    "description": null,
+    "placeholders": null
+  },
+  "show_date.label": {
+    "message": "Publicatiedatum weergeven",
+    "description": null,
+    "placeholders": null
+  },
+  "show_detail.label": {
+    "message": "Overzicht weergeven",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Test",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "RSS-module kop",
+    "description": null,
+    "placeholders": null
+  },
+  "topic_id.label": {
+    "message": "Filteren op tag",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "RSS-lijst",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,99 @@
+{% set networkData = [
+  {
+    "name": "facebook",
+    "iconName": "facebook-f",
+    "supportingText": "Facebook",
+    "networkColor": "#3b5998"
+  },
+  {
+    "name": "twitter",
+    "iconName": "twitter",
+    "supportingText": "Twitter",
+    "networkColor": "#55acee"
+  },
+  {
+    "name": "instagram",
+    "iconName": "instagram",
+    "supportingText": "Instagram",
+    "networkColor": "#c32aa3"
+  },
+  {
+    "name": "linkedin",
+    "iconName": "linkedin-in",
+    "supportingText": "LinkedIn",
+    "networkColor": "#0077b5"
+  },
+  {
+    "name": "youtube",
+    "iconName": "youtube",
+    "supportingText": "YouTube",
+    "networkColor": "#ff0000"
+  },
+  {
+    "name": "pinterest",
+    "iconName": "pinterest-p",
+    "supportingText": "Pinterest",
+    "networkColor": "#bd081c"
+  },
+  {
+    "name": "mail",
+    "iconName": "envelope",
+    "supportingText": "Email",
+    "networkColor": "#00a4bd"
+  },
+  {
+    "name": "website",
+    "iconName": "link",
+    "supportingText": "Website",
+    "networkColor": "#2096f3"
+  },
+  {
+    "name": "whatsapp",
+    "iconName": "whatsapp",
+    "supportingText": "Whatsapp",
+    "networkColor": "#25d366"
+  }
+] %}
+
+
+<div class="social-links social-links--{{ module.alignment }} social-links--{{ module.color_scheme }}">
+ {% for network in module.social %}
+    {% set networkInfo = networkData|selectattr('name', 'equalto', network.network)|first %}
+    {% set href = network.link.url.type == "EMAIL_ADDRESS" ? "mailto:" ~ network.link.url.href : network.link.url.href %}
+
+    <a href="{{ href }}" id="social-links__icon_{{ module.id }}" class="social-links__icon"
+       style="padding-left: {{ module.spacing }}px; padding-right: {{ module.spacing }}px;"
+       {% if network.link.open_in_new_tab %}target="_blank"{% endif %}
+       {% if network.link.no_follow %}rel="nofollow"{% endif %}
+       >
+      {% if module.display != "text_only" %}
+        {% if network.network == "icon" %}
+          <img src="{{ network.network_image.src }}" alt="{{ network.network_image.alt }}" style="height: {{ module.scale }}px";>
+        {% else %}
+          <span class="social-links__icon-wrapper social-links__icon-wrapper--{{ module.icon_shape }} social-links__icon-wrapper--{{ module.color_scheme }}"
+                style="color: {{ networkInfo.networkColor if (module.icon_shape == "original") && (module.color_scheme == "color") }};
+                       {% if ((module.icon_shape == "square") && (module.color_scheme == "color")) || ((module.icon_shape == "circle") && (module.color_scheme == "color")) %}background-color: {{ networkInfo.networkColor }};{% endif %}
+                       height: {{ module.scale }}px; width: {{ module.scale }}px;">
+            {% icon name="{{ networkInfo.iconName }}", style="solid", no_wrapper=True %}
+          </span>
+        {% endif %}
+      {% endif %}
+      {% if (module.display == "icon_text") or (module.display == "text_only") %}
+        {{ network.supporting_text || networkInfo.supportingText }}
+      {% endif %}
+    </a>
+  {% endfor %}
+</div>
+
+{% if (module.display == "icon_text") or (module.display == "text_only") %}
+<style>
+  #social-links__icon_{{ module.id }} {
+    font-family:{{ module.font_style.font }};
+    font-size: {{ module.font_style.size.value }}{{ module.font_style.size.units }};
+    color: {{ module.font_style.color }};
+    font-weight: {{ module.font_style.styles.bold ? 'bold' : 'normal' }};
+    font-style: {{ module.font_style.styles.italic ? 'italic' : 'normal' }};
+    text-decoration: {{ module.font_style.styles.underline ? 'underline' : 'none' }};"
+  }
+</style>
+{% endif %}

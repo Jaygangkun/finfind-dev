@@ -1,0 +1,59 @@
+/* Logo banner section */
+
+.logo-banner {
+  background-color: #f2f4f6;
+  padding: 150px 30px;
+}
+
+.logo-banner .container {
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.logo-banner__label {
+  flex-shrink: 0;
+}
+
+.logo-banner__image {
+  flex-shrink: 1;
+  max-width: 20%;
+  opacity: 1;
+  padding: 0 35px;
+  transition: opacity 0.3s;
+}
+
+.logo-banner__image:hover {
+  filter: grayscale(5%);
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+
+.logo-banner__image img {
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo-banner__label {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo-banner .container {
+    display: block !important;
+    text-align: center;
+  }
+
+  .logo-banner__image {
+    max-width: none;
+    padding: 20px 0;
+  }
+
+  .logo-banner__image img {
+    max-height: 75px;
+    width: auto;
+  }
+}

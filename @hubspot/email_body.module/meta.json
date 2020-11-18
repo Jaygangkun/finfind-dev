@@ -1,0 +1,15 @@
+{
+  "content_tags": [{ "name": "COMPATIBLE_EMAIL", "source": "MARKETPLACE" }],
+  "css_assets": [],
+  "editable_contexts": [],
+  "external_js": [],
+  "host_template_types": ["EMAIL"],
+  "icon": "../img/icon/high-email-1.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Main Email Body"
+}

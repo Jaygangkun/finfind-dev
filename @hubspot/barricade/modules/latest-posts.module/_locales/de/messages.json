@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Letzte Beiträge",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "Wählen Sie einen Blog aus, aus dem Sie Beiträge hinzufügen möchten.",
+    "description": "",
+    "placeholders": null
+  },
+  "count.label": {
+    "message": "Anzahl der Beiträge, die hinzugefügt werden",
+    "description": "",
+    "placeholders": null
+  }
+}

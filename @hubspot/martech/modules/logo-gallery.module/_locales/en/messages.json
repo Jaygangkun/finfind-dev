@@ -1,0 +1,42 @@
+{
+  "name": {
+    "message": "Logo Gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Recognized By",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Header",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Agriflora logo",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Logo images",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Banner background color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Banner foreground color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Style options",
+    "description": "",
+    "placeholders": null
+  }
+}

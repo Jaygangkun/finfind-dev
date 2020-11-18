@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "eventos",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.default": {
+    "message": "2 Canal Park, Cambridge, MA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.label": {
+    "message": "Dirección",
+    "description": "",
+    "placeholders": null
+  },
+  "event.date.label": {
+    "message": "Fecha y hora",
+    "description": "",
+    "placeholders": null
+  },
+  "event.event_icon.label": {
+    "message": "Ícono de evento",
+    "description": "",
+    "placeholders": null
+  },
+  "event.label": {
+    "message": "eventos",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link.label": {
+    "message": "Enlace",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.default": {
+    "message": "Más información",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.label": {
+    "message": "Texto de enlace",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.default": {
+    "message": "GALA EDUCATIVA SEMESTRAL",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.label": {
+    "message": "Título",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.label": {
+    "message": "Contenido del encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_icon.label": {
+    "message": "Ícono del encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link.label": {
+    "message": "Enlace del encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.default": {
+    "message": "Ver todos",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.label": {
+    "message": "Texto del enlace del encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.default": {
+    "message": "Próximos eventos",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.label": {
+    "message": "Encabezado",
+    "description": "",
+    "placeholders": null
+  }
+}

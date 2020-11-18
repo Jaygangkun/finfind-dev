@@ -1,0 +1,147 @@
+{
+  "name": {
+    "message": "Γκαλερί εικόνων",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Λεζάντα",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Μεταβλητό ύψος",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Εμφάνιση κουμπιών πλοήγησης",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Πλοήγηση μικρογραφιών",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Κυκλική αναπαραγωγή διαφανειών",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Μεταβλητό ύψος",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Λειτουργία προβολής",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Τυπικό ρυθμιστικό",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Τοποθέτηση λεζαντών επάνω από τις εικόνες",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Θέση λεζάντας",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Διαφάνεια",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Οι λεζάντες να διατηρούνται πάντα κάτω από την εικόνα",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Άνοιγμα συνδέσμου σε νέα καρτέλα",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Χρόνος σε δευτερόλεπτα μεταξύ αυτόματης κύλισης",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Σταδιακή εμφάνιση",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Γραμμές συλλογής προβολής εικόνων",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Εμφάνιση λεζάντας",
+    "description": null,
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Αυτόματη προώθηση",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Σταθερό ύψος",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Εναλλαγή διαφανειών",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL συνδέσμου",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Διαφάνεια",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Εικόνα",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Συλλογή προβολής εικόνων",
+    "description": null,
+    "placeholders": null
+  }
+}

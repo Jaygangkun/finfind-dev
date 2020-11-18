@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "自動播放",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "保持說明文字在圖片下層",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "說明文字疊於圖片上層",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "說明文字位置",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "搜尋",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "燈箱圖庫",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "標準輪播器",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "縮圖導覽",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "顯示模式",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "搜尋",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "燈箱圖庫橫排",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "燈箱圖庫橫排",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "循環投影片",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "自動捲動前停留的秒數",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "顯示導覽按鈕",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "可變高度",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "固定高度",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "可變高度",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "搜尋",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "說明文字",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "圖片",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "投影片",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "連結 URL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "在新分頁開啟連結",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "顯示說明文字",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "淡出",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "投影片",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "投影片轉場",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "搜尋",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "圖庫",
+    "description": null,
+    "placeholders": null
+  }
+}

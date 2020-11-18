@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "リンクを新しいウィンドウで開く",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "モジュールヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Follow Me",
+    "description": null,
+    "placeholders": null
+  }
+}

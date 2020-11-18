@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "Een duidelijke en opvallende kop",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Inhoud paragraafkop",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Een bescheidener subkop",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Paragraafsubkop",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Paragraafkop",
+    "description": null,
+    "placeholders": null
+  }
+}

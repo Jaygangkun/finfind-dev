@@ -1,0 +1,52 @@
+{
+  "blog_listing_source.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "Blog listing source",
+    "description": "Field for entering blog post markup",
+    "placeholders": null
+  },
+  "blog_post_source.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "Blog post source",
+    "description": "Field for entering blog listing markup",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "Listing",
+    "description": "Field choice to edit blog listing markup",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "Post",
+    "description": "Field choice to edit blog post markup",
+    "placeholders": null
+  },
+  "template_to_edit.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "Template to edit",
+    "description": "Field for choosing to edit markup for blog post or blog listing",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Blog Content",
+    "description": null,
+    "placeholders": null
+  }
+}

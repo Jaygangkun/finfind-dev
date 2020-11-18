@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "在新窗口中打开链接",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "模块标题",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "关注我",
+    "description": null,
+    "placeholders": null
+  }
+}

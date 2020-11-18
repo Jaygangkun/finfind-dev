@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Vielen Dank für das Abonnement!",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Inline-Antwort für Nutzer",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Standardmäßig wird bei Nutzung in einer Blog-Vorlage der aktuelle Blog und bei anderweitiger Nutzung der Hauptblog verwendet.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Wählen Sie einen Blog aus, der angezeigt werden soll",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Abonnieren Sie hier!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Anzuzeigender Titel über dem Formular",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Blog-E-Mail-Abo",
+    "description": null,
+    "placeholders": null
+  }
+}

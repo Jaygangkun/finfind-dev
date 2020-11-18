@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Automatischer Fortschritt",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Bildunterschriften sollten sich immer unter dem Bild befinden.",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Überlagernde Bildunterschriften werden auf die Bilder gelegt.",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Position der Bildunterschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox-Galerie",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standard-Schieberegler",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Thumbnail-Navigation",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Anzeigemodus",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Zeilen für die Lightbox-Galerie",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Zeilen für die Lightbox-Galerie",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Loop-Folien",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Zeit in Sekunden zwischen automatischem Scrollen",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Navigations-Buttons anzeigen",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variable Höhe",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Feste Höhe",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variable Höhe",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Bildunterschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Bild",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slide",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Link-URL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Link in neuer Registerkarte öffnen",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Bildunterschrift anzeigen",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Ausblenden",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slide",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Folienübergänge",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Bildergalerien",
+    "description": null,
+    "placeholders": null
+  }
+}

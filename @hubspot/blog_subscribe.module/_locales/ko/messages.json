@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "블로그 이메일 구독",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "블로그 템플릿에서 사용하는 경우 기본적으로 현재 블로그를 사용하며, 다른 곳에서 사용하는 경우 기본 블로그를 사용합니다.",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "여기서 구독하십시오!",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "표시할 블로그 선택",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "사용자를 위한 인라인 응답",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "가입해 주셔서 감사합니다!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "위의 양식을 표시할 제목",
+    "description": null,
+    "placeholders": null
+  }
+}

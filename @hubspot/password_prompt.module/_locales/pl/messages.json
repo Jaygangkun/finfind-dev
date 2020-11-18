@@ -1,0 +1,37 @@
+{
+  "bad_password_message.default": {
+    "message": "Spróbuj ponownie.",
+    "description": null,
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Komunikat o błędnym haśle",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Komunikat dotyczący hasła",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Hasło",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Symbol ukrywający hasło",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Prześlij",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Tekst przycisku przesyłania",
+    "description": null,
+    "placeholders": null
+  }
+}

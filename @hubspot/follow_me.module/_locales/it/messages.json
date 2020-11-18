@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Apri i link in una nuova finestra",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Intestazione modulo",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Seguimi",
+    "description": null,
+    "placeholders": null
+  }
+}

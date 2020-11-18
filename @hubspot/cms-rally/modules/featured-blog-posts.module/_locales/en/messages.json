@@ -1,0 +1,52 @@
+{
+  "blog_link.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_icon.label": {
+    "message": "Link icon",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.default": {
+    "message": "Lorem ipsum",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.label": {
+    "message": "Link text",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_colors.label": {
+    "message": "Post colors",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Featured Blog Posts",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Select the blog that you would like to feature posts from",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Select blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.help_text": {
+    "message": "If you would like to feature only a specific tag from your blog, select it here.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.label": {
+    "message": "Select tag",
+    "description": "",
+    "placeholders": null
+  }
+}

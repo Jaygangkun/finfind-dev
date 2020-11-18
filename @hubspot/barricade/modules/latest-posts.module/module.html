@@ -1,0 +1,54 @@
+{% set blogPosts = blog_recent_posts(module.blog_id, module.count) %}
+
+<div class="news_listing__wrapper">
+  <div class="news_listing__container" id="news_listing__container-{{name}}">
+    {% for post in blogPosts %}
+    <div class="news_listing__entry-wrapper">
+      <div class="news_listing__entry">      
+        {% if post.featured_image %}
+          <div class="news_listing__featured_image" style="background-image:url('{{post.featured_image}}')"></div>   
+        {% endif %}
+        <div class="news_listing__content">
+          <div class="entry__byline--row">
+            <div class="blog-tags">
+              {% for tag in post.tag_list %}
+                <a class="tag" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>
+              {% endfor %}
+            </div>
+          </div>
+          <h3>{{ post.title }}</h3>
+          <div class="entry__summary">
+            {{ post.post_list_content|safe|truncatehtml(300, '...', false) }}
+          </div>
+          <a href="{{ post.absolute_url }}">Learn More >></a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% require_js %}
+<script>
+var slider = tns({
+  container: '#news_listing__container-{{name}}',
+  navPosition: 'bottom',
+  arrowKeys: true,
+  controls: false,
+  responsive: {
+    950: {
+      items: 3
+    },
+    501: {
+      items: 2
+    },
+    1: {
+      items: 1
+    }
+  },
+  gutter: 30,
+  mouseDrag: true
+});
+</script>
+{% end_require_js %}

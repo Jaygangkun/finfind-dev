@@ -1,0 +1,18 @@
+<!--
+  templateType: global_partial
+  label: Back button
+-->
+
+<a href="{{ group.absolute_url}}" class="button button--icon-left">
+  {% icon
+    extra_classes='button__icon',
+    name='long-arrow-alt-left',
+    purpose='decorative'
+    style='SOLID'
+  %}
+  {% module 'Button Text'
+    path='@hubspot/text',
+    label='Button text',
+    value='Back to Blog'
+  %}
+</a>

@@ -1,0 +1,52 @@
+{
+  "blog_link.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_icon.label": {
+    "message": "Link-Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.default": {
+    "message": "Lorem ipsum",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.label": {
+    "message": "Link-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_colors.label": {
+    "message": "Beitragsfarben",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Ausgewählte Blog-Beiträge",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Wählen Sie den Blog aus, von dem Sie Beiträge veröffentlichen möchten.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Blog auswählen",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.help_text": {
+    "message": "Wenn Sie nur einen bestimmten Tag aus Ihrem Blog übernehmen möchten, wählen Sie ihn hier aus.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.label": {
+    "message": "Tag auswählen",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "guid.label": {
+    "message": "CTA",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Llamada a la acción",
+    "description": null,
+    "placeholders": null
+  }
+}

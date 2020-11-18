@@ -1,0 +1,31 @@
+.feature {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.feature__icon > span {
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  height: 100px;
+  margin: 0 auto 20px;
+  width: 100px;
+}
+
+.feature__icon svg {
+  box-sizing: border-box;
+  height: 100px;
+  padding: 20px;
+  width: 100px;
+}
+
+.feature__image {
+  display: block;
+  margin: 0 auto 35px;
+}
+
+.feature__image img {
+  height: auto;
+  max-width: 100%;
+}

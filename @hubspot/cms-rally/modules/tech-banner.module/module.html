@@ -1,0 +1,12 @@
+<div class="tech-banner">
+	{{ module.banner_heading }}
+	<div class="tech-banner_images">
+		{% for image in module.banner_images %}
+		{% if image.banner_image.src %}
+			<span class="tech-banner_image">
+				<img src="{{ image.banner_image.src }}" alt="{{ image.banner_image.alt }}">
+			</span>
+		{% endif %}
+		{% endfor %}
+	</div>
+</div>

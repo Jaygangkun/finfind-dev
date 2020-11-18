@@ -1,0 +1,92 @@
+{
+  "button_text.default": {
+    "message": "Inscreva-se gratuitamente",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "Para equipes que precisam de mais segurança, controle e suporte.",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "Descrição do produto",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Ícone dos itens da lista de recursos",
+    "description": "",
+    "placeholders": null
+  },
+  "features.default": {
+    "message": "10 usuários inclusos",
+    "description": "",
+    "placeholders": null
+  },
+  "features.label": {
+    "message": "Recursos",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Cartão de preços",
+    "description": "",
+    "placeholders": null
+  },
+  "price.default": {
+    "message": "US$0",
+    "description": "",
+    "placeholders": null
+  },
+  "price.label": {
+    "message": "Preço",
+    "description": "",
+    "placeholders": null
+  },
+  "style.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_bg.label": {
+    "message": "Cor de fundo do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_text_color.label": {
+    "message": "Cor do texto do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Opções de estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.default": {
+    "message": "Grátis",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.label": {
+    "message": "Camada do produto",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.default": {
+    "message": "/ mês",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.label": {
+    "message": "Período de tempo do preço",
+    "description": "",
+    "placeholders": null
+  }
+}

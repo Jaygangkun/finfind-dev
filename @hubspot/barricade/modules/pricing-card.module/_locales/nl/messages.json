@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Tariefkaart",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Koppeling voor knop",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Meld je gratis aan",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Knoptekst",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "Voor teams die extra veiligheid, controle en ondersteuning nodig hebben.",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "Productbeschrijving",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Pictogram opsommingsteken functielijst",
+    "description": "",
+    "placeholders": null
+  },
+  "features.default": {
+    "message": "inclusief 10 gebruikers",
+    "description": "",
+    "placeholders": null
+  },
+  "features.label": {
+    "message": "Functies",
+    "description": "",
+    "placeholders": null
+  },
+  "price.default": {
+    "message": "$0",
+    "description": "",
+    "placeholders": null
+  },
+  "price.label": {
+    "message": "Prijs",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.large": {
+    "message": "Groot",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.regular": {
+    "message": "Standaard",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.small": {
+    "message": "Klein",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.label": {
+    "message": "Knopgrootte",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.primary": {
+    "message": "Primair",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.secondary": {
+    "message": "Secundair",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.simple": {
+    "message": "Eenvoudig",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.label": {
+    "message": "Knopstijl",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stijlopties",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.default": {
+    "message": "Gratis",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.label": {
+    "message": "Productniveau",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.default": {
+    "message": "/ maand",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.label": {
+    "message": "Tijdsbestek prijs",
+    "description": "",
+    "placeholders": null
+  }
+}

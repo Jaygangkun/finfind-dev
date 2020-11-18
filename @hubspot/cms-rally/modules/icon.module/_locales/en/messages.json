@@ -1,0 +1,62 @@
+{
+  "accessibility.label": {
+    "message": "Accessibility options",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.choices.decorative": {
+    "message": "Ignored by screen reader",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.choices.semantic": {
+    "message": "Read by screen reader",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.label": {
+    "message": "Purpose",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.title.label": {
+    "message": "Title",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_field.label": {
+    "message": "Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Override default style",
+    "description": "",
+    "placeholders": null
+  },
+  "style.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Style options",
+    "description": "",
+    "placeholders": null
+  },
+  "style.size.help_text": {
+    "message": "Width in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "style.size.label": {
+    "message": "Size",
+    "description": "",
+    "placeholders": null
+  }
+}

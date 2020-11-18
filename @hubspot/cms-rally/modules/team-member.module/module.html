@@ -1,0 +1,12 @@
+<section class="team-member">
+  {% set sizeAttrs = 'width="{{ module.team_member_image.width }}" height="{{ module.team_member_image.height }}"' %}
+  {% if module.team_member_image.size_type == 'auto' %}
+    {% set sizeAttrs = 'width="100%" height="auto" style="max-width: 100%; height: auto;"' %}
+  {% elif module.team_member_image.size_type == 'auto_custom_max' %}
+    {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ module.team_member_image.max_width }}px; max-height: {{ module.team_member_image.max_height }}px"' %}
+  {% endif %}
+  <img class="team-member__image" src="{{ module.team_member_image.src }}" alt="{{ module.team_member_image.alt }}" {{ sizeAttrs }}>
+  <div class="team-member__content">
+    {{ module.team_member_content }}
+  </div>
+</section>

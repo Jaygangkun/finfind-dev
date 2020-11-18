@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Abrir enlaces en una nueva ventana",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Encabezado del módulo",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Sígueme",
+    "description": null,
+    "placeholders": null
+  }
+}

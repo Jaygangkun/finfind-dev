@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Midden",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Uitlijning",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Zwart-wit",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Grijs",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Wit",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Kleurschema",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Pictogram en tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Weergave",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Rond",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Origineel",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Vierkant",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Vorm pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Schaal",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Sociaal netwerk",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Aangepast pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Website",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Netwerk",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Netwerkafbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Ondersteunende tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Alleen tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Volg mij - LP",
+    "description": "",
+    "placeholders": null
+  }
+}

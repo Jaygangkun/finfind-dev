@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "Testimonial-Schieberegler",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.default": {
+    "message": "Mary Kindler",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.label": {
+    "message": "Autor",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.default": {
+    "message": "Gründer von Syntecho",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.label": {
+    "message": "Titel des Autors",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.default": {
+    "message": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.label": {
+    "message": "Testimonial-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.label": {
+    "message": "Referenzen",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.default.alt": {
+    "message": "Platzhalterbild",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.label": {
+    "message": "Testimonial-Bild",
+    "description": "",
+    "placeholders": null
+  }
+}

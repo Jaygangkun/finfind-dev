@@ -1,0 +1,52 @@
+{
+  "blog_link.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_icon.label": {
+    "message": "Ícone de link",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.default": {
+    "message": "Lorem ipsum",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.label": {
+    "message": "Texto do link",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_colors.label": {
+    "message": "Cores do post",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Posts de blog em destaque",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Selecione o blog cujos posts você deseja destacar",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecione um blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.help_text": {
+    "message": "Se quiser destacar apenas uma tag específica do blog, selecione-a aqui.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.label": {
+    "message": "Selecionar tag",
+    "description": "",
+    "placeholders": null
+  }
+}

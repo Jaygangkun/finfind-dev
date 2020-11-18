@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "Selkeä ja lihavoitu yläotsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Osio-otsikon sisältö",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Hillitympi alaotsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Osion alaotsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Osion otsikko",
+    "description": null,
+    "placeholders": null
+  }
+}

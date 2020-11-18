@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "カードセクション",
+    "description": "",
+    "placeholders": null
+  },
+  "content.label": {
+    "message": "コンテンツ",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_field.label": {
+    "message": "リンク",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.default": {
+    "message": "もっと詳しく",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.label": {
+    "message": "リンクテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.default": {
+    "message": "<p style=\"text-align: center;\">Vivamus sagittis lacus vel<br>augue laoreet rutrum.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.label": {
+    "message": "説明",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.default": {
+    "message": "あなたの成功を気にかけている講師たち",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.label": {
+    "message": "タイトル",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.default.alt": {
+    "message": "教室でのレクチャー",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.icon_field.label": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.label": {
+    "message": "画像とアイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "このオプションを有効にすると、既定のテーマスタイルを上書きできます。このオプションを無効にすると、モジュールが既定のテーマスタイルに再接続されます。",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "既定のスタイルを上書き",
+    "description": "",
+    "placeholders": null
+  },
+  "style.accent.label": {
+    "message": "アクセント色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.icon_fill.label": {
+    "message": "アイコンの塗りつぶし色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "スタイルオプション",
+    "description": "",
+    "placeholders": null
+  }
+}

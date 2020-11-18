@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Otwórz łącza w nowym oknie",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Nagłówek modułu",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Obserwuj",
+    "description": null,
+    "placeholders": null
+  }
+}

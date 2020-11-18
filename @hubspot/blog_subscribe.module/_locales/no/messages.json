@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Takk for at du abonnerer!",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "innbygd respons for brukere",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Som standard brukes den gjeldende bloggen i en bloggmal eller den primære bloggen andre steder.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Velg blogg som skal vises",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Abonner her!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Tittel som skal vises over skjemaet",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Blogg e-postabonnement",
+    "description": null,
+    "placeholders": null
+  }
+}

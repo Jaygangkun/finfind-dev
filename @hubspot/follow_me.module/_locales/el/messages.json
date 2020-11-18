@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Ακολούθησέ με",
+    "description": null,
+    "placeholders": null
+  },
+  "links.label": {
+    "message": "Άνοιγμα συνδέσμων σε νέο παράθυρο",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Κεφαλίδα μονάδας",
+    "description": null,
+    "placeholders": null
+  }
+}

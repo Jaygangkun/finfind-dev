@@ -1,0 +1,77 @@
+{
+  "feature_description.default": {
+    "message": "Leverage the intuitive super awesome software that saves you time and will rescue your business. Promise.",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_description.label": {
+    "message": "Feature Description",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon.label": {
+    "message": "Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_bg_color.label": {
+    "message": "Background Color",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_border_color.label": {
+    "message": "Border Color",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Feature Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_image.label": {
+    "message": "Feature Image",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.icon": {
+    "message": "Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.image": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.none": {
+    "message": "None",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.label": {
+    "message": "Featured Image/Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.default": {
+    "message": "Quick and Simple",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.label": {
+    "message": "Feature Title",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Feature",
+    "description": "",
+    "placeholders": null
+  }
+}

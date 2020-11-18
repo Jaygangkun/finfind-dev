@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 è il più grande, seguito da H2 e così via",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Tipo di intestazione",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Cerca",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Un'intestazione chiara e audace",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Contenuto dell'intestazione",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Intestazione",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Nascondi comandi livello intestazione",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Nascondere i comandi del livello intestazione evita che questo sia modificato negli strumenti per i contenuti.",
+    "description": null,
+    "placeholders": null
+  }
+}

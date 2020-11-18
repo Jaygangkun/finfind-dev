@@ -1,0 +1,37 @@
+{
+  "display_mode.choices.hybrid": {
+    "message": "Ibrido",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localizzato",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "La lingua del testo nella funzione switch della lingua. PageLang significa che i nomi delle lingue verranno visualizzati nella lingua della pagina su cui si trova la funzione switch. Localizzato significa che il nome di ogni lingua verrà visualizzato in quella lingua. Ibrido è una combinazione delle due opzioni.",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modalità di visualizzazione",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Cerca",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Funzione cambio della lingua",
+    "description": null,
+    "placeholders": null
+  }
+}

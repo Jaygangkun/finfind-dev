@@ -1,0 +1,67 @@
+[
+  {
+    "id": "style",
+    "name": "style",
+    "label": "Style options",
+    "type": "group",
+    "children": [
+      {
+        "label": "Which type of banner would you like to use?",
+        "name": "banner_image_select",
+        "id": "banner_image_select",
+        "type": "choice",
+        "choices": [
+          ["featured_image", "Featured image"],
+          ["custom_bg_image", "Custom background image"],
+          ["custom_bg_color", "Custom background color"]
+        ],
+        "display": "select",
+        "required": true,
+        "default": "featured_image"
+      },
+      {
+        "label": "Background image",
+        "name": "bg_image",
+        "type": "image",
+        "visibility": {
+          "controlling_field": "banner_image_select",
+          "controlling_value_regex": "custom_bg_image",
+          "operator": "EQUAL"
+        },
+        "required": true,
+        "resizable": false,
+        "responsive": false
+      },
+      {
+        "label": "Background color",
+        "name": "bg_color",
+        "type": "color",
+        "visibility": {
+          "controlling_field": "banner_image_select",
+          "controlling_value_regex": "custom_bg_color",
+          "operator": "EQUAL"
+        },
+        "required": true,
+        "default": {
+          "color": "#D0D0D0",
+          "opacity": 100
+        }
+      },
+      {
+        "label": "Padding",
+        "name": "padding",
+        "type": "group",
+        "locked": true,
+        "children": [
+          {
+            "label": "Top/Bottom",
+            "name": "vertical",
+            "type": "number",
+            "help_text": "Value is in pixels",
+            "default": 80
+          }
+        ]
+      }
+    ]
+  }
+]

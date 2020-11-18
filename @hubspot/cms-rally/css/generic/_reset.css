@@ -1,0 +1,13 @@
+{##
+## Reset
+##}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.disable-focus-styles :focus {
+  outline: none;
+}

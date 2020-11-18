@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Links in nieuw venster openen",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Modulekop",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Volg mij",
+    "description": null,
+    "placeholders": null
+  }
+}

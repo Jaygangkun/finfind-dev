@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Sección de tarjetas",
+    "description": "",
+    "placeholders": null
+  },
+  "content.label": {
+    "message": "Contenido",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_field.label": {
+    "message": "Enlace",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.default": {
+    "message": "Más información",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.label": {
+    "message": "Texto de enlace",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.default": {
+    "message": "<p style=\"text-align: center;\">Vivamus sagittis lacus vel<br>augue laoreet rutrum.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.label": {
+    "message": "Descripción",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.default": {
+    "message": "Profesores a los que les importa tu éxito",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.label": {
+    "message": "Título",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.default.alt": {
+    "message": "Una conferencia en el aula",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.label": {
+    "message": "Imagen",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.icon_field.label": {
+    "message": "Ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.label": {
+    "message": "Imagen e ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Activar esta opción te permitirá anular los estilos de temas predeterminados. Al desactivar esta opción se volverá a conectar el módulo a los estilos de temas predeterminados.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Anular estilo predeterminado",
+    "description": "",
+    "placeholders": null
+  },
+  "style.accent.label": {
+    "message": "Color del tema",
+    "description": "",
+    "placeholders": null
+  },
+  "style.icon_fill.label": {
+    "message": "Color de relleno de ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Opciones de estilos",
+    "description": "",
+    "placeholders": null
+  }
+}

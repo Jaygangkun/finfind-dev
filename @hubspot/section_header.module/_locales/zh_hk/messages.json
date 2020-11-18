@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "清晰大膽的標題",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "區塊標題內容",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "較低調的副標題",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "區塊副標題",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "區塊標題",
+    "description": null,
+    "placeholders": null
+  }
+}

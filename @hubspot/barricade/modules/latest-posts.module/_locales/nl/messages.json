@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Laatste berichten",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "Selecteer een blog waar je artikelen uit wilt halen",
+    "description": "",
+    "placeholders": null
+  },
+  "count.label": {
+    "message": "Aantal artikelen om binnen te halen",
+    "description": "",
+    "placeholders": null
+  }
+}

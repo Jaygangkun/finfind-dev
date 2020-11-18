@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Image Gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.default.alt": {
+    "message": "Dorm building on campus",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.default.size_type": {
+    "message": "exact",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  }
+}

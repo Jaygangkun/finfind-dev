@@ -1,0 +1,94 @@
+[
+  {
+    "type": "choice",
+    "name": "feature_media_choice",
+    "label": "Featured Image/Icon",
+    "helptext": "Choose if you'd like an image or icon to appear above the featured text",
+    "id": "feature-media-choice-id",
+    "sortable": false,
+    "required": true,
+    "locked": false,
+    "display": "select",
+    "choices": [["image", "Image"], ["icon", "Icon"], ["none", "None"]],
+    "default": "none"
+  },
+  {
+    "type": "group",
+    "label": "Feature Icon",
+    "name": "feature_icon",
+    "visibility": {
+      "controlling_field": "feature-media-choice-id",
+      "operator": "EQUAL",
+      "controlling_value_regex": "icon"
+    },
+    "children": [
+      {
+        "name": "icon",
+        "label": "Icon",
+        "type": "icon",
+        "default": {
+          "name": "bolt",
+          "unicode": "f0e7",
+          "type": "SOLID"
+        }
+      },
+      {
+        "name": "icon_color",
+        "label": "Color",
+        "required": true,
+        "type": "color",
+        "default": {
+          "color": "#34b5e5",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "icon_bg_color",
+        "label": "Background Color",
+        "required": true,
+        "type": "color",
+        "default": {
+          "color": "#fff",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "icon_border_color",
+        "label": "Border Color",
+        "required": true,
+        "type": "color",
+        "default": {
+          "color": "#d0d0d0",
+          "opacity": 100
+        }
+      }
+    ]
+  },
+  {
+    "name": "feature_image",
+    "label": "Feature Image",
+    "required": false,
+    "type": "image",
+    "responsive": false,
+    "resizable": true,
+    "visibility": {
+      "controlling_field": "feature-media-choice-id",
+      "operator": "EQUAL",
+      "controlling_value_regex": "image"
+    }
+  },
+  {
+    "name": "feature_title",
+    "label": "Feature Title",
+    "required": true,
+    "type": "text",
+    "default": "Quick and Simple"
+  },
+  {
+    "name": "feature_description",
+    "label": "Feature Description",
+    "required": true,
+    "type": "richtext",
+    "default": "Leverage the intuitive super awesome software that saves you time and will rescue your business. Promise."
+  }
+]

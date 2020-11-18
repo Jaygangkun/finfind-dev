@@ -1,0 +1,77 @@
+{
+  "feature_description.default": {
+    "message": "時間を節約できてビジネスの救世主となる直観的なこの上ないソフトウェアを活用できることをお約束します。",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_description.label": {
+    "message": "機能の説明",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon.label": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_border_color.label": {
+    "message": "境界線の色",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "機能のアイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_image.label": {
+    "message": "機能の画像",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.icon": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.image": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.label": {
+    "message": "サムネイル画像／アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.default": {
+    "message": "すばやくてシンプル",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.label": {
+    "message": "機能のタイトル",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "機能",
+    "description": "",
+    "placeholders": null
+  }
+}

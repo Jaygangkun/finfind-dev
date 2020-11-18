@@ -1,0 +1,42 @@
+{
+  "name": {
+    "message": "Logogalerij",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Erkend door",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Kop",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Agriflora-logo",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Logoafbeeldingen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Achtergrondkleur banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Voorgrondkleur banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stijlopties",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "En tydlig och djärv rubrik",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Inneåll i avsnittsrubrik",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "En mer dämpad underrubrik",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Underrubrik för avsnitt",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Avsnittsrubrik",
+    "description": null,
+    "placeholders": null
+  }
+}

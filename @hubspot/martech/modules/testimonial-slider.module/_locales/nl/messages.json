@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Testimonial-schuifbalk",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Als je deze optie inschakelt, kun je de standaard themastijlen overschrijven. Als je deze optie uitschakelt wordt de module weer gekoppeld aan de standaard themastijlen.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Standaardstijl overschrijven",
+    "description": "",
+    "placeholders": null
+  },
+  "style.background_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stijlopties",
+    "description": "",
+    "placeholders": null
+  },
+  "style.navigation_active_color.label": {
+    "message": "Navigatie actieve kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "style.navigation_color.label": {
+    "message": "Navigatie kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "style.quote_color.label": {
+    "message": "Citaatkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "style.text_color.label": {
+    "message": "Tekstkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.default": {
+    "message": "Mary Kindler",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.label": {
+    "message": "Auteur",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.default": {
+    "message": "Oprichter van Syntecho",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.label": {
+    "message": "Auteurstitel",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.default": {
+    "message": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.label": {
+    "message": "Testimonial tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.label": {
+    "message": "Testimonials",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.default.alt": {
+    "message": "Afbeelding tijdelijke aanduiding",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.label": {
+    "message": "Testimonial afbeelding",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Últimos posts",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "Selecione o blog do qual obter posts",
+    "description": "",
+    "placeholders": null
+  },
+  "count.label": {
+    "message": "Número de posts a obter",
+    "description": "",
+    "placeholders": null
+  }
+}

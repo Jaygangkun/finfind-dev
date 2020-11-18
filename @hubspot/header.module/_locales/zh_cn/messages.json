@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 最大，之后是 H2，以此类推",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "标题类型",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "搜索",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "清晰醒目的标题",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "标题内容",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "标题",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "隐藏标题级控件",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "隐藏标题级控件将防止在内容工具中更改标题级内容",
+    "description": null,
+    "placeholders": null
+  }
+}

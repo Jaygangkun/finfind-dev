@@ -1,0 +1,160 @@
+[
+  {
+    "label": "Testimonials",
+    "name": "testimonial_slider",
+    "type": "group",
+    "occurrence": { 
+      "min": 1, 
+      "max": null, 
+      "default": 3, 
+      "sorting_label_field": "testimonial_slider.author" 
+    },
+    "children": [
+      {
+        "label": "Testimonial text",
+        "name": "content",
+        "required": true,
+        "type": "richtext",
+        "default": "<h4>\"Increased Conversions by 310%!\"</h4><p>The Rally team treated our business like it was their own. They tackled the issue with grit, knowledge, and empathy. I HIGHLY recommend them to anyone.</p>"
+      },
+      {
+        "label": "Author",
+        "name": "author",        
+        "type": "group",
+        "children": [
+          {
+            "label": "Author's name",
+            "name": "author_name",
+            "type": "text",
+            "default": "Dawn Doe"
+          },
+          {
+            "label": "Author's image",
+            "name": "author_image",
+            "responsive": false,
+            "resizable": true,
+            "type": "image",
+            "default": {
+              "src": "https://cdn2.hubspot.net/hubfs/7303166/Rally/placeholder-avatar-dawn-doe.png",
+              "alt": "Placeholder Image"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Testimonial image",
+        "name": "testimonial_image",
+        "required": true,
+        "responsive": false,
+        "resizable": true,
+        "type": "image",
+        "default": {
+          "src": "https://cdn2.hubspotqa.net/hubfs/101758489/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      }
+    ],
+    "default": [
+      {
+        "content": "<h4>\"Increased Conversions by 310%!\"</h4><p>The Rally team treated our business like it was their own. They tackled the issue with grit, knowledge, and empathy. I HIGHLY recommend them to anyone.</p>",
+        "author": {
+          "author_image": {
+            "src": "https://cdn2.hubspot.net/hubfs/7303166/Rally/placeholder-avatar-dawn-doe.png",
+            "alt": "Placeholder Image",
+            "width": null,
+            "height": null
+          },
+          "author_name": "Dawn Doe"
+        },
+        "testimonial_image": {
+          "src": "https://cdn2.hubspotqa.net/hubfs/101758489/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image",
+          "width": null,
+          "height": null
+        }
+      },
+      {
+        "content": "<h4>Lorem ipsum dolor sit amet</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>",
+        "author": {
+          "author_image": {
+            "src": "https://cdn2.hubspot.net/hubfs/7303166/Rally/placeholder-avatar-dawn-doe.png",
+            "alt": "Placeholder Image",
+            "width": null,
+            "height": null 
+          },
+          "author_name": "Jane Foe"
+        },
+        "testimonial_image": {
+          "src": "https://cdn2.hubspotqa.net/hubfs/101758489/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image",
+          "width": null,
+          "height": null
+        }
+      },
+      {
+        "content": "<h4>Lorem ipsum dolor sit amet</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>",
+        "author": {
+          "author_image": {
+            "src": "https://cdn2.hubspot.net/hubfs/7303166/Rally/placeholder-avatar-dawn-doe.png",
+            "alt": "Placeholder Image",
+            "width": null,
+            "height": null
+          },
+          "author_name": "Jon Bohe"
+        },
+        "testimonial_image": {
+          "src": "https://cdn2.hubspotqa.net/hubfs/101758489/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image",
+          "width": null,
+          "height": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "override_default_style",
+    "name": "override_default_style",
+    "label": "Override default style",
+    "type": "boolean",
+    "help_text": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "default": false
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "override_default_style",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Navigation color",
+        "name": "navigation_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#D0D0D0"
+        }
+      },
+      {
+        "label": "Navigation active color",
+        "name": "navigation_active_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#EB4E54"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: false
+-->
+
+{% extends './layouts/base.html' %}
+
+{% block header %}
+<h4>You're signed out.</h4>
+<p class="introduction">
+   <a href="{{ UTILITIES.PATHS.login }}">Click here to log in</a>, or <a href="{{ '//' ~ request.domain }}">return to the home page</a>
+</p>
+{% endblock %}
+
+{% block body %}
+{% endblock %}

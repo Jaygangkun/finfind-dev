@@ -1,0 +1,87 @@
+{
+  "expand_link_text.default": {
+    "message": "Alles weergeven",
+    "description": null,
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Weer te geven tekst wanneer er meer dan het maximum weer te geven aantal beschikbaar zijn. Laat leeg om link weg te laten.",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Auteurs",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Maanden",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tags",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lijst met waarden voor filterkoppelingen",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Zoeken",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Berichten geordend op tag",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Weer te geven lijsttitel",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximum aantal weer te geven filterwaarden. Laat leeg om alles weer te geven.",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Naam",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Aantal berichten",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordening van waarden voor filterkoppelingen",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Zoeken",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Met de standaardinstelling wordt het huidige blog gebruikt bij gebruik in een blogtemplate of het primaire blog bij gebruik elders.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Weer te geven blog selecteren",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Berichtenfilter",
+    "description": null,
+    "placeholders": null
+  }
+}

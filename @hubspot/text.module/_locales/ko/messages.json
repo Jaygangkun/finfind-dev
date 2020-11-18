@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "텍스트 한 줄",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "한 행에 추가된 정보",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "텍스트",
+    "description": null,
+    "placeholders": null
+  }
+}

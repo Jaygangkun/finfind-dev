@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Galerie de logos",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Logo Salesforce",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Images de logo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Couleur d'arrière-plan de la bannière",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Couleur de premier plan de la bannière",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Options de style",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.bottom": {
+    "message": "Chevaucher la section inférieure",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.none": {
+    "message": "Pas de chevauchement",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.top": {
+    "message": "Chevaucher la section supérieure",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.help_text": {
+    "message": "Paramètres pour autoriser la bannière à chevaucher la partie supérieure ou inférieure",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.label": {
+    "message": "Paramètres de chevauchement des bannières",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "Remplacer le style par défaut",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "label": "Header",
+    "name": "header",
+    "type": "text",
+    "required": true,
+    "default": "How do I make an awesome template?"
+  },
+  {
+    "label": "Content",
+    "name": "content",
+    "type": "richtext",
+    "required": true,
+    "default": "Leverage the intuitive super awesome software that saves you time and will help grow your business."
+  },
+  {
+    "label": "Expanded by default",
+    "name": "expanded",
+    "type": "boolean",
+    "default": false
+  },
+  {
+    "id": "override_default_style",
+    "name": "override_default_style",
+    "label": "Override default style",
+    "type": "boolean",
+    "help_text": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "default": false
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "override_default_style",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Header color",
+        "name": "accordion_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#C168C2"
+        }
+      },
+      {
+        "label": "Icon color",
+        "name": "icon_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#FFFFFF"
+        }
+      },
+      {
+        "label": "Hover",
+        "name": "hover",
+        "type": "group",
+        "children": [
+          {
+            "label": "Header color",
+            "name": "accordion_color",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#99409A"
+            }
+          },
+          {
+            "label": "Icon color",
+            "name": "icon_color",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#FFFFFF"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Active",
+        "name": "active",
+        "type": "group",
+        "children": [
+          {
+            "label": "Header color",
+            "name": "accordion_color",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#E990EA"
+            }
+          },
+          {
+            "label": "Icon color",
+            "name": "icon_color",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#FFFFFF"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

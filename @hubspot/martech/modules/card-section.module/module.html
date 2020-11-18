@@ -1,0 +1,33 @@
+<div class="cards container mobile-col">
+  {% for card in module.card %}
+  <div class="cards__card card">
+    {% if card.image.src %}
+      {% set sizeAttrs = 'width="{{ card.image.width }}" height="{{ card.image.height }}"' %}
+      {% if card.image.size_type == 'auto' %}
+        {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+      {% elif card.image.size_type == 'auto_custom_max' %}
+        {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ card.image.max_width }}px; max-height: {{ card.image.max_height }}px"' %}
+      {% endif %}
+      <div class="card__image">
+        <img src="{{ card.image.src }}" alt="{{ card.image.alt }}" {{ sizeAttrs }}>
+      </div>
+    {% endif %}
+    <div class="card__title">
+      {% inline_text field="title" value="{{ card.title }}" %}
+    </div>
+    <div class="card__text">
+      {% inline_text field="text" value="{{ card.text }}" %}
+    </div>
+    {% set href = card.button_link.url.href %}
+    {% if card.button_link.url.type is equalto "EMAIL_ADDRESS" %}
+      {% set href = "mailto:" + href %}
+    {% endif %}
+    <a href="{{ href }}"
+      {% if card.button_link.open_in_new_tab %}target="_blank"{% endif %}
+      {% if card.button_link.no_follow %}rel="nofollow"{% endif %}
+      >
+      {{ card.button_text }}
+    </a>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,52 @@
+{# Featured Blog Posts #}
+
+{% if module.select_tag %}
+  {% set featured_posts = blog_recent_tag_posts(module.select_blog, module.select_tag, 3) %}
+{% else %}
+  {% set featured_posts = blog_recent_posts(module.select_blog, 3) %}
+{% endif %}
+
+<div class="featured-blog-posts">
+  {% for feat_post in featured_posts %}
+
+    {% if module.blog_post_colors.color[loop.index0] %}
+      {% set block_color = module.blog_post_colors.color[loop.index0] %}
+    {% else %}
+      {% set block_color = module.blog_post_colors.color[0] %}
+    {% endif %}
+
+    <div class="featured-post" style="background-color: rgba({{ block_color.color|convert_rgb }}, {{ block_color.opacity * 0.01}});">
+      {% if feat_post.featured_image %}
+        <div class="featured-post_bg" style="background-image: url('{{ feat_post.featured_image }}');"></div>
+      {% endif %}
+
+      <div class="featured-post_description">
+        <h3>{{ feat_post.name }}</h3>
+        {% if feat_post.post_list_content and module.blog_summaries == true %}
+          <p>{{ feat_post.post_list_content|safe }}</p>
+        {% endif %}
+        {% if feat_post.topic_list %}
+          <div class="featured-post_description_tags">
+           {% for topic in feat_post.topic_list %}
+              <span>{{ topic.name }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+
+      <a class="featured-post_link" href="{{ feat_post.absolute_url }}" target="_blank">
+        {{ module.blog_link.link_text }}
+        {% if module.blog_link.link_icon %}
+        {% icon
+          name="{{ module.blog_link.link_icon.name }}"
+          purpose="decorative"
+          style="{{ module.blog_link.link_icon.type }}"
+          unicode="{{ module.blog_link.link_icon.unicode }}"
+          extra_classes="featured-post_link_icon"
+        %}
+        {% endif %}
+      </a>
+
+  </div>
+  {% endfor %}
+</div>

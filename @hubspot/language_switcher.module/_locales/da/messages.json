@@ -1,0 +1,37 @@
+{
+  "display_mode.choices.hybrid": {
+    "message": "Hybrid",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokaliseret",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Sproget på teksten i sprogskifteren. PageLang betyder, at navnene på sprogene vil blive vist på sproget på den side, hvor skifteren er. Lokaliseret betyder, at navnet på hvert sprog vises på det sprog. Hybrid er en blanding af begge.",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningstilstand",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Søg",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Sprogskifter",
+    "description": null,
+    "placeholders": null
+  }
+}

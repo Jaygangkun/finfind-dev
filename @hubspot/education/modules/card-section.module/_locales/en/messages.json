@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Card Section",
+    "description": "",
+    "placeholders": null
+  },
+  "content.label": {
+    "message": "Content",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_field.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.default": {
+    "message": "Learn More",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.label": {
+    "message": "Link text",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.default": {
+    "message": "<p style=\"text-align: center;\">Vivamus sagittis lacus vel<br>augue laoreet rutrum.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.label": {
+    "message": "Description",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.default": {
+    "message": "Teachers That Care About Your Success",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.label": {
+    "message": "Title",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.default.alt": {
+    "message": "A classroom lecture",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.icon_field.label": {
+    "message": "Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.label": {
+    "message": "Image and icon",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Override default style",
+    "description": "",
+    "placeholders": null
+  },
+  "style.accent.label": {
+    "message": "Accent color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.icon_fill.label": {
+    "message": "Icon fill color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Style options",
+    "description": "",
+    "placeholders": null
+  }
+}

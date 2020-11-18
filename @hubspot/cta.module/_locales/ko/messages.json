@@ -1,0 +1,12 @@
+{
+  "name": {
+    "message": "행동 유도",
+    "description": null,
+    "placeholders": null
+  },
+  "guid.label": {
+    "message": "CTA",
+    "description": null,
+    "placeholders": null
+  }
+}

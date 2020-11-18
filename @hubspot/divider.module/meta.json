@@ -1,0 +1,15 @@
+{
+  "content_tags": [],
+  "css_assets": [],
+  "editable_contexts": [],
+  "external_js": [],
+  "host_template_types": ["PAGE"],
+  "icon": "../img/icon/Line.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "label": "Divider",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Divider"
+}

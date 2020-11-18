@@ -1,0 +1,70 @@
+[
+  {
+    "label": "Profile image",
+    "name": "profile_image",
+    "type": "image",
+    "required": true,
+    "responsive": true,
+    "resizable": true,
+    "default": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "label": "Profile name",
+    "name": "profile_name",
+    "type": "text",
+    "required": true,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "default": "Joshua Beck"
+  },
+  {
+    "label": "Profile position",
+    "name": "profile_position",
+    "type": "text",
+    "required": true,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "default": "CEO, Co-Founder"
+  },
+  {
+    "label": "Profile bio",
+    "name": "profile_bio",
+    "type": "richtext",
+    "required": true,
+    "default": "<p>Joshua has over 20 years of experience in the tech industry. He helped start this company in 2015 with the mission of helping people grow. In his spare time he loves hanging out with his kids, going to the beach, and cooking.</p>"
+  },
+  {
+    "id": "override_default_style",
+    "label": "Override default style",
+    "name": "override_default_style",
+    "type": "boolean",
+    "help_text": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "default": false
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "override_default_style",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Background color",
+        "name": "background_color",
+        "type": "color",
+        "default": {
+          "color": "#FBF7F1",
+          "opacity": 100
+        }
+      }
+    ]
+  }
+]

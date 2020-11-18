@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Section carte",
+    "description": "",
+    "placeholders": null
+  },
+  "content.label": {
+    "message": "Contenu",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_field.label": {
+    "message": "Lien",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.default": {
+    "message": "En savoir plus",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.label": {
+    "message": "Texte du lien",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.default": {
+    "message": "<p style=\"text-align: center;\">Vivamus sagittis lacus vel<br>augue laoreet rutrum.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.label": {
+    "message": "Description",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.default": {
+    "message": "Des enseignants qui attachent beaucoup d'importance à votre réussite",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.label": {
+    "message": "Titre",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.default.alt": {
+    "message": "Cours théorique",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.icon_field.label": {
+    "message": "Icône",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.label": {
+    "message": "Image et icône",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Activer cette option vous permettra de remplacer les styles de thèmes par défaut. Désactiver cette option reconnectera le module aux styles de thèmes par défaut.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Remplacer le style par défaut",
+    "description": "",
+    "placeholders": null
+  },
+  "style.accent.label": {
+    "message": "Couleur du thème",
+    "description": "",
+    "placeholders": null
+  },
+  "style.icon_fill.label": {
+    "message": "Couleur de remplissage des icônes",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Options de style",
+    "description": "",
+    "placeholders": null
+  }
+}

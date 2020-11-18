@@ -1,0 +1,114 @@
+[
+  {
+    "name": "tier",
+    "label": "Product tier",
+    "type": "text",
+    "default": "Free",
+    "locked": false,
+    "required": false
+  },
+  {
+    "type": "text",
+    "name": "description",
+    "label": "Product description",
+    "default": "For teams that need additional security, control, and support."
+  },
+  {
+    "name": "price",
+    "label": "Price",
+    "type": "text",
+    "default": "$0",
+    "locked": false,
+    "required": false
+  },
+  {
+    "name": "timeframe",
+    "label": "Price timeframe",
+    "type": "text",
+    "default": "/ mo",
+    "locked": false,
+    "required": false
+  },
+  {
+    "name": "features",
+    "label": "Features",
+    "type": "text",
+    "occurrence": { "min": 1, "max": 50, "default": 4 },
+    "default": [
+      "10 users included",
+      "2 GB of storage",
+      "Email support",
+      "Help center access"
+    ],
+    "show_emoji_picker": true,
+    "locked": false,
+    "required": false
+  },
+  {
+    "default": "Sign up for free",
+    "label": "Button text",
+    "locked": false,
+    "name": "button_text",
+    "required": false,
+    "type": "text"
+  },
+  {
+    "label" : "Button link",
+    "name" : "button_link",
+    "type" : "link",
+    "supported_types" : [ "EXTERNAL", "CONTENT", "EMAIL_ADDRESS" ],
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  },
+  {
+    "type": "icon",
+    "label": "Features list icon bullet",
+    "name": "feature_icon",
+    "default": {
+      "name": "check",
+      "type": "SOLID",
+      "unicode": "f00c"
+    }
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "children": [
+      {
+        "type": "color",
+        "name": "bg_color",
+        "label": "Background color",
+        "default": {
+          "color": "#FFFFFF",
+          "opacity": 0
+        }
+      },
+      {
+        "type": "color",
+        "name": "button_bg",
+        "label": "Button background color",
+        "default": {
+          "color": "#494A52",
+          "opacity": 100
+        }
+      },
+      {
+        "type": "color",
+        "name": "button_text_color",
+        "label": "Button text color",
+        "default": {
+          "color": "#FFFFFF",
+          "opacity": 100
+        }
+      }
+    ]
+  }
+]

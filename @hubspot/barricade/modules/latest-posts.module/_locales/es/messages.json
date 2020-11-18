@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Últimas publicaciones",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "Selecciona el blog para extraer publicaciones",
+    "description": "",
+    "placeholders": null
+  },
+  "count.label": {
+    "message": "Número de publicaciones para extraer",
+    "description": "",
+    "placeholders": null
+  }
+}

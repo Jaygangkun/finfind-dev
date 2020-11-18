@@ -1,0 +1,17 @@
+{
+  "value.default": {
+    "message": "Alcune informazioni aggiuntive in una riga",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Testo",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Una riga di testo",
+    "description": null,
+    "placeholders": null
+  }
+}

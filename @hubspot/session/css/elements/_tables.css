@@ -1,0 +1,43 @@
+/* Tables */
+
+table {
+  background-color: #fff;
+  border: 1px solid #d2e9fc;
+  border-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #d2e9fc;
+  padding: 15px;
+  vertical-align: top;
+}
+
+tr:nth-child(odd) {
+  background-color: #eff7ff;
+}
+
+thead th,
+thead td {
+  background-color: #00326d;
+  border: none;
+  border-bottom-width: 2px;
+  color: #fff;
+}
+
+thead th {
+  border-bottom: none;
+  vertical-align: bottom;
+}
+
+tbody + tbody {
+  border-top: none;
+}
+
+/* Table Footer */
+
+tfoot td {
+  background-color: #fff;
+  color: #00326d;
+}

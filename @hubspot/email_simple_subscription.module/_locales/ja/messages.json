@@ -1,0 +1,47 @@
+{
+  "button_text.default": {
+    "message": "サブスクライブ解除",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "ボタンテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Eメールのサブスクライブ解除",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "ヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Eメールアドレス：",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Eメール入力のヘルプテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Eメール入力のプレースホルダーテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "配信解除をバックアップ",
+    "description": null,
+    "placeholders": null
+  }
+}

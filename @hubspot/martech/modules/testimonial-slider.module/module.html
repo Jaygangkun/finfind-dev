@@ -1,0 +1,74 @@
+<div id="testimonial-slider--{{ name }}" class="testimonials">
+  {% for testimonial in module.testimonial_carousel %}
+  <div>
+    <div class="testimonial__module flex mobile-col">
+        <div class="testimonial__module__image" style="background-image: url({{ testimonial.testimonial_image.src }});" title="{{ testimonial.testimonial_image.alt }}">
+        </div>
+        <div class="testimonial__module__text">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+            <path class="blockquote-icon" d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/>
+          </svg>
+          <div class="testimonial__module__text--quote">
+            <blockquote>{{ testimonial.content }}</blockquote>
+          </div>
+          <div class="testimonial__module__text--author">{{ testimonial.author }}</div>
+          <div class="testimonial__module__text--subtitle">{{ testimonial.author_title }}</div>
+        </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% if module.override_default_style %}
+{% require_css %}
+<style>
+  #hs_cos_wrapper_{{ name }} .testimonial__module {
+    background-color: rgba({{ module.style.background_color.color|convert_rgb }},{{ module.style.background_color.opacity / 100 }});
+  }
+  #hs_cos_wrapper_{{ name }} blockquote,
+  #hs_cos_wrapper_{{ name }} blockquote p,
+  #hs_cos_wrapper_{{ name }} blockquote h1,
+  #hs_cos_wrapper_{{ name }} blockquote h2,
+  #hs_cos_wrapper_{{ name }} blockquote h3,
+  #hs_cos_wrapper_{{ name }} blockquote h4,
+  #hs_cos_wrapper_{{ name }} blockquote h5,
+  #hs_cos_wrapper_{{ name }} blockquote h6,
+  #hs_cos_wrapper_{{ name }} .testimonial__module__text--author,
+  #hs_cos_wrapper_{{ name }} .testimonial__module__text--subtitle {
+    color: {{ module.style.text_color.color }};
+  }
+  #hs_cos_wrapper_{{ name }} blockquote {
+    border-color: {{ module.style.quote_color.color }};
+  }
+  #hs_cos_wrapper_{{ name }} .blockquote-icon {
+    fill: {{ module.style.quote_color.color }};
+  }
+  #hs_cos_wrapper_{{ name }} .tns-nav button {
+    background-color: {{ module.style.navigation_color.color }};
+  }
+  #hs_cos_wrapper_{{ name }} .tns-nav .tns-nav-active {
+    background-color: {{ module.style.navigation_active_color.color }};
+  }
+</style>
+{% end_require_css %}
+{% endif %}
+
+{% require_js %}
+<script>
+  var slider = tns({
+    arrowKeys: true,
+    axis: 'horizontal',
+    navPosition: 'bottom',
+    container: '#testimonial-slider--{{ name }}',
+    controls: false,
+    mouseDrag: true,
+    nav: true,
+    responsive: {
+      981: {
+        axis: 'vertical',
+        navPosition: 'top'
+      }
+    }
+  });
+</script>
+{% end_require_js %}

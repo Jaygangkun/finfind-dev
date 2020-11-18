@@ -1,0 +1,14 @@
+{
+  "label": "Vitality",
+  "preview_path": "./templates/home.html",
+  "screenshot_path": "./images/template-previews/vitality.png",
+  "responsive_breakpoints": [
+    {
+      "name": "mobile",
+      "mediaQuery": "@media (max-width: 767px)",
+      "previewWidth": {
+        "value": 477
+      }
+    }
+  ]
+}

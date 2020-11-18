@@ -1,0 +1,176 @@
+/* System Pages */
+
+.error-page {
+  padding: 10rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.error-page:before {
+  color: #f3f6f9;
+  content: attr(data-error);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40vw;
+  font-style: normal;
+  font-weight: bold;
+  left: 50%;
+  position: absolute;
+  text-decoration: none;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+}
+
+@media screen and (min-width: 1100px) {
+  .error-page:before {
+    font-size: 20rem;
+  }
+}
+
+/* System Pages */
+
+.systems-page {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.systems-page .success {
+  background-color: #cde3cc;
+  border: 1px solid #4f7d24;
+  border-radius: 4px;
+  color: #4f7d24;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 2rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+}
+
+/* Search Results Page */
+
+.systems-page--left-aligned {
+  text-align: left;
+}
+
+.hs-search-results {
+  margin-top: 2rem;
+}
+
+ul.hs-search-results__listing li {
+  margin-bottom: 2rem;
+}
+
+.hs-search-results__title {
+  color: #252425;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 0.25rem;
+  text-decoration: none;
+}
+
+.hs-search-results__title:hover {
+  font-family: 'Libre Baskerville', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.hs-search-results__description {
+  padding-top: 0.5rem;
+}
+
+.hs-search-highlight {
+  font-weight: bold;
+}
+
+/* Forms in System Pages */
+
+.systems-page form ::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.systems-page form ::-moz-placeholder {
+  opacity: 1;
+}
+
+.systems-page form :-ms-input-placeholder {
+  opacity: 1;
+}
+
+.systems-page form :-moz-placeholder {
+  opacity: 1;
+}
+
+#email-prefs-form h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#email-prefs-form input[type='text'],
+#email-prefs-form input[type='email'],
+#email-prefs-form input[type='password'],
+#hs_cos_wrapper_password_prompt input[type='password'],
+#email-prefs-form input[type='tel'],
+#email-prefs-form input[type='number'],
+#email-prefs-form input[type='file'],
+#email-prefs-form select,
+#email-prefs-form textarea {
+  padding: 0.969rem !important;
+}
+
+#hs_cos_wrapper_password_prompt input[type='password'] {
+  height: auto !important;
+}
+
+#email-prefs-form .checkbox-row {
+  margin-bottom: 0.25rem;
+}
+
+#email-prefs-form .checkbox-row .fakelabel,
+#email-prefs-form .subscribe-options label {
+  display: flex;
+}
+
+#email-prefs-form .subscribe-options label {
+  align-items: center;
+}
+
+#email-prefs-form .checkbox-row .fakelabel input,
+#email-prefs-form .subscribe-options input {
+  margin-right: 0.25rem;
+}
+#email-prefs-form .checkbox-row .fakelabel input,
+#email-prefs-form .checkbox-row .fakelabel span {
+  line-height: 1;
+}
+
+#email-prefs-form .item-inner {
+  margin-bottom: 1.5rem;
+}
+
+#email-prefs-form .item-inner > p {
+  font-style: italic;
+}
+
+/* Password Prompt */
+
+.password-prompt input[type='password'] {
+  height: auto !important;
+  margin-bottom: 20px;
+}
+
+/* Backup Unsubscribe */
+
+.backup-unsubscribe #email-prefs-form div {
+  padding-bottom: 0 !important;
+}
+
+.backup-unsubscribe input[type='email'] {
+  margin-bottom: 20px;
+  padding: 20px !important;
+}

@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Avaa linkit uudessa ikkunassa",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Malliotsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Seuraa minua",
+    "description": null,
+    "placeholders": null
+  }
+}

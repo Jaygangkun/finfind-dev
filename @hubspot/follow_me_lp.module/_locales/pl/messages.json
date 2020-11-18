@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Środek",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Po lewej",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Po prawej",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Dopasowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Czarno-biały",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Szary",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Biały",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Schemat kolorów",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Ikona i tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Wyświetl",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Styl czcionki",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Okrągły",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Oryginał",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Kwadrat",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Kształt ikony",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Skala",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Sieć społecznościowa",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Ikona niestandardowa",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "Adres e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Witryna internetowa",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Sieć",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Obraz sieci",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Tekst dodatkowy",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Tylko tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Obserwuj – LP",
+    "description": "",
+    "placeholders": null
+  }
+}

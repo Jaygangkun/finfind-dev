@@ -1,0 +1,19 @@
+{
+  "content_tags": [
+    { "name": "OTHER_INDUSTRY", "source": "MARKETPLACE" },
+    { "name": "COMPATIBLE_EMAIL", "source": "MARKETPLACE" }
+  ],
+  "css_assets": [],
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-email_simple_subscription",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/high-forms-1.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Backup Unsubscribe"
+}

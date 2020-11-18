@@ -1,0 +1,87 @@
+{
+  "expand_link_text.default": {
+    "message": "Wyświetl wszystko",
+    "description": null,
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Tekst wyświetlany, jeśli wartość do wyświetlenia jest większa niż dostępne miejsce. Pozostaw to miejsce puste, aby ominąć łącze.",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autorzy",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Miesiące",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tagi",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lista wartości łączy filtra",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Wpisy według tagu",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Tytuł listy do wyświetlenia",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maksymalna liczba filtrów do wyświetlenia. Pozostaw to miejsce puste, aby wyświetlić wszystkie",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nazwa",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Liczba wpisów",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Kolejność wartości łączy filtra",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Ustawienie domyślne zastosuje obecny blog w szablonie bloga lub blog podstawowy w każdym innym miejscu.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Wybierz blog do wyświetlenia",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Filtrowanie wpisów",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "list_title.default": {
+    "message": "Viimeaikaiset julkaisut",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Näytettävä luettelo-otsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Suosituin – aina",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Suosituin – kulunut kuukausi",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Suosituin – kuluneet kuusi kuukautta",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Suosituin – kulunut vuosi",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Uusin",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Luettele blogikirjoitukset seuraavan mukaan",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Hae",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Lueteltavien blogikirjoitusten enimmäismäärä",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Oletusasetus käyttää nykyistä blogia blogitemplaattina tai ensisijaista blogia muussa käytössä.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Valitse näytettävä blogi",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Julkaisuluettelo",
+    "description": null,
+    "placeholders": null
+  }
+}

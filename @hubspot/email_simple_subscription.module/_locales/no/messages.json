@@ -1,0 +1,47 @@
+{
+  "button_text.default": {
+    "message": "Avslutt abonnement",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Knappetekst",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Stopp e-postabonnement",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Topptekst",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "E-postadressen din:",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Hjelpetekst for e-post",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Plassholdertekst for e-post",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Avslutt sikkerhetskopi",
+    "description": null,
+    "placeholders": null
+  }
+}

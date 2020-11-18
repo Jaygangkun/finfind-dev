@@ -1,0 +1,15 @@
+{
+  "name":"barricade_theme",
+  "label":"Barricade",
+  "preview_path":"./templates/home.html",
+  "screenshot_path": "./images/template-previews/home.png",
+  "responsive_breakpoints": [
+    {
+      "name": "mobile",
+      "mediaQuery": "@media (max-width: 767px)",
+      "previewWidth": {
+        "value": 477
+      }
+    }
+  ]
+}

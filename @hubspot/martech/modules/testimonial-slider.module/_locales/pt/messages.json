@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Controle deslizante de testemunhos",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Ativar esta opção permitirá substituir os estilos do tema padrão. Desativar esta opção reconectará o módulo aos estilos do tema padrão.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Substituir estilo padrão",
+    "description": "",
+    "placeholders": null
+  },
+  "style.background_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Opções de estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.navigation_active_color.label": {
+    "message": "Cor de navegação ativa",
+    "description": "",
+    "placeholders": null
+  },
+  "style.navigation_color.label": {
+    "message": "Cor de navegação",
+    "description": "",
+    "placeholders": null
+  },
+  "style.quote_color.label": {
+    "message": "Cor do orçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "style.text_color.label": {
+    "message": "Cor do texto",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.default": {
+    "message": "Mary Kindler",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.label": {
+    "message": "Autor",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.default": {
+    "message": "Fundador da Syntecho",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.label": {
+    "message": "Título do autor",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.default": {
+    "message": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.label": {
+    "message": "Texto de testemunho",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.label": {
+    "message": "Testemunhos",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.default.alt": {
+    "message": "Imagem de espaço reservado",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.label": {
+    "message": "Imagem de testemunhos",
+    "description": "",
+    "placeholders": null
+  }
+}

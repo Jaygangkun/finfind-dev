@@ -1,0 +1,27 @@
+{
+  "banner_heading.default": {
+    "message": "<h4>Lorem ipsum dolor sit amet, consectetur.</h4>",
+    "description": "",
+    "placeholders": null
+  },
+  "banner_heading.label": {
+    "message": "En-tête de bannière",
+    "description": "",
+    "placeholders": null
+  },
+  "banner_images.banner_image.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "banner_images.label": {
+    "message": "Images de bannières",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Bannière technologique",
+    "description": "",
+    "placeholders": null
+  }
+}

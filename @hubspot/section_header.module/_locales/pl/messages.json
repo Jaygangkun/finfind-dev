@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "Nagłówek przeźroczysty i pogrubiony",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Treść nagłówka sekcji",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Bardziej wyważona druga linia nagłówka",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Podtytuł sekcji",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Nagłówek sekcji",
+    "description": null,
+    "placeholders": null
+  }
+}

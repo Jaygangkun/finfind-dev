@@ -1,0 +1,167 @@
+{
+  "attribution_text.default": {
+    "message": "基準",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.help_text": {
+    "message": "投稿者を記事に関連付けるテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.label": {
+    "message": "投稿者属性テキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.default": {
+    "message": "続きを読む",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.help_text": {
+    "message": "記事サマリーの最後でクリックスルーリンクに表示されるテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.label": {
+    "message": "サマリークリックスルーテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "content_group_id.label": {
+    "message": "ブログ",
+    "description": null,
+    "placeholders": null
+  },
+  "include_featured_image.label": {
+    "message": "サムネイル画像を含む",
+    "description": null,
+    "placeholders": null
+  },
+  "limit_to_chars.label": {
+    "message": "サマリーの長さを制限（文字数）",
+    "description": null,
+    "placeholders": null
+  },
+  "number_of_items.label": {
+    "message": "記事の最大表示数",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.MMMM d, yyyy 'at' h:mm a": {
+    "message": "2006年6月6日12:00 pm",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.h:mm a 'on' MMMM d, yyyy": {
+    "message": "2006年6月6日の12:00 pm",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.long": {
+    "message": "2017年6月6日12:00:00 pm EDT",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.medium": {
+    "message": "2006年6月6日12:00:00 pm",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.short": {
+    "message": "06/11/06 12:00PM",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.help_text": {
+    "message": "公開日の形式",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.label": {
+    "message": "公開日の形式",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.placeholder": {
+    "message": "日付の形式を選択",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.default": {
+    "message": "投稿日時",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.help_text": {
+    "message": "記事の公開日時を示すテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.label": {
+    "message": "公開日インジケーターテキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.blog": {
+    "message": "HubSpotでホストされたブログを使用",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.external": {
+    "message": "外部のRSSフィードを使用",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.label": {
+    "message": "RSSフィードを追加",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.placeholder": {
+    "message": "検索",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_url.label": {
+    "message": "RSS URL",
+    "description": null,
+    "placeholders": null
+  },
+  "show_author.label": {
+    "message": "投稿者名を表示",
+    "description": null,
+    "placeholders": null
+  },
+  "show_date.label": {
+    "message": "公開日を表示",
+    "description": null,
+    "placeholders": null
+  },
+  "show_detail.label": {
+    "message": "サマリーを表示",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "テスト",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "RSSモジュールヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "topic_id.label": {
+    "message": "タグによる絞り込み",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "RSSリスティング",
+    "description": null,
+    "placeholders": null
+  }
+}

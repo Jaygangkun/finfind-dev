@@ -1,0 +1,74 @@
+{
+  "content_tags": [
+    { "name": "OTHER_INDUSTRY", "source": "MARKETPLACE" },
+    { "name": "COMPATIBLE_ANY", "source": "MARKETPLACE" }
+  ],
+  "css_assets": [],
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-follow_me",
+  "host_template_types": ["PAGE", "BLOG_LISTING", "BLOG_POST"],
+  "icon": "../img/icon/edited-social.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_assets": [
+    {
+      "resource_id": null,
+      "url": "../img/youtube_legacy_color.png",
+      "name": "youtube_legacy_color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/pinterest_legacy_color.png",
+      "name": "pinterest_legacy_color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/rss_legacy_color.png",
+      "name": "rss_legacy_color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/default_legacy_color.png",
+      "name": "default_legacy_color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/linkedin_legacy_color.png",
+      "name": "linkedin_legacy_color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/twitter_legacy_color.png",
+      "name": "twitter_legacy_color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/facebook_legacy_color.png",
+      "name": "facebook_legacy_color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/instagram_legacy_color.png",
+      "name": "instagram_legacy_color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/xing_legacy_color.png",
+      "name": "xing_legacy_color.png",
+      "autoload": false
+    }
+  ],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Follow Me"
+}

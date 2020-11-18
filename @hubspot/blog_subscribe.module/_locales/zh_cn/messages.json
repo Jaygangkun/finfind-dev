@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "感谢订阅！",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "用户内联响应",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "默认情况下，系统会在博客模板中使用当前的博客，而在其他地方使用主要博客。",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "选择要显示的博客",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "在此订阅！",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "在表单上方显示的标题",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "博客电邮订阅",
+    "description": null,
+    "placeholders": null
+  }
+}

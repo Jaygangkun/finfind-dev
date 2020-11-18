@@ -1,0 +1,80 @@
+[
+  {
+    "id": "73cbe3fb-02bc-1abd-756e-66245839605e",
+    "name": "select_blog",
+    "label": "Select blog to display",
+    "help_text": "Default will use the current blog when used in a blog template or the primary blog when used elsewhere.",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "type": "blog",
+    "default": null
+  },
+  {
+    "id": "c24e1e67-7c21-3043-9d88-c94de5d0271e",
+    "name": "filter_type",
+    "label": "List of values for filter links",
+    "sortable": false,
+    "required": true,
+    "locked": false,
+    "display": "select",
+    "placeholder": "Search",
+    "choices": [["tag", "Tags"], ["month", "Months"], ["author", "Authors"]],
+    "type": "choice",
+    "default": "tag"
+  },
+  {
+    "id": "3e466128-e4a1-4941-78de-302e35e54da6",
+    "name": "order_by",
+    "label": "Ordering of values for filter links",
+    "sortable": false,
+    "required": true,
+    "locked": false,
+    "display": "select",
+    "placeholder": "Search",
+    "choices": [["post_count", "Post Count"], ["name", "Name"]],
+    "type": "choice",
+    "default": "post_count"
+  },
+  {
+    "id": "b0535ebe-60a8-e80a-ce97-bd91a199dccd",
+    "name": "list_title",
+    "label": "List title to display",
+    "help_text": "",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "Posts by Tag"
+  },
+  {
+    "id": "b5382e40-8fd2-9e9e-8715-6353057bedf6",
+    "name": "max_links",
+    "label": "Maximum number of filter values to display. Leave blank to show all",
+    "help_text": "",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "display": "text",
+    "min": 1,
+    "step": 1,
+    "type": "number",
+    "default": 5
+  },
+  {
+    "id": "5fec867a-b73f-b4c9-eb1f-cf8dd0ed6244",
+    "name": "expand_link_text",
+    "label": "Text to display if more than the maximum value to display are available. Leave blank to omit link",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "See all"
+  }
+]

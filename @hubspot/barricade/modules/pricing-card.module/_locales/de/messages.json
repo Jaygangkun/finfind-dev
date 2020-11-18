@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Preiskarte",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Button-Link",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Kostenlos anmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Button-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "Für Teams, die zusätzliche Sicherheit, Kontrolle und Unterstützung benötigen.",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "Produktbeschreibung",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Aufzählungszeichensymbol für Funktionsliste",
+    "description": "",
+    "placeholders": null
+  },
+  "features.default": {
+    "message": "10 Benutzer enthalten",
+    "description": "",
+    "placeholders": null
+  },
+  "features.label": {
+    "message": "Funktionen",
+    "description": "",
+    "placeholders": null
+  },
+  "price.default": {
+    "message": "0 USD",
+    "description": "",
+    "placeholders": null
+  },
+  "price.label": {
+    "message": "Preis",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.large": {
+    "message": "Groß",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.regular": {
+    "message": "Normal",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.small": {
+    "message": "Klein",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.label": {
+    "message": "Button-Größe",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.primary": {
+    "message": "Primär",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.secondary": {
+    "message": "Sekundär",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.simple": {
+    "message": "Einfach",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.label": {
+    "message": "Button-Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stiloptionen",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.default": {
+    "message": "Kostenlos",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.label": {
+    "message": "Produktstufe",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.default": {
+    "message": "/Monat",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.label": {
+    "message": "Zeitraum für Preis",
+    "description": "",
+    "placeholders": null
+  }
+}

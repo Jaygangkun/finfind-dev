@@ -1,0 +1,167 @@
+{
+  "attribution_text.default": {
+    "message": "julkaisija:",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.help_text": {
+    "message": "Teksti, joka yhdistää tekijän julkaisuun",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.label": {
+    "message": "Kirjoittajaan yhdistettävä teksti",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.default": {
+    "message": "Lisätietoja",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.help_text": {
+    "message": "Teksti, joka näkyy kirjoitusyhteenvedon lopussa olevassa napsautettavassa linkissä",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.label": {
+    "message": "Yhteenvedon napsautettava teksti",
+    "description": null,
+    "placeholders": null
+  },
+  "content_group_id.label": {
+    "message": "Blogi",
+    "description": null,
+    "placeholders": null
+  },
+  "include_featured_image.label": {
+    "message": "Sisällytä aiheeseen kuuluva kuva",
+    "description": null,
+    "placeholders": null
+  },
+  "limit_to_chars.label": {
+    "message": "Yhteenvedon pituusrajoitus (merkkimäärä)",
+    "description": null,
+    "placeholders": null
+  },
+  "number_of_items.label": {
+    "message": "Näytettävien kirjoitusten enimmäismäärä",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.MMMM d, yyyy 'at' h:mm a": {
+    "message": "6. kesäkuuta 2006, klo 12.00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.h:mm a 'on' MMMM d, yyyy": {
+    "message": "6. kesäkuuta 2006, klo 12.00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.long": {
+    "message": "6. kesäkuuta 2017 klo 12:00:00 EDT",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.medium": {
+    "message": "6. kesäkuuta 2006, klo 12.00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.short": {
+    "message": "11.06.06, klo 12.00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.help_text": {
+    "message": "Muotoile julkaisupäivämäärää",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.label": {
+    "message": "Julkaise päivämäärämuoto",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.placeholder": {
+    "message": "Valitse päivämäärämuoto",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.default": {
+    "message": "julkaistu",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.help_text": {
+    "message": "Teksti, joka osoittaa, milloin kirjoitus on julkaistu",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.label": {
+    "message": "Julkaisupäivämäärän osoittava teksti",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.blog": {
+    "message": "Käytä HubSpotin isännöimää blogia",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.external": {
+    "message": "Käytä ulkoista RSS-syötettä",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.label": {
+    "message": "Lisää RSS-syöte",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.placeholder": {
+    "message": "Hae",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_url.label": {
+    "message": "RSS-URL",
+    "description": null,
+    "placeholders": null
+  },
+  "show_author.label": {
+    "message": "Katso kirjoittajan nimi",
+    "description": null,
+    "placeholders": null
+  },
+  "show_date.label": {
+    "message": "Katso julkaisupäivämäärä",
+    "description": null,
+    "placeholders": null
+  },
+  "show_detail.label": {
+    "message": "Katso yhteenveto",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Testi",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "RSS-moduulin yläotsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "topic_id.label": {
+    "message": "Suodata tunnisteen mukaan",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "RSS-luettelo",
+    "description": null,
+    "placeholders": null
+  }
+}

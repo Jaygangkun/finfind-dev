@@ -1,0 +1,42 @@
+{
+  "name": {
+    "message": "Logo-Galerie",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Erkannt von",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Überschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Agriflora-Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Logo-Bilder",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Hintergrundfarbe für Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Vordergrundfarbe für Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stiloptionen",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Na střed",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Doleva",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Doprava",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Zarovnání",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Černobílé",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Šedá",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Bílá",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Barevné schéma",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Ikona a text",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Zobrazení",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Styl písma",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Kruh",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Původní",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Čtverec",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Tvar ikony",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Měřítko",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Sociální síť",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Vlastní ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Webové stránky",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Síť",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Obrázek sítě",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Doprovodný text",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Mezery",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Pouze text",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Sledujte mě – LP",
+    "description": "",
+    "placeholders": null
+  }
+}

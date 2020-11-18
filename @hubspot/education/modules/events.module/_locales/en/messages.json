@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Events",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.default": {
+    "message": "2 Canal Park, Cambridge, MA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.label": {
+    "message": "Address",
+    "description": "",
+    "placeholders": null
+  },
+  "event.date.label": {
+    "message": "Date and time",
+    "description": "",
+    "placeholders": null
+  },
+  "event.event_icon.label": {
+    "message": "Event icon",
+    "description": "",
+    "placeholders": null
+  },
+  "event.label": {
+    "message": "Events",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.default": {
+    "message": "Learn more",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.label": {
+    "message": "Link text",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.default": {
+    "message": "SEMI-ANNUAL EDUCATION GALA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.label": {
+    "message": "Title",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.label": {
+    "message": "Heading content",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_icon.label": {
+    "message": "Heading icon",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link.label": {
+    "message": "Heading link",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.default": {
+    "message": "View all",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.label": {
+    "message": "Heading link text",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.default": {
+    "message": "Upcoming Events",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.label": {
+    "message": "Heading",
+    "description": "",
+    "placeholders": null
+  }
+}

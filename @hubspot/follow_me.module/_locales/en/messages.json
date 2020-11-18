@@ -1,0 +1,42 @@
+{
+  "links.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "links.label": {
+    "message": "Open links in new window",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "title.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Module header",
+    "description": "",
+    "placeholders": null
+  },
+  "title.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "title.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Follow Me",
+    "description": null,
+    "placeholders": null
+  }
+}

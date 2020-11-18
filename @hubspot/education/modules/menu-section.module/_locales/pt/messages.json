@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Seção de menu",
+    "description": "",
+    "placeholders": null
+  },
+  "duplicate_mobile_menu.label": {
+    "message": "Menu móvel duplicado",
+    "description": "",
+    "placeholders": null
+  },
+  "primary_menu_field.label": {
+    "message": "Campo de menu principal",
+    "description": "",
+    "placeholders": null
+  }
+}

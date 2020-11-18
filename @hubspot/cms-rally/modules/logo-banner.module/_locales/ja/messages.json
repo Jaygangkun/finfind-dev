@@ -1,0 +1,52 @@
+{
+  "header_text.default": {
+    "message": "サポートしてきた会社の一例：",
+    "description": "",
+    "placeholders": null
+  },
+  "header_text.label": {
+    "message": "ヘッダーテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Agrifloraのロゴ",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.src": {
+    "message": "https://cdn2.hubspot.net/hubfs/7303166/Logos/white/agriflora.png",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.help_text": {
+    "message": "ここにロゴ画像をアップロード",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "ロゴ画像",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "ロゴバナー",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "バナーの背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "バナーの前景色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "スタイルオプション",
+    "description": "",
+    "placeholders": null
+  }
+}

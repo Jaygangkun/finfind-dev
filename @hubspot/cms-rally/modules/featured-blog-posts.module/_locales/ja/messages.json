@@ -1,0 +1,52 @@
+{
+  "blog_link.label": {
+    "message": "リンク",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_icon.label": {
+    "message": "リンクアイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.default": {
+    "message": "Lorem ipsum",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.label": {
+    "message": "リンクテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_colors.label": {
+    "message": "投稿の色",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "目玉のブログ記事",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "投稿を目玉にするブログを選択",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "ブログを選択",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.help_text": {
+    "message": "ブログの特定のタグのみを目玉にする場合は、ここで選択します。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.label": {
+    "message": "タグを選択",
+    "description": "",
+    "placeholders": null
+  }
+}

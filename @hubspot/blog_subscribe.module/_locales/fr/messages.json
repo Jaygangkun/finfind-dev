@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Merci pour votre abonnement !",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Réponse incluse pour les utilisateurs",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Par défaut, utiliser le blog actuel lorsqu'il est utilisé dans un modèle de blog ou le blog principal lorsqu'il est utilisé ailleurs.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Sélectionner un blog à afficher",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Abonnez-vous ici !",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titre à afficher au-dessus du formulaire",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Abonnement par e-mail au blog",
+    "description": null,
+    "placeholders": null
+  }
+}

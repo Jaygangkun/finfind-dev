@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "N1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "N2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "N3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "N4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "N1 je největší, N2 o něco menší atd.",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Typ nadpisu",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Hledat",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Dobře čitelný, výrazný nadpis",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Obsah nadpisu",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Nadpis",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Skrýt ovládací prvky na úrovni nadpisu",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Skrytí ovládacích prvků na úrovni nadpisu znemožní změny na úrovni nadpisu v nástrojích obsahu",
+    "description": null,
+    "placeholders": null
+  }
+}

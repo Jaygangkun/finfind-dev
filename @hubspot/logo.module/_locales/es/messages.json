@@ -1,0 +1,52 @@
+{
+  "link.help_text": {
+    "message": "Si no se especifica una URL, tu logotipo se enlazará con tu dominio principal",
+    "description": null,
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "Enlazar URL",
+    "description": null,
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Cuando los usuarios hagan clic, abrir enlace en una nueva pestaña",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logotipo",
+    "description": null,
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "Elige un estilo de encabezado. H1 es el más grande, seguido del H2, y así sucesivamente.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "Estilo de encabezado",
+    "description": "",
+    "placeholders": null
+  }
+}

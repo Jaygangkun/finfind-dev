@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "Seção do cartão",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_link.label": {
+    "message": "Link do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_text.default": {
+    "message": "Saiba mais",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "card.image.label": {
+    "message": "Imagem",
+    "description": "",
+    "placeholders": null
+  },
+  "card.label": {
+    "message": "Cartão",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.default": {
+    "message": "A publicidade contextual pode ser lucrativa. Ela pode até mesmo pagar pelos custos de hospedagem e manutenção do seu site ou compensar ainda mais.",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.default": {
+    "message": "Isso é um título",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.label": {
+    "message": "Título",
+    "description": "",
+    "placeholders": null
+  }
+}

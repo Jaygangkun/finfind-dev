@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Κεφαλίδα",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Μια σαφής και έντονη κεφαλίδα",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 είναι το μεγαλύτερο, ακολουθεί το H2, κ.ο.κ.",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Τύπος κεφαλίδας",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Περιεχόμενο κεφαλίδας",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Απόκρυψη στοιχείων ελέγχου επιπέδου κεφαλίδας",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Με την απόκρυψη των στοιχείων ελέγχου επιπέδου κεφαλίδας δεν θα είναι δυνατή η μεταβολή του επιπέδου κεφαλίδας στα εργαλεία περιεχομένου",
+    "description": null,
+    "placeholders": null
+  }
+}

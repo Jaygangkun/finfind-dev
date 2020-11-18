@@ -1,0 +1,37 @@
+{
+  "bad_password_message.default": {
+    "message": "Désolé, veuillez réessayer.",
+    "description": null,
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Message de mauvais mot de passe",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Invite de mot de passe",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Mot de passe",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Variable de mot de passe",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Soumettre",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Texte du bouton de soumission",
+    "description": null,
+    "placeholders": null
+  }
+}

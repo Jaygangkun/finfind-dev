@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "センター",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "左",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "右",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "アラインメント（位置合わせ）",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "白黒",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "グレー",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "白",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "カラースキーム",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "アイコンとテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "テキストのみ",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "表示",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "フォントのスタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "円",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "オリジナル",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "四角",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "アイコンの形状",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Follow Me - LP",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "スケール",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "ソーシャルネットワーク",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "カスタムアイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "Eメール",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "ウェブサイト",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "ネットワーク",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "ネットワーク画像",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "サポートテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  }
+}

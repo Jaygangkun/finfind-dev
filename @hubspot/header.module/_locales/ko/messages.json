@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "제목",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "굵은체의 선명한 제목",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1이 가장 크고 H2는 그 다음으로 큰 순서입니다.",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "검색",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "제목 유형",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "제목 내용",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "헤더 수준 제어 숨기기",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "헤더 수준 제어를 숨기면 콘텐츠 도구에서 헤더 수준이 변경되지 않습니다.",
+    "description": null,
+    "placeholders": null
+  }
+}

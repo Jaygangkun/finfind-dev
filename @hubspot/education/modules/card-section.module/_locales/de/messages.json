@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Kartenbereich",
+    "description": "",
+    "placeholders": null
+  },
+  "content.label": {
+    "message": "Content",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_field.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.default": {
+    "message": "Mehr erfahren",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.label": {
+    "message": "Link-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.default": {
+    "message": "<p style=\"text-align: center;\">Vivamus sagittis lacus vel<br>augue laoreet rutrum.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.label": {
+    "message": "Beschreibung",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.default": {
+    "message": "Kursleiter, denen Ihr Erfolg wichtig ist",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.default.alt": {
+    "message": "Eine Vor-Ort-Lektion",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.label": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.icon_field.label": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.label": {
+    "message": "Bild und Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Wenn Sie diese Option aktivieren, können Sie die Standard-Designstile außer Kraft setzen. Durch Deaktivieren dieser Option wird das Modul wieder mit den Standard-Designstilen verknüpft.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Standardstil überschreiben",
+    "description": "",
+    "placeholders": null
+  },
+  "style.accent.label": {
+    "message": "Akzentfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "style.icon_fill.label": {
+    "message": "Symbolfüllfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stiloptionen",
+    "description": "",
+    "placeholders": null
+  }
+}

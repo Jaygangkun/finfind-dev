@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "En klar og tydelig overskrift",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Afsnittets overskriftindhold",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "En lidt mere beskeden underoverskrift",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Afsnittets underoverskrift",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Sektionsoverskrift",
+    "description": null,
+    "placeholders": null
+  }
+}

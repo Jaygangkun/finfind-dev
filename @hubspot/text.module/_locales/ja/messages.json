@@ -1,0 +1,17 @@
+{
+  "value.default": {
+    "message": "1行の追加情報",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "テキスト",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "1行テキスト",
+    "description": null,
+    "placeholders": null
+  }
+}

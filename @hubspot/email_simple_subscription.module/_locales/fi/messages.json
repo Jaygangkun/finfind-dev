@@ -1,0 +1,47 @@
+{
+  "button_text.default": {
+    "message": "Peru tilaus",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Painiketeksti",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Sähköpostitilauksen lopettaminen",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Yläotsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Sähköpostiosoitteesi:",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Sähköpostisyötteen ohjeteksti",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Sähköpostisyötteen paikkamerkkiteksti",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Varmuuskopioi tilauksen lopettaminen",
+    "description": null,
+    "placeholders": null
+  }
+}

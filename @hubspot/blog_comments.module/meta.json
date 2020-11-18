@@ -1,0 +1,19 @@
+{
+  "content_tags": [
+    { "name": "OTHER_INDUSTRY", "source": "MARKETPLACE" },
+    { "name": "COMPATIBLE_BLOG", "source": "MARKETPLACE" }
+  ],
+  "css_assets": [],
+  "editable_contexts": ["TEMPLATE"],
+  "external_js": [],
+  "extra_classes": "widget-type-blog_comments",
+  "host_template_types": ["BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-comments.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Blog Comments"
+}

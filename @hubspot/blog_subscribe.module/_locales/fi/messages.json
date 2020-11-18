@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Kiitos tilauksesta!",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Avoin vastaus käyttäjille",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Oletusasetus käyttää nykyistä blogia blogitemplaattina tai ensisijaista blogia muussa käytössä.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Valitse näytettävä blogi",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Tilaa tästä!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Lomakkeen yläpuolella näytettävä otsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Blogin sähköpostin tilaus",
+    "description": null,
+    "placeholders": null
+  }
+}

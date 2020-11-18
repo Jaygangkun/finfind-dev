@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Keskus",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Vasen",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Oikea",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Kohdistus",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Mustavalkoinen",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Väri",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Harmaa",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Valkoinen",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Värimalli",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Kuvake",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Kuvake ja teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Näyttö",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Fontin tyyli",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Pyöreä",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Alkuperäinen",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Neliö",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Kuvakemuoto",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Skaalaa",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Yhteisöpalvelu",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Mukautettu kuvake",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "Sähköposti",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Verkkosivu",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Verkosto",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Verkostokuva",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Lisäteksti",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Välit",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Vain teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Seuraa minua - LP",
+    "description": "",
+    "placeholders": null
+  }
+}

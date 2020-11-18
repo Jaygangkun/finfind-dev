@@ -1,0 +1,62 @@
+{
+  "accessibility.label": {
+    "message": "アクセスに関するオプション",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.choices.decorative": {
+    "message": "スクリーンリーダーによって無視される",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.choices.semantic": {
+    "message": "スクリーンリーダーによって読まれる",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.label": {
+    "message": "目的",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.title.label": {
+    "message": "タイトル",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_field.label": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "既定のスタイルを上書き",
+    "description": "",
+    "placeholders": null
+  },
+  "style.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "スタイルオプション",
+    "description": "",
+    "placeholders": null
+  },
+  "style.size.help_text": {
+    "message": "幅（ピクセル）",
+    "description": "",
+    "placeholders": null
+  },
+  "style.size.label": {
+    "message": "サイズ",
+    "description": "",
+    "placeholders": null
+  }
+}

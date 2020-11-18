@@ -1,0 +1,19 @@
+{
+  "content_tags": [
+    { "name": "COMPATIBLE_BLOG", "source": "MARKETPLACE" },
+    { "name": "COMPATIBLE_PAGE", "source": "MARKETPLACE" }
+  ],
+  "css_assets": [],
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-rss_listing",
+  "host_template_types": ["PAGE", "BLOG_LISTING", "BLOG_POST"],
+  "icon": "../img/icon/high-rss.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "RSS Listing"
+}

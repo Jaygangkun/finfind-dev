@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "チームメンバー",
+    "description": "",
+    "placeholders": null
+  },
+  "team_member_content.default": {
+    "message": "<h3>Joshua Beck</h3><p>CEO、共同創業者</p><p>Joshuaは20年以上ハイテク産業に携わっています。人々の成長を手助けするという信念のもとに、2015年に当社の立ち上げに参加しました。時間があるときには子供たちと過ごしたり、ビーチを訪れたり、料理をしたりするのが趣味です。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "team_member_content.label": {
+    "message": "チームメンバーのコンテンツ",
+    "description": "",
+    "placeholders": null
+  },
+  "team_member_image.label": {
+    "message": "チームメンバーの画像",
+    "description": "",
+    "placeholders": null
+  }
+}

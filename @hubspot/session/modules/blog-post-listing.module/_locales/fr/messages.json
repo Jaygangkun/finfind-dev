@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Listing d'article de blog",
+    "description": "",
+    "placeholders": null
+  },
+  "number_of_posts.label": {
+    "message": "Nombre d'articles",
+    "description": "",
+    "placeholders": null
+  },
+  "read_more.default": {
+    "message": "En savoir plus",
+    "description": "",
+    "placeholders": null
+  },
+  "read_more.label": {
+    "message": "Texte En savoir plus",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Sélectionner un blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog_type.choices.popular_posts": {
+    "message": "Articles populaires",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog_type.choices.recent_posts": {
+    "message": "Articles récents",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog_type.label": {
+    "message": "Sélectionner un type de blog",
+    "description": "",
+    "placeholders": null
+  },
+  "style.background_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Options de style",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "Remplacer le style par défaut",
+    "description": "",
+    "placeholders": null
+  },
+  "style.text_color.label": {
+    "message": "Couleur de texte",
+    "description": "",
+    "placeholders": null
+  }
+}

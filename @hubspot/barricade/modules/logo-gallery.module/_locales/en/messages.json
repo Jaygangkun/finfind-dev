@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Logo Gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Salesforce Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Logo Images",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Banner Background Color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Banner Foreground Color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Style options",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.bottom": {
+    "message": "Overlap the section below",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.none": {
+    "message": "No Overlap",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.top": {
+    "message": "Overlap the section above",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.help_text": {
+    "message": "Settings for allowing the banner to overlap the area above or below",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.label": {
+    "message": "Banner Overlap Settings",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "Override default style",
+    "description": "",
+    "placeholders": null
+  }
+}

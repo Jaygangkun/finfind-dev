@@ -1,0 +1,190 @@
+[
+  {
+    "children": [
+      {
+        "choices": [
+          ["facebook", "Facebook"],
+          ["twitter", "Twitter"],
+          ["instagram", "Instagram"],
+          ["linkedin", "LinkedIn"],
+          ["youtube", "YouTube"],
+          ["pinterest", "Pinterest"],
+          ["mail", "Email"],
+          ["website", "Website"],
+          ["whatsapp", "Whatsapp"],
+          ["icon", "Custom Icon"]
+        ],
+        "default": "facebook",
+        "display": "select",
+        "id": "social.network",
+        "label": "Network",
+        "locked": false,
+        "name": "network",
+        "placeholder": "",
+        "required": false,
+        "type": "choice"
+      },
+      {
+        "default": {
+          "url": { "content_id": null, "type": "EXTERNAL", "href": "" },
+          "open_in_new_tab": false,
+          "no_follow": false
+        },
+        "id": "social.link",
+        "label": "URL",
+        "locked": false,
+        "name": "link",
+        "required": true,
+        "supported_types": ["EXTERNAL", "EMAIL_ADDRESS"],
+        "type": "link"
+      },
+      {
+        "default": null,
+        "id": "social.network_image",
+        "label": "Network Image",
+        "locked": false,
+        "name": "network_image",
+        "required": false,
+        "resizable": false,
+        "responsive": false,
+        "type": "image",
+        "visibility": {
+          "controlling_field": "social.network",
+          "controlling_value_regex": "icon",
+          "operator": "EQUAL"
+        }
+      },
+      {
+        "allow_new_line": false,
+        "default": null,
+        "id": "social.supporting_text",
+        "label": "Supporting text",
+        "locked": false,
+        "name": "supporting_text",
+        "required": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "validation_regex": "",
+        "visibility": {
+          "controlling_field": "display",
+          "controlling_value_regex": "icon",
+          "operator": "NOT_EQUAL"
+        }
+      }
+    ],
+    "default": [{ "network": "facebook" }],
+    "id": "social",
+    "label": "Social Network",
+    "locked": false,
+    "name": "social",
+    "occurrence": { "default": 1, "min": 0 },
+    "required": false,
+    "type": "group"
+  },
+  {
+    "choices": [
+      ["icon", "Icon"],
+      ["icon_text", "Icon and text"],
+      ["text_only", "Text only"]
+    ],
+    "default": "icon",
+    "display": "select",
+    "id": "display",
+    "label": "Display",
+    "locked": false,
+    "name": "display",
+    "required": true,
+    "type": "choice"
+  },
+  {
+    "default": 25,
+    "display": "slider",
+    "id": "scale",
+    "label": "Scale",
+    "locked": false,
+    "max": 40,
+    "min": 20,
+    "name": "scale",
+    "required": false,
+    "step": 1,
+    "type": "number"
+  },
+  {
+    "default": 5,
+    "display": "slider",
+    "id": "spacing",
+    "label": "Spacing",
+    "locked": false,
+    "max": 15,
+    "min": 0,
+    "name": "spacing",
+    "required": false,
+    "step": 1,
+    "type": "number"
+  },
+  {
+    "choices": [["left", "Left"], ["center", "Center"], ["right", "Right"]],
+    "default": "center",
+    "display": "select",
+    "id": "alignment",
+    "label": "Alignment",
+    "locked": false,
+    "name": "alignment",
+    "placeholder": "Search",
+    "required": true,
+    "type": "choice"
+  },
+  {
+    "choices": [
+      ["color", "Color"],
+      ["black", "Black and white"],
+      ["grey", "Grey"],
+      ["white", "White"]
+    ],
+    "default": "color",
+    "display": "select",
+    "id": "color_scheme",
+    "label": "Color scheme",
+    "locked": false,
+    "name": "color_scheme",
+    "placeholder": "Search",
+    "required": true,
+    "type": "choice"
+  },
+  {
+    "choices": [
+      ["circle", "Circular"],
+      ["square", "Square"],
+      ["original", "Original"]
+    ],
+    "default": "circle",
+    "display": "select",
+    "id": "icon_shape",
+    "label": "Icon shape",
+    "locked": false,
+    "name": "icon_shape",
+    "placeholder": "Search",
+    "required": true,
+    "type": "choice"
+  },
+  {
+    "default": {
+      "size": { "value": 14, "units": "px" },
+      "color": "#2696be",
+      "styles": { "bold": false, "italic": false, "underline": false },
+      "font": "helvetica"
+    },
+    "id": "font_style",
+    "label": "Font style",
+    "load_external_fonts": true,
+    "locked": false,
+    "name": "font_style",
+    "required": true,
+    "type": "font",
+    "visibility": {
+      "controlling_field": "display",
+      "controlling_value_regex": "icon",
+      "operator": "NOT_EQUAL"
+    }
+  }
+]

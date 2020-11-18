@@ -1,0 +1,69 @@
+<div class="card-section__wrapper">
+  <div class="cards mobile-col" id="cards__container-{{name}}">
+    {% for card in module.card %}
+    <div class="cards__container">
+      <div class="cards__card card">
+        <div class="card__title">
+          {% if card.image.src %}
+            <img class="card__logo"
+              src="{{ resize_image_url(card.image.src, 100, 0, 0) }}"
+              {% if card.image.width >= 200 %}
+                srcset="
+                {% if card.image.width >= 300 %}
+                {{ resize_image_url(card.image.src, 300, 0, 0) }} 3x,
+                {% endif %}
+                {{ resize_image_url(card.image.src, 200, 0, 0) }} 2x,
+                {{ resize_image_url(card.image.src, 100, 0, 0) }} 1x"
+              {% endif %}
+              alt="{{ card.image.alt }}"
+            >
+          {% endif %}
+          {% inline_text field="title" value="{{ card.title }}" %}
+        </div>
+        <div class="card__text">
+          {% inline_text field="text" value="{{ card.text }}" %}
+        </div>
+
+        {% set href = card.learn_more_link.url.href %}
+        {% if card.learn_more_link.url.type is equalto "EMAIL_ADDRESS" %}
+          {% set href = "mailto:" + href %}
+        {% endif %}
+        <a href="{{ href }}"
+          {% if card.learn_more_link.open_in_new_tab %}target="_blank"{% endif %}
+          {% if card.learn_more_link.no_follow %}rel="nofollow"{% endif %}
+          >
+            <div class="card__button button--simple">
+              {% inline_text field="learn_more" value="{{ card.learn_more }}" %}
+            </div>
+        </a>
+
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% require_js %}
+<script>
+var slider = tns({
+  container: '#cards__container-{{name}}',
+  autoWidth: false,
+  navPosition: 'bottom',
+  arrowKeys: true,
+  controls: false,
+  responsive: {
+    1100: {
+      items: 3
+    },
+    715: {
+      items: 2
+    },
+    1: {
+      items: 1
+    }
+  },
+  gutter: 15,
+  mouseDrag: true
+});
+</script>
+{% end_require_js %}

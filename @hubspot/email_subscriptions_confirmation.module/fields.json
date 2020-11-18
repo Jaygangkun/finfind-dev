@@ -1,0 +1,53 @@
+[
+  {
+    "id": "5265a2e4-5e45-7f66-59ba-af65367c38e1",
+    "name": "header",
+    "label": "Header",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "placeholder": "Header Text",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "2315a4fd-524e-3c04-7df5-8942a2bfc60f",
+    "name": "subheader_text",
+    "label": "Subheader",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "type": "richtext",
+    "default": "If this is not your email address, please ignore this page since the email associated with this page was most likely forwarded to you."
+  },
+  {
+    "id": "32754710-9bae-8683-cb5f-61bd07dfb31e",
+    "name": "unsubscribe_all_success",
+    "label": "Message on unsubscribe",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "You have successfully unsubscribed from all email communications."
+  },
+  {
+    "id": "7487aa59-db64-6d78-f356-3b34862dc6cf",
+    "name": "subscription_update_success",
+    "label": "Message on subscription update",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "You have successfully updated your email preferences."
+  }
+]

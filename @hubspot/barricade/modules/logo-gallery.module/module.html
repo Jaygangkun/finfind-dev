@@ -1,0 +1,17 @@
+<div class="logo-banner">
+    <div class="container flex mobile-col">
+      {% for logo in module.logo_images %}
+      {% if logo.src %}
+        {% set sizeAttrs = 'width="{{ logo.width }}" height="{{ logo.height }}"' %}
+        {% if logo.size_type == 'auto' %}
+          {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+        {% elif logo.size_type == 'auto_custom_max' %}
+          {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ logo.max_width }}px; max-height: {{ logo.max_height }}px"' %}
+        {% endif %}
+        <div class="logo-banner__image">
+          <img src="{{ logo.src }}" alt="{{ logo.alt }}" {{ sizeAttrs }}>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>

@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "Kaartgedeelte",
+    "description": "",
+    "placeholders": null
+  },
+  "card.image.label": {
+    "message": "Afbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "card.label": {
+    "message": "Kaart",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more.default": {
+    "message": "Meer informatie",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more.label": {
+    "message": "Meer informatie-tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more_link.label": {
+    "message": "Meer informatie-koppeling",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.default": {
+    "message": "Contextueel adverteren kan winstgevend zijn. Het kan voor de hosting en het onderhoud van je website betalen of voor nog veel meer.",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.default": {
+    "message": "Dit is een titel",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  }
+}

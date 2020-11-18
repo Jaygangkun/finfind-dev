@@ -1,0 +1,106 @@
+<!--
+  templateType: blog
+  isAvailableForNewContent: true
+  label: Barricade - 2 column blog listing
+  screenshotPath: ../images/template-previews/blog_listing_2_col.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+<div class="blog-hero">
+  <h1 class="blog-hero__title">{{ group.public_title }}</h1>
+  <h4 class="blog-header__subtitle">{{ group.description }}</h4>
+</div>
+
+<div class="content-wrapper container">
+
+  {# Blog Navigation #}
+  <div class="blog-navigation">
+    <div class="content-wrapper">
+      <div class="blog-navigation__tag-filter column">
+        {% module 'blog_tag_filter'
+          path='../modules/blog-tag-filter'
+        %}
+      </div>
+      <div class="blog-navigation__search column">
+        {% module 'blog_search'
+          label='Blog search',
+          path='@hubspot/search_input'
+        %}
+      </div>
+    </div>
+  </div>
+  {# End Blog Navigation #}
+
+  {% if tag %}
+  <div class="blog-index__tag-header">
+    <h6 class="blog-index__tag-subtitle">Posts about</h6>
+    <h2 class="blog-index__tag-heading">{{ page_meta.html_title|split(' | ')|last }}</h2>
+  </div>
+  {% endif %}
+
+  <div class="blog-index--2-col">
+    {% for content in contents %}
+      <div class="blog-index--2-col__post">
+        <a class="blog-index--2-col__post-image"
+          {% if content.featured_image %}
+            style="background-image: url('{{ content.featured_image }}'); background-repeat: no-repeat; background-size: cover;"
+          {% endif %}
+          href="{{ content.absolute_url }}"></a>
+        <div class="blog-index--2-col__post-content">
+          {% if content.tag_list %}
+            <div class="blog-tags">
+              {% for tag in content.tag_list %}
+                <a class="blog-tag" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+          {% if content.blog_author %}
+            <div class="blog-author">
+              {% if content.blog_author.avatar %}
+              <div class="blog-author__image">
+                <img src="{{ content.blog_author.avatar }}" alt="Image of {{ content.blog_author.display_name }}">
+              </div>
+              {% endif %}
+              <div class="blog-author__name">
+                <h5>{{ content.blog_author.display_name }}</h5>
+              </div>
+            </div>
+          {% endif %}
+          <h3 class="blog-index--2-col__post-content__title">
+            <a href="{{ content.absolute_url }}">{{ content.name }}</a>
+          </h3>
+          <div class="blog-summary">
+            {{ content.post_list_content|truncatehtml(100) }}
+          </div>
+          <a class="button button--simple" href="{{ content.absolute_url }}"> Read more </a>
+        </div>
+      </div>
+
+    {% endfor %}
+  </div>
+  {% if contents.total_page_count > 1 %}
+    <div class="blog-pagination">
+      {% set page_list = [-2, -1, 0, 1, 2] %}
+      {% if contents.total_page_count - current_page_num == 1 %}{% set offset = -1 %}
+      {% elif contents.total_page_count - current_page_num == 0 %}{% set offset = -2 %}
+      {% elif current_page_num == 2 %}{% set offset = 1 %}
+      {% elif current_page_num == 1 %}{% set offset = 2 %}
+      {% else %}{% set offset = 0 %}{% endif %}
+
+      <a class="blog-pagination__link blog-pagination__prev-link {{ 'blog-pagination__prev-link--disabled' if !last_page_num }}"{% if last_page_num %} href="{% if current_page_num == 2 %}{{ group.absolute_url }}{% else %}{{ blog_page_link(last_page_num) }}{% endif %}"{% endif %}>
+        &lt;&lt;
+      </a>
+      {% for page in page_list %}
+        {% set this_page = current_page_num + page + offset %}
+        {% if this_page > 0 and this_page <= contents.total_page_count %}
+          <a class="blog-pagination__link blog-pagination__number-link {{ 'blog-pagination__link--active' if this_page == current_page_num }}" href="{% if this_page == 1 %}{{ group.absolute_url }}{% else %}{{ blog_page_link(this_page) }}{% endif %}">{{ this_page }}</a>
+        {% endif %}
+      {% endfor %}
+      <a class="blog-pagination__link blog-pagination__next-link {{ 'blog-pagination__next-link--disabled' if !next_page_num }}"{% if next_page_num %} href="{{ blog_page_link(current_page_num + 1) }}"{% endif %}>
+        &gt;&gt;
+      </a>
+    </div>
+  {% endif %}
+</div>
+{% endblock body %}

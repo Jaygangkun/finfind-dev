@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "明確で目立つヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "セクション ヘッダー コンテンツ",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "より控えめなサブヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "セクションサブヘッダー",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "セクションヘッダー",
+    "description": null,
+    "placeholders": null
+  }
+}

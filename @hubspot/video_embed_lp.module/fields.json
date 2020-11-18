@@ -1,0 +1,63 @@
+[
+  {
+    "allow_new_line": false,
+    "default": "https://www.youtube.com/watch?v=X1Rr5BFO5rg",
+    "help_text": "URLs from Vimeo and YouTube are supported",
+    "id": "video_embed_lp.url",
+    "label": "Video URL",
+    "locked": false,
+    "name": "url",
+    "required": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "validation_regex": "https?:\\/\\/((vimeo\\.com\\/.*)|(player\\.vimeo\\.com\\/video\\/)|(.*\\.youtube\\.com\\/(watch.*|v\\/.*))|(youtu.be\\/.*))\\/*"
+  },
+  {
+    "choices": [
+      ["true", "Automatically adjust"],
+      ["false", "Set a maximum width and height"]
+    ],
+    "default": "true",
+    "display": "radio",
+    "id": "video_embed_lp.is_full_width",
+    "label": " ",
+    "locked": false,
+    "name": "is_full_width",
+    "required": false,
+    "type": "choice"
+  },
+  {
+    "default": 800,
+    "display": "text",
+    "id": "video_embed_lp.max_width",
+    "label": "Max width (px)",
+    "locked": false,
+    "min": 0,
+    "name": "max_width",
+    "required": false,
+    "step": 1,
+    "type": "number",
+    "visibility": {
+      "controlling_field": "video_embed_lp.is_full_width",
+      "controlling_value_regex": "false",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "default": 450,
+    "display": "text",
+    "id": "video_embed_lp.maxHeight",
+    "label": "Max height (px)",
+    "locked": false,
+    "min": 0,
+    "name": "max_height",
+    "required": false,
+    "step": 1,
+    "type": "number",
+    "visibility": {
+      "controlling_field": "video_embed_lp.is_full_width",
+      "controlling_value_regex": "false",
+      "operator": "EQUAL"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Děkujeme za přihlášení odběru!",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Vložená odpověď pro uživatele",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Je-li zvolena možnost Výchozí, v šabloně blogu se použije aktuální blog, v jiných případech primární blog.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vyberte blog, který chcete zobrazit",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Přihlaste se k odběru!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Nadpis formuláře",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Odběr blogu e-mailem",
+    "description": null,
+    "placeholders": null
+  }
+}

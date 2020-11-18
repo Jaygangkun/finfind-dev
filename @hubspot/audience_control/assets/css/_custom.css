@@ -1,0 +1,52 @@
+
+body {
+  color: {{ UTILITIES.COLORS.darkBlue }};
+	max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+a {
+  color: {{ UTILITIES.COLORS.linkBlue }};
+  text-decoration: none;
+}
+
+p {
+	line-height: 1.65rem;
+  font-weight: lighter;
+}
+
+.header-container-wrapper,
+.body-container-wrapper,
+.footer-container-wrapper, 
+.auth-container {
+  width: 100%;
+  margin: 0 auto;
+	max-width: 400px;
+  box-sizing: border-box;
+  padding: 0 20px
+}
+
+.hs-membership_logo {
+	margin-top: 3rem;
+}
+
+.membership_header-container {
+	margin-top: 3rem;
+}
+
+.hs-button.primary.large {
+  background-color: {{ UTILITIES.COLORS.darkBlue }};
+  display: block;
+  width: 100%;
+  max-width: 40%;
+  {% call UTILITIES.vendorPrefixer('border-radius') %}3px{% endcall %};
+  color: #fff;
+  border: none;
+  font-size: 0.9em;
+}
+
+.form-container label[for="hs-login-widget-remember"] {
+  margin: 0
+}

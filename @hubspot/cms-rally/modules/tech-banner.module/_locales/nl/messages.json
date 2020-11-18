@@ -1,0 +1,27 @@
+{
+  "banner_heading.default": {
+    "message": "<h4>Lorem ipsum dolor sit amet, consectetur.</h4>",
+    "description": "",
+    "placeholders": null
+  },
+  "banner_heading.label": {
+    "message": "Bannerkop",
+    "description": "",
+    "placeholders": null
+  },
+  "banner_images.banner_image.label": {
+    "message": "Afbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "banner_images.label": {
+    "message": "Bannerafbeeldingen",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Techbanner",
+    "description": "",
+    "placeholders": null
+  }
+}

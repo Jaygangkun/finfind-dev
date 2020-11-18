@@ -1,0 +1,87 @@
+{
+  "expand_link_text.default": {
+    "message": "Ver tudo",
+    "description": null,
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "O texto a ser exibido se mais do que o valor máximo a ser exibido estiver disponível. Deixe em branco para omitir o link",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autores",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Meses",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tags",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lista de valores para filtrar links",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Pesquisar",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Publicações por tag",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Título da lista para exibir",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "O número máximo de valores de filtro para exibir. Deixe em branco para mostrar todos.",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nome",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Contagem de publicações",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordenação dos valores para links de filtro",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Pesquisar",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "O padrão usará o blog atual quando usado em um modelo de blog ou o blog principal quando usado em outro lugar.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecione o blog para exibir",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Filtro de posts",
+    "description": null,
+    "placeholders": null
+  }
+}

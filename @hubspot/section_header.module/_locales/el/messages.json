@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Κεφαλίδα ενότητας",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Ένας πιο διακριτικός δευτερεύων τίτλος",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Μια σαφής και έντονη κεφαλίδα",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Περιεχόμενο κεφαλίδας ενότητας",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Δευτερεύων τίτλος ενότητας",
+    "description": null,
+    "placeholders": null
+  }
+}

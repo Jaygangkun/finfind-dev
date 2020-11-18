@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "自动前进",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "图片说明始终置于图片下方",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "在图片上叠加图片说明",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "图片说明位置",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "搜索",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox 图片库",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "标准滑块",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "缩略图导航",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "显示模式",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "搜索",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Lightbox 图片库的行数",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Lightbox 图片库的行数",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "循环幻灯片",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "自动滚动的间隔时间（以秒计）",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "显示导航按钮",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "可变高度",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "固定高度",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "可变高度",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "搜索",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "图片说明",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "图片",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "幻灯片",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "链接 URL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "在新标签页中打开链接",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "显示图片说明",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "淡化",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "幻灯片",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "幻灯片过渡方式",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "搜索",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "图片库",
+    "description": null,
+    "placeholders": null
+  }
+}

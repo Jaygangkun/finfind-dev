@@ -1,0 +1,17 @@
+{
+  "value.default": {
+    "message": "Ekstra informasjon på én linje",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Tekst",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Én tekstlinje",
+    "description": null,
+    "placeholders": null
+  }
+}

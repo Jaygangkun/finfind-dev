@@ -1,0 +1,12 @@
+[
+  {
+    "id": "cbd47343-8232-3ff0-5757-c0c104454ca2",
+    "name": "display_featured_images",
+    "label": "Display featured images",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "type": "boolean",
+    "default": false
+  }
+]

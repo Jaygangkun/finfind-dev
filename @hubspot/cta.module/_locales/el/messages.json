@@ -1,0 +1,12 @@
+{
+  "name": {
+    "message": "Πρόσκληση προς ενέργεια",
+    "description": null,
+    "placeholders": null
+  },
+  "guid.label": {
+    "message": "Προτροπή",
+    "description": null,
+    "placeholders": null
+  }
+}

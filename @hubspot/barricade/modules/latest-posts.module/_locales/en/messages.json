@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Latest Posts",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "Select blog to pull posts from",
+    "description": "",
+    "placeholders": null
+  },
+  "count.label": {
+    "message": "Number of posts to pull",
+    "description": "",
+    "placeholders": null
+  }
+}

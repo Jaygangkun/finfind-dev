@@ -1,0 +1,77 @@
+{
+  "feature_description.default": {
+    "message": "Nutzen Sie die intuitive, attraktive Software, die Ihnen Zeit spart und von der Ihr Unternehmen profitiert. Versprochen.",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_description.label": {
+    "message": "Funktionsbeschreibung",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon.label": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_border_color.label": {
+    "message": "Rahmenfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Funktionssymbol",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_image.label": {
+    "message": "Feature-Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.icon": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.image": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.label": {
+    "message": "Feature-Bild/-Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.default": {
+    "message": "Schnell und einfach",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.label": {
+    "message": "Funktionstitel",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Funktion",
+    "description": "",
+    "placeholders": null
+  }
+}

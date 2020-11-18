@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 est le plus grand, suivi de H2, et ainsi de suite",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Type de titre",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Rechercher",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Un titre clair et en gras",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Contenu de l'en-tête",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "En-tête",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Masquer les contrôles de niveau d'en-tête",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Masquer les contrôles de niveau d'en-tête empêchera la modification du niveau de l'en-tête dans les outils de contenu.",
+    "description": null,
+    "placeholders": null
+  }
+}

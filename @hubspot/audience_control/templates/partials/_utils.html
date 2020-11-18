@@ -1,0 +1,26 @@
+{% set MEM_BASE_PATH = '/_hcms/mem/' %}
+{% set PATHS = {
+    "login" : MEM_BASE_PATH ~ "login",
+    "register" : MEM_BASE_PATH ~ "register",
+    "logout": MEM_BASE_PATH ~ "logout",
+    "reset_request": MEM_BASE_PATH ~ "reset/request",
+    "reset": MEM_BASE_PATH ~ "reset"
+  }
+%}
+
+{% set COLORS = {
+		"darkBlue": "#435B75",
+  	"lightBlue": "#9AACC1",
+    "lightestBlue": "#EAF0F6",
+    "linkBlue": "#37A2B9",
+    "darkestBlue": "#34475A"
+  }
+%}
+
+
+{%- macro vendorPrefixer(cssProperty) -%}
+	{%- set vendors = ['-webkit-', '-moz-', '-o-', ''] -%}
+	{%- for vendor in vendors -%}
+		{{ vendor ~ cssProperty ~ ': ' ~ caller()}};
+	{%- endfor -%}
+{%- endmacro -%}

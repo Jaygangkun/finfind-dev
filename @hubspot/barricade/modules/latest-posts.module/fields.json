@@ -1,0 +1,22 @@
+[
+  {
+    "default": "",
+    "name": "blog_id",
+    "id": "blog_id",
+    "label": "Select blog to pull posts from",
+    "locked": false,
+    "type": "blog",
+    "required": false
+  },
+  {
+    "default": 5,
+    "display": "text",
+    "name": "count",
+    "step": 1,
+    "id": "count",
+    "label": "Number of posts to pull",
+    "locked": false,
+    "type": "number",
+    "required": false
+  }
+]

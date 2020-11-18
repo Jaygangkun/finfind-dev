@@ -1,0 +1,54 @@
+/* Logo Banner Section */
+.logo-banner {
+  background-color: #e9eff5;
+  padding: 1.5rem;
+}
+
+.logo-banner .container {
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.logo-banner__label {
+  flex-shrink: 0;
+}
+
+.logo-banner__image {
+  filter: grayscale(95%);
+  flex-shrink: 1;
+  height: 45px;
+  opacity: 0.4;
+  padding: 0 1.5rem;
+  transition: filter 0.3s;
+  transition: opacity 0.3s;
+}
+
+.logo-banner__image:hover {
+  filter: grayscale(5%);
+  opacity: 1;
+  transition: filter 0.3s;
+  transition: opacity 0.3s;
+}
+
+.logo-banner__image img {
+  height: 100%;
+  width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo-banner__label {
+    display: none;
+  }
+
+  .logo-banner__image:nth-child(n + 5) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo-banner__image {
+    height: 30px;
+  }
+}

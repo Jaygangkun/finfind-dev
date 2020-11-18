@@ -1,0 +1,37 @@
+{
+  "display_mode.choices.hybrid": {
+    "message": "Híbrido",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localizado",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "IdiomaPág",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "El idioma del texto en el conmutador de idiomas. IdiomaPág significa que los nombres de los idiomas aparecerán en el idioma que indique el conmutador de la página. Localizado significa que el nombre de cada idioma aparecerá en ese idioma. Híbrido es una combinación de ambas opciones.",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modo de presentación",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Buscar",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Conmutador de idiomas",
+    "description": null,
+    "placeholders": null
+  }
+}

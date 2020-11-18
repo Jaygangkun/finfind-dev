@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Obrigado por assinar!",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Resposta integrada para os usuários",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "O padrão usará o blog atual quando usado em um modelo de blog ou o blog principal quando usado em outro lugar.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecione o blog para exibir",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Assine aqui!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Título para exibir acima do formulário",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Assinatura de email do blog",
+    "description": null,
+    "placeholders": null
+  }
+}

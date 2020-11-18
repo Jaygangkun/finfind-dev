@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Derniers articles",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "Sélectionnez le blog dont vous souhaitez extraire des articles",
+    "description": "",
+    "placeholders": null
+  },
+  "count.label": {
+    "message": "Nombre d'articles à extraire",
+    "description": "",
+    "placeholders": null
+  }
+}

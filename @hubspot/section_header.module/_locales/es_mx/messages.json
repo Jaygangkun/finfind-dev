@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "Un encabezado claro y audaz",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Contenido del encabezado de la sección",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Un subtítulo más suave",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Subítulo de la sección",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Encabezado de sección",
+    "description": null,
+    "placeholders": null
+  }
+}

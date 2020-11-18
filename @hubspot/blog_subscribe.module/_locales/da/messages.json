@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Tak fordi du abonnerer.",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Indbygget svar til brugere",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Som standard bruges den nuværende blog, når der bruges en blogskabelon ellers bruges den primære blog.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vælg en blog, der skal vises",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Abonner her.",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titel øverst på formularen",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "E-mailabonnement til blog",
+    "description": null,
+    "placeholders": null
+  }
+}

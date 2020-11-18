@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Logogalerij",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Salesforce-logo",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Logoafbeeldingen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Achtergrondkleur banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Voorgrondkleur banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stijlopties",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.bottom": {
+    "message": "Overlappen met onderstaande sectie",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.none": {
+    "message": "Geen overlap",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.top": {
+    "message": "Overlappen met bovenstaande sectie",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.help_text": {
+    "message": "Instellingen om de banner met het gebied erboven of eronder te laten overlappen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.label": {
+    "message": "Instellingen voor banneroverlap",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "Standaardstijl overschrijven",
+    "description": "",
+    "placeholders": null
+  }
+}

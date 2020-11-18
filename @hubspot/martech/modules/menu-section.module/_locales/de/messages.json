@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Menübereich",
+    "description": "",
+    "placeholders": null
+  },
+  "duplicate_mobile_menu.label": {
+    "message": "Doppeltes Mobile-Menü",
+    "description": "",
+    "placeholders": null
+  },
+  "primary_menu_field.label": {
+    "message": "Primäres Menüfeld",
+    "description": "",
+    "placeholders": null
+  }
+}

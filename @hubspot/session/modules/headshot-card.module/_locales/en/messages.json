@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Headshot Card",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "Description",
+    "description": "",
+    "placeholders": null
+  },
+  "headshot.default.alt": {
+    "message": "home_lecture",
+    "description": "",
+    "placeholders": null
+  },
+  "headshot.label": {
+    "message": "Headshot",
+    "description": "",
+    "placeholders": null
+  },
+  "human_name.default": {
+    "message": "Mort Ricky",
+    "description": "",
+    "placeholders": null
+  },
+  "human_name.label": {
+    "message": "Name",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Chief Education Officer",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Title",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,97 @@
+.navigation-primary {
+  display: inline-block;
+}
+
+.navigation-primary a {
+  letter-spacing: 0.2em;
+  line-height: 40px;
+  opacity: 0.5;
+}
+
+.navigation-primary a:hover,
+.navigation-primary a:focus {
+  opacity: 1;
+}
+
+.navigation-primary a.active-item {
+  opacity: 1;
+  position: relative;
+}
+
+.navigation-primary .submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.triangle {
+  display: none;
+}
+
+.submenu-toggle {
+  display: none;
+}
+
+.submenu.level-1 {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.submenu.level-1 > li {
+  display: block;
+  line-height: 1;
+  padding: 27px 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* Hide navigation dropdown in the inline editor */
+.hs-inline-edit .submenu.level-1 > li.has-submenu:hover .submenu.level-2,
+.hs-inline-edit > li.has-submenu.focus .submenu.level-2 {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 1150px) {
+  .submenu.level-1 > li {
+    padding: 22px 15px;
+  }
+
+  .submenu.level-1 > li:last-child {
+    padding-right: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navigation-primary {
+    display: block;
+  }
+  .navigation-primary .submenu.level-1 > li > a.active-item:after {
+    content: none;
+    display: none;
+  }
+
+  .submenu > li > a {
+    display: block;
+    width: 100%;
+  }
+
+  .submenu {
+    display: none;
+  }
+
+  .submenu.level-1 {
+    width: 100%;
+  }
+
+  .submenu.level-1 > li {
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+
+  .submenu.level-1 > li > a {
+    font-weight: 600;
+    padding: 10px 30px;
+  }
+}

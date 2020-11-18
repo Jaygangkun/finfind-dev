@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 é o maior, seguido por H2 e assim por diante",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Tipo de cabeçalho",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Pesquisar",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Um cabeçalho claro e arrojado",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Conteúdo do cabeçalho",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Cabeçalho",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Ocultar controles no nível do cabeçalho",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Ocultar os controles no nível do cabeçalho impedirá que o nível do cabeçalho seja alterado nas ferramentas de conteúdo",
+    "description": null,
+    "placeholders": null
+  }
+}

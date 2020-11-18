@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Seção do cartão",
+    "description": "",
+    "placeholders": null
+  },
+  "content.label": {
+    "message": "Conteúdo",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_field.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.default": {
+    "message": "Saiba mais",
+    "description": "",
+    "placeholders": null
+  },
+  "content.link_text.label": {
+    "message": "Texto do link",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.default": {
+    "message": "<p style=\"text-align: center;\">Vivamus sagittis lacus vel<br>augue laoreet rutrum.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "content.text.label": {
+    "message": "Descrição",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.default": {
+    "message": "Professores que se importam com o seu sucesso",
+    "description": "",
+    "placeholders": null
+  },
+  "content.title.label": {
+    "message": "Título",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.default.alt": {
+    "message": "Uma aula expositiva",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.hero_image.label": {
+    "message": "Imagem",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.icon_field.label": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "hero.label": {
+    "message": "Imagem e ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Ativar esta opção permitirá substituir os estilos do tema padrão. Desativar esta opção reconectará o módulo aos estilos do tema padrão.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Substituir estilo padrão",
+    "description": "",
+    "placeholders": null
+  },
+  "style.accent.label": {
+    "message": "Cor de destaque",
+    "description": "",
+    "placeholders": null
+  },
+  "style.icon_fill.label": {
+    "message": "Cor de preenchimento do ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Opções de estilo",
+    "description": "",
+    "placeholders": null
+  }
+}

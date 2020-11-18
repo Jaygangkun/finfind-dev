@@ -1,0 +1,13 @@
+<div class="icon_card">
+  <div class="icon_card__background">
+    <div class="icon_card__upper" style="background-image: url('{{ module.headshot.src }}')">
+    </div>
+  </div>
+  <div class="icon_card__content">
+    <h3 class="icon_card__name">{{ module.human_name }}</h3>
+    <div class="icon_card__title">{{ module.title }}</div>
+    <div class="icon_card__text">
+      {% inline_rich_text field="text" value="{{ module.description }}" %}
+    </div>
+  </div>
+</div>

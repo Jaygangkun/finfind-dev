@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontal",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertikal",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Horizontale Menüs zeigen Elemente nebeneinander und vertikale Menüs zeigen Elemente untereinander an.",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Ausrichtung",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Untergeordnete Menüeinträge werden nur angezeigt, wenn Sie auf das übergeordnete Menü zeigen. Wenn nicht aktiviert, werden untergeordnete Menüs immer angezeigt.",
+    "description": null,
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Ausklappmenüs aktivieren?",
+    "description": null,
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Die Menüstruktur repräsentiert die Seitenstruktur, die die Menüeinträge erzeugt. Eine einzige Menüstruktur kann mit mehreren Menüs verwendet werden. Sie können mehrere Menüs für komplexe Website-Strukturen erstellen. Menüs werden in Ihren „Content-Einstellungen“ erstellt und verwaltet.",
+    "description": null,
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menü",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Gibt die Anzahl der untergeordneten Menüebenen an, auf die erweitert werden kann.",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Max. Ebenen",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Pfadmenü (horizontaler Verlauf)",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamisch nach Seite - Seiten im Menü anzeigen, die mit der angezeigten Seite in Verbindung stehen",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statisch – Immer Top-Level-Seiten im Menü anzeigen",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamisch nach Bereich – Seiten im Menü abhängig vom angezeigten Bereich anzeigen",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Erweiterte Menüs zeigen verschiedene Bereiche einer Menüstruktur abhängig von der angezeigten Seite an.",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Menüart „Erweitert“",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menü",
+    "description": null,
+    "placeholders": null
+  }
+}

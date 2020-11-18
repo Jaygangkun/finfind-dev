@@ -1,0 +1,16 @@
+{
+  "label": "Testimonial slider",
+  "css_assets": [],
+  "external_js": [
+    "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"
+  ],
+  "global": false,
+  "host_template_types": ["PAGE"],
+  "icon": "../../images/module-icons/insert-quote.svg",
+  "js_assets": [],
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "master_language": "en",
+  "is_available_for_new_content": true
+}

@@ -1,0 +1,43 @@
+.icon_card {
+  border: 1px solid #e7ebef;
+}
+
+@media (max-width: 767px) {
+  .icon_card {
+    margin-bottom: 2rem;
+  }
+}
+
+.icon_card__background {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.icon_card__upper {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  position: relative;
+  width: 100%;
+}
+
+.icon_card__content {
+  padding: 20px;
+}
+
+.icon_card__name {
+  margin: 0;
+}
+
+.icon_card__text {
+  border-top: 2px solid #e7ebef;
+  line-height: 2rem;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.icon_card__text p {
+  margin: 0;
+}

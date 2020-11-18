@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "Un'intestazione chiara e audace",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Contenuto dell'intestazione della sezione",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Un sottotitolo più sommesso",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Sottotitolo della sezione",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Intestazione sezione",
+    "description": null,
+    "placeholders": null
+  }
+}

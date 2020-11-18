@@ -1,0 +1,142 @@
+<!--
+  templateType: blog
+  isAvailableForNewContent: true
+  label: Barricade - blog post
+  screenshotPath: ../images/template-previews/blog_post.png
+-->
+{% extends './layouts/base.html' %}
+
+{% block body %}
+<div class="blog-header">
+  <div class="container">
+    <a class="back-to-blog" href="{{ group.absolute_url }}">
+      &lt;&lt;  Back to Blog
+    </a>
+  </div>
+</div>
+<div class="content-wrapper container">
+  <div class="blog-post">
+    <div class="blog-post__tags">
+      {% for tag in content.tag_list %}
+        <a class="blog-post__tag" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>
+      {% endfor %}
+    </div>
+    <h1 class="blog-post__title">{{ content.name }}</h1>
+    <div class="blog-author">
+      {% if content.blog_author.avatar %}
+      <div class="blog-author__image">
+        <img src="{{ content.blog_author.avatar }}" alt="Image of {{ content.blog_author.display_name }}">
+      </div>
+      {% endif %}
+      <h6 class="blog-author__name">
+        {{ content.blog_post_author.display_name }}
+      </h6>
+    </div>
+
+    <div class="blog-post__social-sharing">
+      <h6 class="share-title">Share</h6>
+      <div class="social-links">
+        {% if group.show_social_link_twitter %}
+        <a href="https://twitter.com/intent/tweet?text=I+found+this+interesting+blog+post&url={{ content.absolute_url }}" target="_blank" class="social-links__icon">
+          {% icon name='twitter', style='solid' %}
+        </a>
+        {% endif %}
+        {% if group.show_social_link_facebook %}
+        <a href="http://www.facebook.com/share.php?u={{ content.absolute_url }}" target="_blank" class="social-links__icon">
+          {% icon name='facebook-f', style='solid' %}
+        </a>
+        {% endif %}
+        {% if group.show_social_link_linkedin %}
+        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ content.absolute_url }}" target="_blank" class="social-links__icon">
+          {% icon name='linkedin-in', style='solid' %}
+        </a>
+        {% endif %}
+        <a href="mailto:?subject=Check out {{ content.absolute_url }} &body=Check out {{ content.absolute_url }}&media={{ content.featured_image }}" target="_blank" class="social-links__icon">
+          {% icon name='envelope', style='solid' %}
+        </a>
+      </div>
+
+    </div>
+
+    {% if content.featured_image %}
+    <div class="blog-post__image" style="background-image: url('{{ content.featured_image }}'); background-repeat: no-repeat; background-size: cover;"></div>
+    {% endif %}
+    <div class="blog-post__body">
+      {{ content.post_body }}
+    </div>
+
+    {% if group.allow_comments %}
+    <section class="blog-post__comments-listing">
+      <h3>Leave a Comment</h3>
+      {% module 'blog_comments' path='@hubspot/blog_comments' %}
+    </section>
+    {% endif %}
+
+  </div>
+
+</div>
+
+<div class="blog-post__author">
+  <div class="container">
+    <div class="buffer">
+      <div class="blog-post__author__image">
+        <img src="{{ content.blog_author.avatar }}" alt="Image of {{ content.blog_author.display_name }}">
+      </div>
+      <div class="blog-post__author__text">
+        <h4> {{ content.blog_post_author.display_name }}</h4>
+        <p>{{ content.blog_post_author.bio }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  {# This macro is used to format each recent post card and
+  gets passed to the 'related_blog_posts' tag below #}
+  {% macro recent_post(post) %}
+    <div class="blog-index--2-col__post">
+      <a href="{{ post.absolute_url }}">
+        <div class="blog-index--2-col__post-image" style="background-image: url('{{ post.featuredImage }}'); background-size: cover;"></div>
+      </a>
+      <div class="blog-index--2-col__post-content">
+        <div class="blog-post__tags">
+          {% for tag in post.tag_list %}
+            <a class="blog-post__tag" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>
+          {% endfor %}
+        </div>
+        <div class="blog-author">
+          {% if post.blog_author.avatar %}
+          <div class="blog-author__image">
+            <img src="{{ post.blog_author.avatar }}" alt="Image of {{ post.blog_author.display_name }}">
+          </div>
+          {% endif %}
+          <div class="blog-author__name">
+            <h5>{{ post.blog_author.display_name }}</h5>
+          </div>
+        </div>
+        <a href="{{ post.absolute_url }}">
+          <h3 class="blog-index--2-col__post-content__title">{{post.title}}</h3>
+        </a>
+        <div class="blog-summary">
+          {{ post.post_summary|truncatehtml(100) }}
+        </div>
+        <a href="{{ post.absolute_url }}" class="button button--simple"> Read more </a>
+      </div>
+    </div>
+  {% endmacro %}
+
+  <div class="blog-recent-posts">
+    <div class="blog-recent-posts__title">
+      <h6>Blog posts</h6>
+      <h2>Related Articles.</h2>
+    </div>
+    <div class="blog-recent-posts__list">
+      {% related_blog_posts limit=2, post_formatter="recent_post", no_wrapper=True %}
+    </div>
+  </div>
+
+</div>
+{% endblock body %}
+
+

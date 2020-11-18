@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.label": {
+    "message": "Optionen für Barrierefreiheit",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.choices.decorative": {
+    "message": "Von Bildschirmleseprogramm ignoriert",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.choices.semantic": {
+    "message": "Von Bildschirmleseprogramm gelesen",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.label": {
+    "message": "Zweck",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_field.label": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "style.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stiloptionen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.size.help_text": {
+    "message": "Breite in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "style.size.label": {
+    "message": "Größe",
+    "description": "",
+    "placeholders": null
+  }
+}

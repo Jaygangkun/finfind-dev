@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Center",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Vänster",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Höger",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Justering",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Svartvitt",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Färg",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Grå",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Vit",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Färgschema",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Ikon och text",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Visa",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Teckensnittsstil",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Cirkulär",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Original",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Fyrkantig",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Ikonens form",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Skala",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Socialt nätverk",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Anpassa ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "E-post",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Webbplats",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Nätverk",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Nätverksbild",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Stödtext",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Blanksteg",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Endast text",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Följ mig – LP",
+    "description": "",
+    "placeholders": null
+  }
+}

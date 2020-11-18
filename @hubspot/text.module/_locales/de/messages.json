@@ -1,0 +1,17 @@
+{
+  "value.default": {
+    "message": "Einige zusätzliche Informationen in einer Zeile",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Text",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Eine Textzeile",
+    "description": null,
+    "placeholders": null
+  }
+}

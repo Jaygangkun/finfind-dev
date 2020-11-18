@@ -1,0 +1,92 @@
+{
+  "button_text.default": {
+    "message": "Regístrate gratis",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto del botón",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "Para equipos que necesitan más seguridad, control y asistencia técnica.",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "Descripción del producto",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Muestra viñeta de ícono de lista",
+    "description": "",
+    "placeholders": null
+  },
+  "features.default": {
+    "message": "10 usuarios incluidos",
+    "description": "",
+    "placeholders": null
+  },
+  "features.label": {
+    "message": "Funcionalidades",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Tarjeta de precios",
+    "description": "",
+    "placeholders": null
+  },
+  "price.default": {
+    "message": "$0",
+    "description": "",
+    "placeholders": null
+  },
+  "price.label": {
+    "message": "Precio",
+    "description": "",
+    "placeholders": null
+  },
+  "style.bg_color.label": {
+    "message": "Color de fondo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_bg.label": {
+    "message": "Color de fondo del botón",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_text_color.label": {
+    "message": "Color del texto del botón",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Opciones de estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.default": {
+    "message": "Gratis",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.label": {
+    "message": "Nivel de productos",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.default": {
+    "message": "/mes",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.label": {
+    "message": "Período de los precios",
+    "description": "",
+    "placeholders": null
+  }
+}

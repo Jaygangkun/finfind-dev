@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "カードセクション",
+    "description": "",
+    "placeholders": null
+  },
+  "card.image.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "card.label": {
+    "message": "カード",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more.default": {
+    "message": "もっと詳しく",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more.label": {
+    "message": "「もっと詳しく」のテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more_link.label": {
+    "message": "「もっと詳しく」のリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.default": {
+    "message": "コンテンツ連動型広告は利益につながる可能性があります。ウェブサイトのホスティングやメンテナンスにかかるコストを賄えることもあれば、それ以上の利益を上げられる可能性もあります。",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.default": {
+    "message": "これはタイトルです",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.label": {
+    "message": "タイトル",
+    "description": "",
+    "placeholders": null
+  }
+}

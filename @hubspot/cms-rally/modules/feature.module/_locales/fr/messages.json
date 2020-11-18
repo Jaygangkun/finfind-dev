@@ -1,0 +1,77 @@
+{
+  "feature_description.default": {
+    "message": "Tirez parti de ce formidable logiciel intuitif qui vous fera gagner du temps et portera secours à votre activité. C'est promis.",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_description.label": {
+    "message": "Mettre une description en vignette",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon.label": {
+    "message": "Icône",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_bg_color.label": {
+    "message": "Couleur d'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_border_color.label": {
+    "message": "Couleur de bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Mettre une icône en vignette",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_image.label": {
+    "message": "Mettre une image en vignette",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.icon": {
+    "message": "Icône",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.image": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.label": {
+    "message": "Image/Icône en vignette",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.default": {
+    "message": "Simple et rapide",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.label": {
+    "message": "Mettre un titre en vignette",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Fonctionnalité",
+    "description": "",
+    "placeholders": null
+  }
+}

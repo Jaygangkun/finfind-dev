@@ -1,0 +1,49 @@
+<div class="testimonials" id="testomonials-{{name}}">
+  
+  {% for testimonial in module.testimonial_carousel %}
+  <div>
+    <div class="testimonial__module flex mobile-col">
+
+      <div class="testimonial__module__text">
+        {{ testimonial.content }}
+      </div>
+      <div class="testimonial__module__author">
+         <div class="testimonial__module__author__image">
+          <img src="{{ testimonial.testimonial_image.src }}" alt="{{ testimonial.testimonial_image.alt }}" />
+        </div>
+        <div class="testimonial__module__author__text">
+          <div class="testimonial__module__author__text--author">
+            <h5>{{ testimonial.author }}</h5>
+          </div>
+          <div class="testimonial__module__author__text--subtitle">{{ testimonial.author_title }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+{% require_js %}
+<script>
+var slider = tns({
+  container: '#testomonials-{{name}}',
+  navPosition: 'bottom',
+  arrowKeys: true,
+  controls: false,
+  responsive: {
+    950: {
+      items: 3
+    },
+    501: {
+      items: 2
+    },
+    1: {
+      items: 1
+    }
+  },
+  gutter: 30,
+  mouseDrag: true
+});
+</script>
+{% end_require_js %}

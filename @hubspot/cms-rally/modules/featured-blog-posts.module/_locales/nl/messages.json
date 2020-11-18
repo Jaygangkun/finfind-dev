@@ -1,0 +1,52 @@
+{
+  "blog_link.label": {
+    "message": "Koppeling",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_icon.label": {
+    "message": "Koppelingspictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.default": {
+    "message": "Lorem ipsum",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.label": {
+    "message": "Tekst link",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_colors.label": {
+    "message": "Berichtkleuren",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Uitgelichte blogartikelen",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Selecteer de blog waarvan je artikelen wilt uitlichten",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Blog selecteren",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.help_text": {
+    "message": "Als je alleen een specifieke tag van je blog uit wilt lichten, selecteer je die hier.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.label": {
+    "message": "Tag selecteren",
+    "description": "",
+    "placeholders": null
+  }
+}

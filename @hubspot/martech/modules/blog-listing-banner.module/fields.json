@@ -1,0 +1,122 @@
+[
+  {
+    "label": "Title",
+    "name": "title",
+    "type": "text"
+  },
+  {
+    "label": "Subtitle",
+    "name": "subtitle",
+    "type": "text"
+  },
+  {
+    "id": "style",
+    "name": "style",
+    "label": "Style options",
+    "type": "group",
+    "children": [
+      {
+        "label": "Background type",
+        "name": "background_type",
+        "type": "choice",
+        "choices": [
+          [ "color_gradient", "Color gradient" ],
+          [ "bg_image", "Image" ]
+        ],
+        "default": "color_gradient",
+        "required": true        
+      },
+      {
+        "label": "Gradient colors",
+        "name": "gradient_colors",
+        "type": "group",
+        "visibility": {
+          "controlling_field": "style.background_type",
+          "controlling_value_regex": "color_gradient"
+        },
+        "children": [
+          {
+            "label": "Color 1",
+            "name": "color_1",
+            "type": "color",
+            "default": {
+              "color": "",
+              "opacity": 0
+            }        
+          },
+          {
+            "label": "Color 2",
+            "name": "color_2",
+            "type": "color",
+            "default": {
+              "color": "",
+              "opacity": 0
+            }        
+          }
+        ]
+      },
+      {
+        "label": "Background image",
+        "name": "bg_image",
+        "type": "image",
+        "resizable": false,
+        "responsive": false,
+        "required": false,
+        "visibility": {
+          "controlling_field": "style.background_type",
+          "controlling_value_regex": "bg_image"
+        },
+        "default": {
+          "size_type": "auto",
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "label": "Title color",
+        "name": "title_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": ""
+        }
+      },
+      {
+        "label": "Subtitle color",
+        "name": "subtitle_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": ""
+        }
+      },      
+      {
+        "label": "Padding",
+        "name": "padding",
+        "type": "group",
+        "children": [
+          {
+            "label": "Top/Bottom",
+            "name": "vertical",
+            "type": "number",
+            "help_text": "Value is in pixels"
+          },
+          {
+            "label": "Left/Right",
+            "name": "horizontal",
+            "type": "number",
+            "help_text": "Value is in pixels"
+          }
+        ]
+      }
+    ]
+  }
+]

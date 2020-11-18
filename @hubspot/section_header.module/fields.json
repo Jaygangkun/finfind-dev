@@ -1,0 +1,28 @@
+[
+  {
+    "id": "4afa5075-25c8-95e7-8893-c08b7351063d",
+    "name": "header",
+    "label": "Section header content",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "A clear and bold header"
+  },
+  {
+    "id": "489067c3-ab1f-7b79-683c-a40b463469d9",
+    "name": "subheader",
+    "label": "Section subheader",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "A more subdued subheader"
+  }
+]

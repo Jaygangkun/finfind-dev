@@ -1,0 +1,92 @@
+{
+  "button_text.default": {
+    "message": "無料で登録",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "ボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "追加のセキュリティ、制御、サポートを必要とするチーム向け。",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "製品の説明",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "機能リストのアイコン中点",
+    "description": "",
+    "placeholders": null
+  },
+  "features.default": {
+    "message": "10人のユーザーが含まれます",
+    "description": "",
+    "placeholders": null
+  },
+  "features.label": {
+    "message": "機能",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "価格カード",
+    "description": "",
+    "placeholders": null
+  },
+  "price.default": {
+    "message": "$0",
+    "description": "",
+    "placeholders": null
+  },
+  "price.label": {
+    "message": "価格",
+    "description": "",
+    "placeholders": null
+  },
+  "style.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_bg.label": {
+    "message": "ボタンの背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_text_color.label": {
+    "message": "ボタンテキストの色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "スタイルオプション",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.default": {
+    "message": "無料",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.label": {
+    "message": "製品ティア",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.default": {
+    "message": "／月",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.label": {
+    "message": "価格のタイムフレーム",
+    "description": "",
+    "placeholders": null
+  }
+}

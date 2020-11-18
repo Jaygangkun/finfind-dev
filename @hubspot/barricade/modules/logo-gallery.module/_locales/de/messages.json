@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Logo-Galerie",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Salesforce-Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Logo-Bilder",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Hintergrundfarbe für Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Vordergrundfarbe für Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stiloptionen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.bottom": {
+    "message": "Unteren Bereich überlappen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.none": {
+    "message": "Kein Überlappen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.top": {
+    "message": "Oberen Bereich überlappen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.help_text": {
+    "message": "Einstellungen, mit denen das Banner den oberen oder unteren Bereich überlappen kann",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.label": {
+    "message": "Überlappungseinstellungen für Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "Standardstil überschreiben",
+    "description": "",
+    "placeholders": null
+  }
+}

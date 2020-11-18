@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "Λογότυπο",
+    "description": null,
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL συνδέσμου",
+    "description": null,
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "Αν δεν έχει καθοριστεί url, το λογότυπό σας θα συνδέει προς το κύριο domain σας",
+    "description": null,
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Άνοιγμα συνδέσμου σε νέα καρτέλα όταν κάνουν κλικ οι επισκέπτες",
+    "description": null,
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "Διαλέξτε ένα στυλ επικεφαλίδας. H1 είναι το μεγαλύτερο, ακολουθεί το H2, κ.ο.κ.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "Στυλ επικεφαλίδας",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "label": "Image and icon",
+    "name": "hero",
+    "type": "group",
+    "children": [
+      {
+        "label": "Image",
+        "name": "hero_image",
+        "type": "image",
+        "responsive": true,
+        "resizable": false,
+        "default": {
+          "alt": "A classroom lecture",
+          "height": 205,
+          "max_height": 205,
+          "max_width": 300,
+          "size_type": "auto",
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Education/home-lecture.png",
+          "width": 300
+        }
+      },
+      {
+        "label": "Icon",
+        "name": "icon_field",
+        "type": "icon",
+        "default": {
+          "name": "heart",
+          "type": "REGULAR",
+          "unicode": "f004"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Content",
+    "name": "content",
+    "type": "group",
+    "children": [
+      {
+        "label": "Title",
+        "name": "title",
+        "type": "text",
+        "default": "Teachers That Care About Your Success"
+      },
+      {
+        "label": "Description",
+        "name": "text",
+        "type": "richtext",
+        "default": "<p style=\"text-align: center;\">Vivamus sagittis lacus vel<br>augue laoreet rutrum.<\/p>"
+      },
+      {
+        "label": "Link",
+        "name": "link_field",
+        "type": "link",
+        "default": {
+          "url": {
+            "href": "https://www.hubspot.com",
+            "type": "EXTERNAL"
+          }
+        }
+      },
+      {
+
+        "label": "Link text",
+        "name": "link_text",
+        "type": "text",
+        "default": "Learn More"
+      }
+    ]
+  },
+  {
+    "label": "Override default style",
+    "name": "override_default_style",
+    "id": "override_default_style",
+    "type": "boolean",
+    "help_text": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "default": false
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "override_default_style",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Accent color",
+        "name": "accent",
+        "type": "color",
+        "default": {
+          "color": "#00CB66",
+          "opacity": 100
+        }
+      },
+      {
+        "label": "Icon fill color",
+        "name": "icon_fill",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#FFFFFF"
+        }
+      }
+    ]
+  }
+]

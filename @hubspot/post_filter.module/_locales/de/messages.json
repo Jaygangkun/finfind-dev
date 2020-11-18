@@ -1,0 +1,87 @@
+{
+  "expand_link_text.default": {
+    "message": "Alle anzeigen",
+    "description": null,
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Text, der angezeigt werden soll, wenn mehr als der maximale Wert für die Anzeige verfügbar ist. Lassen Sie dies leer, um auf den Link zu verzichten.",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autoren",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Monate",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tags",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Werteliste für Filterlinks",
+    "description": null,
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Beiträge nach Tag",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Anzuzeigender Listentitel",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximale Anzahl an Filterwerten zum Anzeigen. Lassen Sie diese Angabe leer, um alle anzuzeigen.",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Name",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Anzahl der Beiträge",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Sortierung der Werte für Filterlinks",
+    "description": null,
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Standardmäßig wird bei Nutzung in einer Blog-Vorlage der aktuelle Blog und bei anderweitiger Nutzung der Hauptblog verwendet.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Blog auswählen, der angezeigt werden soll",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Beitragsfilter",
+    "description": null,
+    "placeholders": null
+  }
+}

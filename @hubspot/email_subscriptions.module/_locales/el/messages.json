@@ -1,0 +1,87 @@
+{
+  "name": {
+    "message": "Προτιμήσεις εγγραφής",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Κείμενο κουμπιού ενημέρωσης προτιμήσεων",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Προτιμήσεις επικοινωνίας",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Δευτερεύων τίτλος",
+    "description": null,
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Ναι, να εγγραφώ ξανά!",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Ετικέτα κατάργησης εγγραφής σε όλα",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Καταργήστε την επιλογή όσων τύπων email δεν επιθυμείτε να λαμβάνετε:",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Ή επιλέξτε εδώ για να μην λάβετε ποτέ πια κανένα email:",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Κείμενο βοήθειας κατάργησης εγγραφής σε όλα για έναν ήδη μη εγγεγραμμένο χρήστη",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Ενημέρωση προτιμήσεων email",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Αν αυτή δεν είναι η διεύθυνση email σας, αγνοήστε αυτή τη σελίδα, αφού το email που είναι συσχετισμένο με αυτήν πιθανότατα σας προωθήθηκε.",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Κεφαλίδα",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Κατάργηση της εγγραφής μου από όλες τις λίστες αλληλογραφίας.",
+    "description": null,
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Κείμενο κουμπιού επανεγγραφής",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Προς το παρόν δεν διαθέτετε συνδρομή σε κανένα από τα email μας. Θέλετε να λαμβάνετε ξανά τα email μας;",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Κείμενο βοήθειας επιλογής προτιμήσεων",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Κείμενο βοήθειας κατάργησης εγγραφής από όλα",
+    "description": null,
+    "placeholders": null
+  }
+}

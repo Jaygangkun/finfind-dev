@@ -1,0 +1,173 @@
+/* Footer */
+
+.footer {
+  background-color: #fff;
+  border-top: none;
+}
+
+.footer * {
+  color: #231f1f;
+}
+
+/* Footer Container */
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 2.8rem 20px 1.4rem;
+}
+
+.footer--landing-page {
+  text-align: center;
+}
+
+/* Footer Rows */
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer Row One */
+
+.footer__row--one {
+  align-items: center;
+}
+
+.footer__logo {
+  height: auto;
+  margin-right: 60px;
+  max-width: 250px;
+}
+
+.footer__logo img {
+  max-width: 100%;
+}
+
+.footer__logo h1 {
+  margin-bottom: 0;
+  max-width: 400px;
+}
+
+.footer__logo .logo-company-name {
+  font-size: 28px;
+}
+
+@media (max-width: 767px) {
+  .footer__logo {
+    margin-right: 0;
+    max-width: 200px;
+  }
+  .footer__logo,
+  .footer__follow-me {
+    margin-bottom: 1.4rem;
+  }
+}
+
+.footer__navigation {
+  margin-right: auto;
+}
+
+.footer__navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__navigation li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+@media (max-width: 1024px) {
+  .footer__navigation li {
+    margin-right: 20px;
+  }
+}
+
+.footer__navigation a {
+  color: #231f1f;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.38rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer__navigation a:hover,
+.footer__navigation a:focus {
+  color: #e73335;
+}
+
+.footer__navigation a:active {
+  color: #231f1f;
+}
+
+@media (max-width: 767px) {
+  .footer__row--one {
+    flex-wrap: wrap;
+  }
+
+  .footer__logo {
+    order: 1;
+  }
+
+  .footer__navigation {
+    order: 3;
+    width: 100%;
+  }
+
+  .footer__navigation li {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .footer__navigation li:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer__follow-me {
+    margin-left: auto;
+    order: 2;
+  }
+}
+
+/* Footer Row Two */
+
+.footer__row--two {
+  flex-wrap: wrap;
+  margin: 85px 0;
+}
+
+.footer__contact {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.footer__contact > div {
+  display: inline-block;
+}
+
+.footer__contact .icon {
+  margin-right: 30px;
+}
+
+@media (max-width: 767px) {
+  .footer__row--two {
+    margin: 2.8rem 0;
+  }
+}
+
+/* Account for internet explorer */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer__contact > div:first-child {
+    float: left;
+  }
+
+  .footer__row .icon svg {
+    max-height: 1rem;
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "link.help_text": {
+    "message": "Si aucune URL n'est spécifiée, votre logo sera lié à votre domaine principal",
+    "description": null,
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL du lien",
+    "description": null,
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Ouvrir le lien dans un nouvel onglet lorsque les visiteurs cliquent dessus",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": null,
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "Sélectionnez un style d'en-tête. H1 est le plus grand, suivi de H2, et ainsi de suite",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "Style d'en-tête",
+    "description": "",
+    "placeholders": null
+  }
+}

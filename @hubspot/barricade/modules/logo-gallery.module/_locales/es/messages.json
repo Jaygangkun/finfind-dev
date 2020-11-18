@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Galería de logotipos",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Logotipo de Salesforce",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Imágenes de logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Color de fondo del banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Color de primer plano del banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Opciones de estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.bottom": {
+    "message": "Superponer la sección a continuación",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.none": {
+    "message": "Sin superposición",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.top": {
+    "message": "Superponer la sección anterior",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.help_text": {
+    "message": "Configuración para permitir que el banner se superponga al área anterior o siguiente",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.label": {
+    "message": "Configuración de superposición de banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "Anular estilo predeterminado",
+    "description": "",
+    "placeholders": null
+  }
+}

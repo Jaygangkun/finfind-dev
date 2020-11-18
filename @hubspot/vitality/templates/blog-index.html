@@ -1,0 +1,90 @@
+<!--
+  templateType: blog
+  isAvailableForNewContent: true
+  label: Vitality - blog listing
+  screenshotPath: ../images/template-previews/blog-index.png
+-->
+{% extends './layouts/base.html' %}
+
+{% block body %}
+<main class="body-container-wrapper">
+  <div class="body-container body-container--blog-index">
+    <div class="content-wrapper">
+
+      {# Blog Layout #}
+      <section class="blog-index">
+
+        {# Blog Header #}
+        <h1 class="blog-index__header">{{ group.public_title }}</h1>
+        {# End Blog Header #}
+
+        {# Blog Tag Navigation #}
+        <div class="blog-index__navigation">
+          {% module 'blog_tag_filter' path='../modules/blog-tag-filter' %}
+        </div>
+        {# End Blog Tag Navigation #}
+
+        {# Blog Listing #}
+        {% for content in contents %}
+          <article class="blog-card">
+            {% if content.featured_image and group.use_featured_image_in_summary %}
+              <div class="blog-card__image-wrapper">
+                <img class="blog-card__image" src="{{ content.featured_image }}" alt="{{ content.featured_image_alt_text }}">
+              </div>
+            {% endif %}
+            <section class="blog-card__content {% if !content.featured_image or !group.use_featured_image_in_summary %}no-image{% endif %}">
+              {% if content.tag_list %}
+                <div class="blog-card__tags">
+                  {% for tag in content.tag_list %}
+                    <a class="blog-card__tag-link" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>{% if not loop.last %},{% endif %}
+                  {% endfor %}
+                </div>
+              {% endif %}
+              <h3 class="blog-card__title"><a href="{{ content.absolute_url }}">{{ content.name }}</a></h3>
+              <p class="blog-card__date">{{ content.publish_date_localized }}</p>
+              {% if content_group.show_summary_in_listing %}
+                <div class="blog-card__post-summary">
+                  {% if content.post_body is string_containing "<!--more-->" %}
+                    {{ content.post_list_content }}
+                  {% else %}
+                    {{ content.post_list_content|truncatehtml(170) }}
+                  {% endif %}
+                </div>
+              {% endif %}
+              <a class="blog-card__button button button--simple" href="{{ content.absolute_url }}">Read More</a>
+            </section>
+          </article>
+        {% endfor %}
+        {# End Blog Listing #}
+
+        {# Blog Pagination #}
+        {% if contents.total_page_count > 1 %}
+          <div class="blog-pagination">
+            {% set page_list = [-2, -1, 0, 1, 2] %}
+            {% if contents.total_page_count - current_page_num == 1 %}{% set offset = -1 %}
+            {% elif contents.total_page_count - current_page_num == 0 %}{% set offset = -2 %}
+            {% elif current_page_num == 2 %}{% set offset = 1 %}
+            {% elif current_page_num == 1 %}{% set offset = 2 %}
+            {% else %}{% set offset = 0 %}{% endif %}
+
+            <a class="blog-pagination__link blog-pagination__prev-link {{ 'blog-pagination__prev-link--disabled' if !last_page_num }}"{% if last_page_num %} href="{% if current_page_num == 2 %}{{ group.absolute_url }}{% else %}{{ blog_page_link(last_page_num) }}{% endif %}"{% endif %}>Prev</a>
+            <div class="blog-pagination__page-list">
+              {% for page in page_list %}
+                {% set this_page = current_page_num + page + offset %}
+                {% if this_page > 0 and this_page <= contents.total_page_count %}
+                  <a class="blog-pagination__link blog-pagination__number-link {{ 'blog-pagination__link--active' if this_page == current_page_num }}" href="{% if this_page == 1 %}{{ group.absolute_url }}{% else %}{{ blog_page_link(this_page) }}{% endif %}">{{ this_page }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+            <a class="blog-pagination__link blog-pagination__next-link {{ 'blog-pagination__next-link--disabled' if !next_page_num }}"{% if next_page_num %} href="{{ blog_page_link(current_page_num + 1) }}"{% endif %}>Next</a>
+          </div>
+        {% endif %}
+        {# End Blog Pagination #}
+
+      </section>
+      {# End Blog Layout #}
+
+    </div>
+  </div>
+</main>
+{% endblock body %}

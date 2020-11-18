@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Odkazy otevírat v novém okně",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Nadpis modulu",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Sledujte mě",
+    "description": null,
+    "placeholders": null
+  }
+}

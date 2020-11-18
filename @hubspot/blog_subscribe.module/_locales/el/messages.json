@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Συνδρομή email ιστολογίου",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Ως προεπιλογή θα χρησιμοποιηθεί το τρέχον ιστολόγιο όταν χρησιμοποιείται σε πρότυπο ιστολογίου ή το κύριο ιστολόγιο όταν χρησιμοποιείται αλλού.",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Εγγραφείτε για συνδρομή εδώ!",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Επιλέξτε ιστολόγιο για προβολή",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Απάντηση εντός του κειμένου για τους χρήστες",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Ευχαριστούμε για την εγγραφή σας!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Τίτλος προς εμφάνιση πάνω από τη φόρμα",
+    "description": null,
+    "placeholders": null
+  }
+}

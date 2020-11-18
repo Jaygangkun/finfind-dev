@@ -1,0 +1,80 @@
+[
+  {
+    "label": "Title",
+    "name": "title",
+    "type": "text"
+  },
+  {
+    "label": "Subtitle",
+    "name": "subtitle",
+    "type": "text"
+  },
+  {
+    "id": "style",
+    "name": "style",
+    "label": "Style options",
+    "type": "group",
+    "children": [
+      {
+        "label": "Background image",
+        "name": "bg_image",
+        "type": "image",
+        "resizable": false,
+        "responsive": false,
+        "required": true,
+        "default": {
+          "size_type": "auto",
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "label": "Title color",
+        "name": "title_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#FFFFFF"
+        }
+      },
+      {
+        "label": "Subtitle color",
+        "name": "subtitle_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#FFFFFF"
+        }
+      },
+      {
+        "label": "Padding",
+        "name": "padding",
+        "type": "group",
+        "children": [
+          {
+            "label": "Top/Bottom",
+            "name": "vertical",
+            "type": "number",
+            "help_text": "Value is in pixels",
+            "default": 80
+          },
+          {
+            "label": "Left/Right",
+            "name": "horizontal",
+            "type": "number",
+            "help_text": "Value is in pixels",
+            "default": 20
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Events",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.default": {
+    "message": "2 Canal Park, Cambridge, MA, USA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.label": {
+    "message": "Adresse",
+    "description": "",
+    "placeholders": null
+  },
+  "event.date.label": {
+    "message": "Datum und Uhrzeit",
+    "description": "",
+    "placeholders": null
+  },
+  "event.event_icon.label": {
+    "message": "Eventsymbol",
+    "description": "",
+    "placeholders": null
+  },
+  "event.label": {
+    "message": "Events",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.default": {
+    "message": "Mehr erfahren",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.label": {
+    "message": "Link-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.default": {
+    "message": "HALBJÄHRLICHE BILDUNGSGALA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.label": {
+    "message": "Inhalt der Überschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_icon.label": {
+    "message": "Überschriftensymbol",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link.label": {
+    "message": "Link zur Überschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.default": {
+    "message": "Alle anzeigen",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.label": {
+    "message": "Link-Text für Überschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.default": {
+    "message": "Bevorstehende Events",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.label": {
+    "message": "Überschrift",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": {
+    "message": "간단 메뉴",
+    "description": null,
+    "placeholders": null
+  },
+  "menu_tree.label": {
+    "message": "간단 메뉴",
+    "description": null,
+    "placeholders": null
+  },
+  "orientation.choices.horizontal": {
+    "message": "가로",
+    "description": null,
+    "placeholders": null
+  },
+  "orientation.choices.vertical": {
+    "message": "세로",
+    "description": null,
+    "placeholders": null
+  },
+  "orientation.label": {
+    "message": "메뉴 방향",
+    "description": null,
+    "placeholders": null
+  },
+  "orientation.placeholder": {
+    "message": "검색",
+    "description": null,
+    "placeholders": null
+  }
+}

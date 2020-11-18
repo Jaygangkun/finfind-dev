@@ -1,0 +1,17 @@
+{
+  "value.default": {
+    "message": "Wat aanvullende informatie in één regel",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Tekst",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Eén regel tekst",
+    "description": null,
+    "placeholders": null
+  }
+}

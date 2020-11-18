@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Suurin on H1, jota seuraa H2 jne.",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Otsikkotyyppi",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Hae",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Selkeä ja lihavoitu yläotsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Otsikkosisältö",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Yläotsikko",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Piilota yläotsikon tasosäätimet",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Yläotsikon tasosäätimien piilottaminen estää yläotsikon tason muuttamisen sisältötyökaluista",
+    "description": null,
+    "placeholders": null
+  }
+}

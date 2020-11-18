@@ -1,0 +1,36 @@
+/* Tables */
+
+table {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 15px;
+  vertical-align: top;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba('#fbf7f1', 0.35);
+}
+
+thead th,
+thead td {
+  background-color: #231f1f;
+  border: none;
+  border-bottom-width: 2px;
+  color: #fff;
+}
+
+thead th {
+  border-bottom: none;
+  vertical-align: bottom;
+}
+
+tbody + tbody {
+  border-top: none;
+}

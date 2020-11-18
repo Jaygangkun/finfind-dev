@@ -1,0 +1,155 @@
+[
+  {
+    "label": "Testimonials",
+    "name": "testimonial_carousel",
+    "type": "group",
+    "occurrence": {
+      "default": 3,
+      "max": null,
+      "min": 1
+    },
+    "children": [
+      {
+        "name": "content",
+        "label": "Testimonial text",
+        "required": true,
+        "type": "richtext",
+        "default": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>"
+      },
+      {
+        "name": "author",
+        "label": "Author",
+        "type": "text",
+        "default": "Mary Kindler"
+      },
+      {
+        "name": "author_title",
+        "label": "Author's title",
+        "type": "text",
+        "default": "Founder of Syntecho"
+      },
+      {
+        "name": "testimonial_image",
+        "label": "Testimonial image",
+        "required": true,
+        "responsive": false,
+        "resizable": true,
+        "type": "image",
+        "default": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Martech/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      }
+    ],
+    "default": [
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Martech/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      },
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Martech/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      },
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Martech/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      }
+    ]
+  },
+  {
+    "id": "override_default_style",
+    "name": "override_default_style",
+    "label": "Override default style",
+    "type": "boolean",
+    "help_text": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "default": false
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "override_default_style",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Background color",
+        "name": "background_color",
+        "type": "color",
+        "default": {
+          "color": "#FFFFFF",
+          "opacity": 100
+        }
+      },
+      {
+        "label": "Text color",
+        "name": "text_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#0D2547"
+        }
+      },
+      {
+        "label": "Quote color",
+        "name": "quote_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#19CCA3"
+        }
+      },
+      {
+        "label": "Navigation color",
+        "name": "navigation_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#BAEAE3"
+        }
+      },
+      {
+        "label": "Navigation active color",
+        "name": "navigation_active_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#19CCA3"
+        }
+      }
+    ]
+  }
+]

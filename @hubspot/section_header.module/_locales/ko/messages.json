@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "섹션 제목",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "부각되지 않는 부제목",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "굵은체의 선명한 제목",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "섹션 제목 내용",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "섹션 부제목",
+    "description": null,
+    "placeholders": null
+  }
+}

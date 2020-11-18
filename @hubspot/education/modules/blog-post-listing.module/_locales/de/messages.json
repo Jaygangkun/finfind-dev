@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Listing des Blog-Beitrags",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "Blog auswählen",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Alle anzeigen",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Button-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "filter.choices.id_and_tags": {
+    "message": "Nach Blog und Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "filter.choices.id_only": {
+    "message": "Nach Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "filter.label": {
+    "message": "Filter",
+    "description": "",
+    "placeholders": null
+  },
+  "read_more.default": {
+    "message": "Mehr erfahren",
+    "description": "",
+    "placeholders": null
+  },
+  "read_more.label": {
+    "message": "Weiterlesen",
+    "description": "",
+    "placeholders": null
+  },
+  "tag.label": {
+    "message": "Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "title_text.default": {
+    "message": "In den Nachrichten",
+    "description": "",
+    "placeholders": null
+  },
+  "title_text.label": {
+    "message": "Titeltext",
+    "description": "",
+    "placeholders": null
+  }
+}

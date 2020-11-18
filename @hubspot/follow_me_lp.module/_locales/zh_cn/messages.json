@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "中心对齐",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "左对齐",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "右对齐",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "对齐方式",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "黑白",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "灰色",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "白色",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "配色方案",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "图标",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "图标和文本",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "仅限文本",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "显示",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "字体样式",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "圆形",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "原始",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "正方形",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "图标形状",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "关注我 - LP",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "比例",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "社交网络",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "自定义图标",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "电邮",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "网站",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "网络",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "网络图片",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "支持文本",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  }
+}

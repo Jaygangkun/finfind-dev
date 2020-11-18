@@ -1,0 +1,100 @@
+[
+  {
+    "label": "Button text",
+    "name": "button_text",
+    "type": "text",
+    "required": true,
+    "default": "Add a button link here"
+  },
+  {
+    "label": "Button options",
+    "name": "button_options",
+    "type": "group",
+    "children": [
+      {
+        "label": "Use as link",
+        "name": "button_link_toggle",
+        "id": "button_link_toggle",
+        "type": "boolean",
+        "default": false
+      },
+      {
+        "label": "Add icon",
+        "name": "button_icon_toggle",
+        "id": "button_icon_toggle",
+        "type": "boolean",
+        "default": false
+      }
+    ]
+  },
+  {
+    "label": "Button link",
+    "name": "button_link",
+    "type": "link",
+    "visibility": {
+      "controlling_field": "button_link_toggle",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "no_follow": false,
+    "open_in_new_tab": false,
+    "supported_types": ["EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG"],
+    "default": {
+      "url": {
+        "type": "EXTERNAL",
+        "href": "www.hubspot.com",
+        "content_id": null
+      }
+    }
+  },
+  {
+    "label": "Icon",
+    "name": "button_icon",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "button_icon_toggle",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Add icon",
+        "name": "icon_field",
+        "type": "icon"
+      },
+      {
+        "label": "Position",
+        "name": "icon_position",
+        "type": "choice",
+        "choices": [["left", "Left"], ["right", "Right"]],
+        "display": "select",
+        "default": "left"
+      }
+    ]
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "children": [
+      {
+        "label": "Button Style",
+        "name": "button_type",
+        "type": "choice",
+        "choices": [["primary", "Primary"], ["secondary", "Secondary"], ["simple", "Simple"]],
+        "display": "radio",
+        "required": false,
+        "default": "primary"
+      },
+      {
+        "label": "Button Size",
+        "name": "button_size",
+        "type": "choice",
+        "choices": [["small", "Small"], ["regular", "Regular"], ["large", "Large"]],
+        "display": "radio",
+        "required": false,
+        "default": "regular"
+      }
+    ]
+  }
+]

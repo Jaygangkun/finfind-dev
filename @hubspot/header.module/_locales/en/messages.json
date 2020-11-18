@@ -1,0 +1,77 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 is the largest, followed by H2, and so on",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Header type",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "A clear and bold header",
+    "description": "",
+    "placeholders": null
+  },
+  "value.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Header content",
+    "description": "",
+    "placeholders": null
+  },
+  "value.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "value.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Header",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Hide header level controls",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Hiding the header level controls will prevent the header level from being changed in the content tools",
+    "description": null,
+    "placeholders": null
+  }
+}

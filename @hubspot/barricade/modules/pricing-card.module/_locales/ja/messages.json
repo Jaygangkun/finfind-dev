@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "価格カード",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "ボタンリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "無料で登録",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "ボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "追加のセキュリティ、制御、サポートを必要とするチーム向け。",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "製品の説明",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "機能リストのアイコン中点",
+    "description": "",
+    "placeholders": null
+  },
+  "features.default": {
+    "message": "10人のユーザーが含まれます",
+    "description": "",
+    "placeholders": null
+  },
+  "features.label": {
+    "message": "機能",
+    "description": "",
+    "placeholders": null
+  },
+  "price.default": {
+    "message": "$0",
+    "description": "",
+    "placeholders": null
+  },
+  "price.label": {
+    "message": "価格",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.large": {
+    "message": "大",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.regular": {
+    "message": "通常送信",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.small": {
+    "message": "小",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.label": {
+    "message": "ボタンのサイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.primary": {
+    "message": "プライマリ",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.secondary": {
+    "message": "セカンダリ",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.simple": {
+    "message": "シンプル",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.label": {
+    "message": "ボタンスタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "スタイルオプション",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.default": {
+    "message": "無料",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.label": {
+    "message": "製品ティア",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.default": {
+    "message": "／月",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.label": {
+    "message": "価格のタイムフレーム",
+    "description": "",
+    "placeholders": null
+  }
+}

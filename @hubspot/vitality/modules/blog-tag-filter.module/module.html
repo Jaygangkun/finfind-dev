@@ -1,0 +1,15 @@
+{% set my_tags = blog_tags('default', 250) %}
+{% set currentURL = content.absolute_url %}
+
+<nav class="blog-tag-filter" aria-label="Blog tag menu">
+  <ul class="blog-tag-filter__menu">
+    <li class="blog-tag-filter__menu-item">
+      <a href="{{ group.absolute_url }}" class="{% if currentURL == group.absolute_url %}blog-tag-filter__menu-link--active-item {% endif %}blog-tag-filter__menu-link">All Articles</a>
+    </li>
+    {% for item in my_tags %}
+      <li class="blog-tag-filter__menu-item">
+        <a href="{{ blog_tag_url(group.id, item.slug) }}" class="{% if currentURL == blog_tag_url(group.id, item.slug) %}blog-tag-filter__menu-link--active-item {% endif %}blog-tag-filter__menu-link">{{ item }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

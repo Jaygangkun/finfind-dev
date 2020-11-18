@@ -1,0 +1,43 @@
+.icon_card {
+  padding: 20px;
+}
+
+.icon_card__background {
+  align-items: center;
+  background-image: url('//cdn2.hubspotqa.net/hub/101677409/hubfs/Biography-squares.svg?t=1580932507865&width=860');
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.icon_card__upper {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 250px;
+  position: relative;
+  width: 250px;
+}
+
+.icon_card__content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
+}
+
+.icon_card__name {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.icon_card__text {
+  line-height: 2rem;
+}
+
+@media (max-width: 767px) {
+  .icon_card {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "list_title.default": {
+    "message": "Senaste inläggen",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Listtitel att visa",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Populärast - hela tiden",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Populärast - senaste månaden",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Populärast - senaste sex månaderna",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Populäraste - senaste året",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Senaste",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Lista blogginlägg efter",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Sök",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximalt antal blogginlägg att lista",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Standardinställning kommer att använda nuvarade blogg när den används i en bloggmall eller den primära bloggen när den används någon annanstans.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Välj blogg att visa",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inläggslista",
+    "description": null,
+    "placeholders": null
+  }
+}

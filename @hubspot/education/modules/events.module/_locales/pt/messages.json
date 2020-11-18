@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Eventos",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.default": {
+    "message": "2 Canal Park, Cambridge, MA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.label": {
+    "message": "Endereço",
+    "description": "",
+    "placeholders": null
+  },
+  "event.date.label": {
+    "message": "Data e hora",
+    "description": "",
+    "placeholders": null
+  },
+  "event.event_icon.label": {
+    "message": "Ícone de evento",
+    "description": "",
+    "placeholders": null
+  },
+  "event.label": {
+    "message": "Eventos",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.default": {
+    "message": "Saiba mais",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.label": {
+    "message": "Texto do link",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.default": {
+    "message": "GALA DE EDUCAÇÃO SEMESTRAL",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.label": {
+    "message": "Título",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.label": {
+    "message": "Conteúdo do cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_icon.label": {
+    "message": "Ícone de cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link.label": {
+    "message": "Link de cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.default": {
+    "message": "Exibir todos",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.label": {
+    "message": "Texto de link de cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.default": {
+    "message": "Próximos eventos",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.label": {
+    "message": "Cabeçalho",
+    "description": "",
+    "placeholders": null
+  }
+}

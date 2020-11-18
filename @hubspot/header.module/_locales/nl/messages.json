@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 is het grootst, gevolgd door H2, enzovoorts",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Koptype",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Zoeken",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Een duidelijke en opvallende kop",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Inhoud kop",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Kop",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Besturingselementen op kopniveau verbergen",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Als de besturingsinstellingen op kopniveau worden verborgen, kan het kopniveau ook niet worden gewijzigd in de inhoudstools",
+    "description": null,
+    "placeholders": null
+  }
+}

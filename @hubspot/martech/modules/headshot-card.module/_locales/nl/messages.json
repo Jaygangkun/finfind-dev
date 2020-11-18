@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Portretfotokaart",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "<p>in tegenstelling tot wat algemeen gedacht wordt, is Lorem Ipsum niet gewoon wat willekeurige tekst. Het gaat terug naar een werk uit de Latijnse literatuur uit 45 v. Chr., en is dus meer dan 2000 jaar oud.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "Beschrijving",
+    "description": "",
+    "placeholders": null
+  },
+  "headshot.default.alt": {
+    "message": "thuis_college",
+    "description": "",
+    "placeholders": null
+  },
+  "headshot.label": {
+    "message": "Portretfoto",
+    "description": "",
+    "placeholders": null
+  },
+  "human_name.default": {
+    "message": "Mort Ricky",
+    "description": "",
+    "placeholders": null
+  },
+  "human_name.label": {
+    "message": "Naam",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Chief Education Officer",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Membro da equipe",
+    "description": "",
+    "placeholders": null
+  },
+  "team_member_content.default": {
+    "message": "<h3>Joshua Beck</h3><p>CEO, cofundador</p><p>Joshua tem mais de 20 anos de experiência no setor de tecnologia. Ele é um dos fundadores da empresa em 2015, com a missão de ajudar a desenvolver as pessoas. Em seu tempo livre, ele gosta de brincar com os filhos, ir à praia e cozinhar.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "team_member_content.label": {
+    "message": "Conteúdo do membro da equipe",
+    "description": "",
+    "placeholders": null
+  },
+  "team_member_image.label": {
+    "message": "Imagem de membro da equipe",
+    "description": "",
+    "placeholders": null
+  }
+}

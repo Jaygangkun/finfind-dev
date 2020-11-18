@@ -1,0 +1,52 @@
+{
+  "link.help_text": {
+    "message": "Als er geen url is gespecificeerd, is je logo gekoppeld naar je primaire domein",
+    "description": null,
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "Koppelings-URL",
+    "description": null,
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Koppeling in een nieuw tabblad openen wanneer gebruikers klikken op",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": null,
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "Kies een kopstijl. H1 is het grootst, gevolgd door H2, enzovoorts",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "Kopstijl",
+    "description": "",
+    "placeholders": null
+  }
+}

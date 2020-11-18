@@ -1,0 +1,244 @@
+/* Footer */
+
+.footer {
+  background-color: #fff;
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.footer__main-bar {
+  border-top: 10px solid #eb4e54;
+}
+
+.footer__main-bar .footer__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer__left {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.footer__main-bar__logo {
+  background-color: #eb4e54;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: inline-block;
+  padding: 20px 17px;
+}
+
+.footer__main-bar__logo img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.footer__main-bar__menu {
+  margin: 0 0 35px;
+}
+
+.footer__main-bar__menu a {
+  color: #252425;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer__main-bar__menu a:hover,
+.footer__main-bar__menu a:focus {
+  background-color: transparent;
+  color: inherit;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.footer__main-bar__menu a:active {
+  background-color: transparent;
+}
+
+.footer__main-bar__menu ul {
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__main-bar__social {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer__right {
+  background-color: #f1f1f1;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+  flex: 1 0 100%;
+  padding: 60px 35px;
+  text-align: center;
+}
+
+.footer__copyright-bar {
+  border-top: 1px solid #d0d0d0;
+  color: #8a8a8a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: normal;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.footer__copyright-bar .footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__copyright-bar__secondary-links a {
+  color: inherit;
+  display: inline-block;
+  font-family: inherit;
+  font-style: inherit;
+  padding: 0 10px;
+}
+
+.footer__copyright-bar__secondary-links a:last-of-type {
+  padding-right: 0;
+}
+
+.footer .footer__form {
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.footer .footer__form form {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  display: block;
+  margin: 25px auto 0;
+  max-width: 80%;
+  padding: 0;
+}
+
+.footer .footer__form .form-title {
+  background-color: transparent;
+  color: #252425;
+  padding: 0 0 1rem;
+}
+
+.footer .footer__form form div.in-focus > label {
+  background-color: #f1f1f1;
+}
+
+.footer .footer__form form input[type='text'],
+.footer .footer__form form input[type='email'],
+.footer .footer__form form input[type='password'],
+.footer .footer__form form input[type='tel'],
+.footer .footer__form form input[type='number'],
+.footer .footer__form form input[type='file'],
+.footer .footer__form form select,
+.footer .footer__form form textarea {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__main-bar__menu a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .footer__main-bar .footer__container {
+    flex-wrap: nowrap;
+  }
+
+  .footer__main-bar__social {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0;
+    position: relative;
+    top: 5px;
+  }
+
+  .footer__left {
+    display: initial;
+    flex: 1 1 auto;
+    flex-direction: row;
+  }
+
+  .footer__right {
+    flex: 0 1 auto;
+    padding: 80px 25px 70px;
+  }
+
+  .footer__main-bar__menu {
+    margin: 65px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__main-bar__menu ul {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__left {
+    flex: 1 0 auto;
+    padding: 0;
+  }
+
+  .footer__main-bar__menu li:not(:last-of-type) a {
+    margin-right: 25px;
+  }
+
+  .footer__main-bar__menu {
+    padding-right: 25px;
+  }
+
+  .footer__copyright-bar {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .footer__right {
+    flex: 1 0 auto;
+  }
+}
+
+/* Fixes for internet explorer */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  svg {
+    max-width: 1rem;
+  }
+
+  .footer__left {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+  }
+
+  .footer__left .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}

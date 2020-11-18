@@ -1,0 +1,42 @@
+{
+  "name": {
+    "message": "ロゴギャラリー",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "次によって認識：",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "ヘッダー",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Agrifloraのロゴ",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "ロゴ画像",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "バナーの背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "バナーの前景色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "スタイルオプション",
+    "description": "",
+    "placeholders": null
+  }
+}

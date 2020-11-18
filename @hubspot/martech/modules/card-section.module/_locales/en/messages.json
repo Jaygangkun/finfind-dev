@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "Card Section",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_link.label": {
+    "message": "Button link",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_text.default": {
+    "message": "Learn More",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_text.label": {
+    "message": "Button text",
+    "description": "",
+    "placeholders": null
+  },
+  "card.image.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "card.label": {
+    "message": "Card",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.default": {
+    "message": "Contextual advertising can be profitable. It can either pay for your hosting and maintenance costs for you website or it can pay for a lot more.",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.default": {
+    "message": "This is a title",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.label": {
+    "message": "Title",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "label": "Statistic number",
+    "name": "statistic_number",
+    "type": "number",
+    "display": "text",
+    "max": 1000,
+    "min": 0,
+    "required": true,
+    "step": 1,
+    "default": 10
+  },
+  {
+    "label": "Statistic unit",
+    "name": "statistic_unit",
+    "type": "text",
+    "default": "k"
+  },
+  {
+    "label": "Statistic percentage",
+    "name": "statistic_percentage",
+    "type": "number",
+    "display": "text",
+    "max": 100,
+    "min": 0,
+    "required": true,
+    "step": 1,
+    "default": 50
+  },
+  {
+    "label": "Statistic description",
+    "name": "statistic_description",
+    "type": "richtext",
+    "default": "<p>Customer satisfaction rating</p>"
+  },
+  {
+    "label": "Override default style",
+    "name": "override_default_style",
+    "id": "override_default_style",
+    "type": "boolean",
+    "help_text": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "default": false
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "override_default_style",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Bar color",
+        "name": "bar_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#D0D0D0"
+        }
+      },
+      {
+        "label": "Bar fill color",
+        "name": "bar_fill_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#34B5E5"
+        }
+      }
+    ]
+  }
+]

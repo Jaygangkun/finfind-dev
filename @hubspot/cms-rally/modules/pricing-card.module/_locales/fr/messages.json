@@ -1,0 +1,92 @@
+{
+  "button_text.default": {
+    "message": "S'inscrire gratuitement",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texte du bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "Pour les équipes qui ont besoin de plus de sécurité, de contrôle et de support.",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "Description du produit",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Puce d'icône de la liste des fonctionnalités",
+    "description": "",
+    "placeholders": null
+  },
+  "features.default": {
+    "message": "10 utilisateurs inclus",
+    "description": "",
+    "placeholders": null
+  },
+  "features.label": {
+    "message": "Fonctionnalités",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Carte des tarifs",
+    "description": "",
+    "placeholders": null
+  },
+  "price.default": {
+    "message": "0 $",
+    "description": "",
+    "placeholders": null
+  },
+  "price.label": {
+    "message": "Prix",
+    "description": "",
+    "placeholders": null
+  },
+  "style.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_bg.label": {
+    "message": "Couleur d'arrière-plan du bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_text_color.label": {
+    "message": "Couleur du texte du bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Options de style",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.default": {
+    "message": "Outils gratuits",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.label": {
+    "message": "Niveau du produit",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.default": {
+    "message": "/ mois",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.label": {
+    "message": "Période de tarification",
+    "description": "",
+    "placeholders": null
+  }
+}

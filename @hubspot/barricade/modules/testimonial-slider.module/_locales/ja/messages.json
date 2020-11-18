@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "お客様の声のスライダー",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.default": {
+    "message": "Mary Kindler",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.label": {
+    "message": "作成者",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.default": {
+    "message": "Syntechoの創業者",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.label": {
+    "message": "執筆者の肩書き",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.default": {
+    "message": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.label": {
+    "message": "お客様の声のテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.label": {
+    "message": "お客様の声",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.default.alt": {
+    "message": "プレースホルダーの画像",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.label": {
+    "message": "お客様の声の画像",
+    "description": "",
+    "placeholders": null
+  }
+}

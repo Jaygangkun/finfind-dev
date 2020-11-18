@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Bedankt dat je je hebt aangemeld!",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Inline-reactie voor gebruikers",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Met de standaardinstelling wordt het huidige blog gebruikt bij gebruik in een blogtemplate of het primaire blog bij gebruik elders.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Weer te geven blog selecteren",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Meld je hier aan!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titel om boven formulier weer te geven",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "E-mailabonnement blog",
+    "description": null,
+    "placeholders": null
+  }
+}

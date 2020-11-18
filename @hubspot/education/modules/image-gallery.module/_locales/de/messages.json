@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Bildergalerien",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.default.alt": {
+    "message": "Gebäude des Studentenwohnheims auf dem Campus",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.default.size_type": {
+    "message": "exakt",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.label": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "button_text.default": {
+    "message": "Cancelar suscripción",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto del botón",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Cancelar suscripción al correo",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Encabezado",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Tu dirección de correo electrónico:",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Texto de ayuda de entrada de correo electrónico",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "correo@ejemplo.com",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Texto del parámetro de sustitución de entrada de correo electrónico",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Cancelación de suscripción con copia de seguridad",
+    "description": null,
+    "placeholders": null
+  }
+}

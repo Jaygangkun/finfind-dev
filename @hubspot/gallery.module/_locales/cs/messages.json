@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Automatický přechod na další",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Popisky zobrazovat vždy pod obrázky",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Zobrazovat popisky na obrázcích",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Umístění popisku",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Hledat",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galerie s efektem lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardní posuvník",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navigace s miniaturami",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Režim zobrazení",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Hledat",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Počet řádků v galerii s efektem lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Počet řádků v galerii s efektem lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Cyklovat snímky",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Čas v sekundách před automatickým posunutím",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Zobrazit navigační tlačítka",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Proměnná výška",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Pevná výška",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Proměnná výška",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Hledat",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Popisek",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Obrázek",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Snímek",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Adresa URL odkazu",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Odkaz otevřít v nové záložce",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Zobrazit popisek",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Prolnout",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Snímek",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Přechody snímků",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Hledat",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Galerie obrázků",
+    "description": null,
+    "placeholders": null
+  }
+}

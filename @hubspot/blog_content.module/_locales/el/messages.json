@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Περιεχόμενο ιστολογίου",
+    "description": null,
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "Ανάρτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "Προέλευση ανάρτησης ιστολογίου",
+    "description": null,
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "Καταχώρηση",
+    "description": null,
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "Πρότυπο προς επεξεργασία",
+    "description": null,
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "Προέλευση καταχώρησης ιστολογίου",
+    "description": null,
+    "placeholders": null
+  }
+}

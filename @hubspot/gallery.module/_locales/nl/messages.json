@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Automatisch doorgaan",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Bijschriften altijd onder de afbeelding houden",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Bijschriften bovenop afbeeldingen plaatsen",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Positie bijschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Zoeken",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox-galerij",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standaard-slider",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniatuur navigatie",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Weergavemodus",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Zoeken",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rijen voor lightbox galerie",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Rijen voor lightbox galerie",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Dia's herhalen",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tijd in seconden tussen automatisch scrollen",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Navigatieknoppen weergeven",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variabele hoogte",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Vaste hoogte",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variabele hoogte",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Zoeken",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Bijschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Afbeelding",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dia",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Koppelings-URL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Link in nieuw tabblad openen",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Bijschrift weergeven",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Vervagen",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Dia",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Dia-overgangen",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Zoeken",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Afbeeldingengalerie",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Filtro de etiquetas del blog",
+    "description": "",
+    "placeholders": null
+  },
+  "default_filter_text.default": {
+    "message": "Seleccionar categoría",
+    "description": "",
+    "placeholders": null
+  },
+  "default_filter_text.label": {
+    "message": "Texto de filtro predeterminado",
+    "description": "",
+    "placeholders": null
+  }
+}

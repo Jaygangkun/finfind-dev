@@ -1,0 +1,239 @@
+<!--
+  templateType: global_partial
+  label: Footer
+-->
+<footer class="footer">
+  <div class="footer__container">
+
+    {# Footer Top Section #}
+    <div class="footer__top-section">
+      <div class="row-fluid span12">
+
+        {# Logo and Social Follow Column #}
+        <div class="footer__info column span3">
+
+          {# Logo #}
+          <div class="footer__logo">
+            {% module 'footer_logo'
+              path='@hubspot/logo',
+              img={
+                'alt': 'Martech logo',
+                'height': '82',
+                'src': get_asset_url('../../images/logo.svg'),
+                'width': '205'
+              }
+            %}
+          </div>
+          {# End Logo #}
+
+          {# Address #}
+          <div class="footer__address">
+            {% module_block module 'footer_address'
+              label='Address',
+              path='@hubspot/rich_text'
+            %}
+              {% module_attribute 'html' %}
+                <div>197A Quintal Square</div>
+                <div>Waverly, MA 04982</div>
+              {% end_module_attribute %}
+            {% end_module_block %}
+          </div>
+
+          {# End Address #}
+
+          {# Social Follow #}
+          <div class="footer__follow-me">
+            {% module_block module 'footer_social'
+              path='../../modules/social-follow',
+              override_default_style=true,
+              social_links=[
+                {
+                  'social_account': 'facebook-f',
+                  'accessibility': {
+                    'title': 'Follow us on Facebook'
+                  }
+                },
+                {
+                  'social_account': 'linkedin-in',
+                  'accessibility': {
+                    'title': 'Follow us on LinkedIn'
+                  }
+                },
+                {
+                  'social_account': 'twitter',
+                  'accessibility': {
+                    'title': 'Follow us on Twitter'
+                  }
+                },
+                {
+                  'social_account': 'instagram',
+                  'accessibility': {
+                    'title': 'Follow us on Instagram'
+                  }
+                }
+              ]
+            %}
+              {% module_attribute 'style' is_json=True %}
+                {
+                  "color": {
+                    "color": "#ffffff",
+                    "opacity": 100
+                  },
+                  "bg_color": {
+                    "color": "#19CCA3",
+                    "opacity": 100
+                  },
+                  "hover": {
+                    "color": {
+                      "color": "#ffffff",
+                      "opacity": 100
+                    },
+                    "bg_color": {
+                      "color": "#27EDC0",
+                      "opacity": 100
+                    }
+                  }
+                }
+              {% end_module_attribute %}
+            {% end_module_block %}
+          </div>
+          {# End Social Follow #}
+
+        </div>
+        {# End Logo and Social Follow Column #}
+
+        {# Navigation Column One #}
+        <div class="footer__navigation column span3">
+          {% module 'footer_menu_header_one'
+            label='Menu title column one',
+            path='@hubspot/header',
+            header_tag='h4',
+            value='Products'
+          %}
+          {% module_block module 'footer_menu_one'
+            label='Menu column one',
+            path='@hubspot/simple_menu',
+            orientation='vertical'
+          %}
+            {% module_attribute 'menu_tree' is_json=True %}
+              [
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Wordpress Hosting", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "WooCommerce Hosting", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Enterprise WordPress Hosting", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Magento Hosting", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "PHP Hosting", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Laravel Hosting", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Drupal Hosting", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false}
+              ]
+            {% end_module_attribute %}
+          {% end_module_block %}
+
+          {% module 'footer_menu_header_two'
+            label='Menu title column two',
+            path='@hubspot/header',
+            header_tag='h4',
+            value='Support'
+          %}
+          {% module_block module 'footer_menu_two'
+            label='Menu column two',
+            path='@hubspot/simple_menu',
+            orientation='vertical'
+          %}
+            {% module_attribute 'menu_tree' is_json=True %}
+              [
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "FAQs", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Testimonials", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false}
+              ]
+            {% end_module_attribute %}
+          {% end_module_block %}
+        </div>
+        {# End Navigation Column One #}
+
+        {# Navigation Column Two #}
+        <div class="footer__navigation column span3">
+          {% module 'footer_menu_header_three'
+            label='Menu title column three',
+            path='@hubspot/header',
+            header_tag='h4',
+            value='Solutions'
+          %}
+          {% module_block module 'footer_menu_three'
+            label='Menu column three',
+            path='@hubspot/simple_menu',
+            orientation='vertical'
+          %}
+            {% module_attribute 'menu_tree' is_json=True %}
+              [
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Help Resources", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Contact Support", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Free Migration Service", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Certified Consultants", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Developers", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false}
+              ]
+            {% end_module_attribute %}
+          {% end_module_block %}
+
+          {% module 'footer_menu_header_four'
+            label='Menu title column four',
+            path='@hubspot/header',
+            header_tag='h4',
+            value='Company'
+          %}
+          {% module_block module 'footer_menu_four'
+            label='Menu column four',
+            path='@hubspot/simple_menu',
+            orientation='vertical'
+          %}
+            {% module_attribute 'menu_tree' is_json=True %}
+              [
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "About", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Careers", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false},
+                {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Partners", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false}
+              ]
+            {% end_module_attribute %}
+          {% end_module_block %}
+        </div>
+        {# End Navigation Column Two #}
+
+        {# Footer Form #}
+        <div class="footer__form column span3">
+          {% module_block
+            module "footer_form",
+            path='@hubspot/form',
+            label='Form',
+            title='Sign Up For Our Newsletter'
+          %}
+          {% end_module_block %}
+        </div>
+        {# End Footer Form #}
+
+      </div>
+    </div>
+    {# End Footer Top Section #}
+
+    {# Footer Bottom Section #}
+    <div class="footer__bottom-section">
+      <div class="row-fluid span12">
+
+        {# Copyright Column #}
+        <div class="column span12">
+          {# Copyright #}
+          {% module_block module 'footer_copyright'
+            label='Copyright',
+            path='@hubspot/rich_text'
+          %}
+            {% module_attribute 'html' %}
+              <p>Copyright © {{ site_settings.company_name }} {{ year }}. All Rights Reserved. | <a href="#">Privacy Policy</a> </p>
+            {% end_module_attribute %}
+          {% end_module_block %}
+          {# End Copyright #}
+
+        </div>
+        {# End Copyright Column #}
+
+      </div>
+    </div>
+    {# End Footer Bottom Section #}
+
+  </div>
+</footer>

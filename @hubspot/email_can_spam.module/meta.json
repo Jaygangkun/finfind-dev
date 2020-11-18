@@ -1,0 +1,15 @@
+{
+  "content_tags": [{ "name": "OTHER_INDUSTRY", "source": "MARKETPLACE" }],
+  "css_assets": [],
+  "editable_contexts": [],
+  "external_js": [],
+  "host_template_types": ["EMAIL"],
+  "icon": "../img/icon/high-email.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Office Location Information"
+}

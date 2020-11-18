@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "Eine klare und auffällige Überschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Bereichsüberschrift-Content",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Eine dezentere Unterüberschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Bereichsunterüberschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Bereichsüberschrift",
+    "description": null,
+    "placeholders": null
+  }
+}

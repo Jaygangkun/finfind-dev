@@ -1,0 +1,52 @@
+{
+  "blog_link.label": {
+    "message": "Lien",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_icon.label": {
+    "message": "Icône du lien",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.default": {
+    "message": "Lorem ipsum",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_link.link_text.label": {
+    "message": "Texte du lien",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_colors.label": {
+    "message": "Couleurs des articles",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Articles de blog en vignette",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Sélectionnez le blog dont vous voulez afficher des articles en vignette",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Sélectionner un blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.help_text": {
+    "message": "Si vous ne souhaitez faire figurer en vignette qu'une balise spécifique de votre blog, sélectionnez-la ici.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_tag.label": {
+    "message": "Sélectionner une balise",
+    "description": "",
+    "placeholders": null
+  }
+}

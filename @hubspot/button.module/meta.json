@@ -1,0 +1,15 @@
+{
+  "content_tags": [],
+  "css_assets": [],
+  "editable_contexts": [],
+  "external_js": [],
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-ctas-2.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "label": "Button",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Button"
+}

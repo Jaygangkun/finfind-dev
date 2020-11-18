@@ -1,0 +1,12 @@
+[
+  {
+    "id": "21e82ff2-7430-a79d-d175-099b160679c8",
+    "name": "value",
+    "label": "Value",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "type": "boolean",
+    "default": false
+  }
+]

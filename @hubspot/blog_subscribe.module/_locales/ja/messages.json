@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "サブスクライブしていただきありがとうございます！",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "ユーザーのインライン応答",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "既定の設定では、ブログテンプレートで使用する場合に現在のブログを使用し、他で使用する場合にプライマリブログを使用します。",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "表示するブログを選択",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "こちらでサブスクライブ！",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "上記のフォームを表示するタイトル",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "ブログのEメールサブスクリプション",
+    "description": null,
+    "placeholders": null
+  }
+}

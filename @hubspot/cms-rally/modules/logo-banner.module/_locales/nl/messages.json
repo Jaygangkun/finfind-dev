@@ -1,0 +1,52 @@
+{
+  "header_text.default": {
+    "message": "We hebben bedrijven geholpen als:",
+    "description": "",
+    "placeholders": null
+  },
+  "header_text.label": {
+    "message": "Koptekst",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Agriflora-logo",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.src": {
+    "message": "https://cdn2.hubspot.net/hubfs/7303166/Logos/white/agriflora.png",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.help_text": {
+    "message": "Logoafbeeldingen hier uploaden",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Logoafbeeldingen",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logobanner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Achtergrondkleur banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Voorgrondkleur banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stijlopties",
+    "description": "",
+    "placeholders": null
+  }
+}

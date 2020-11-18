@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "画像ギャラリー",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.default.alt": {
+    "message": "キャンパスの寮棟",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.default.size_type": {
+    "message": "正確",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  }
+}

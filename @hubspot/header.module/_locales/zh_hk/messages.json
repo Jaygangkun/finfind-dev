@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 最大，然後是 H2，如此類推",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "標題類型",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "搜尋",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "清晰大膽的標題",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "標題內容",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "標題",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "應藏標題層級控制",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "隱藏標題層級控制將防止內容工具更改標題層級",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "팔로우 미",
+    "description": null,
+    "placeholders": null
+  },
+  "links.label": {
+    "message": "새 창에서 링크 열기",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "모듈 제목",
+    "description": null,
+    "placeholders": null
+  }
+}

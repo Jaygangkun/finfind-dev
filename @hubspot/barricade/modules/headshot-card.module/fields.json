@@ -1,0 +1,54 @@
+[
+  {
+    "default": {
+      "max_width": 300,
+      "size_type": "auto",
+      "src": "https://cdn2.hubspotqa.com/hubfs/101677409/raw_assets/public/Education/images/home__library_couch.png",
+      "alt": "home_lecture",
+      "width": 300,
+      "max_height": 205,
+      "height": 205
+    },
+    "resizable": false,
+    "responsive": true,
+    "name": "headshot",
+    "id": "headshot",
+    "label": "Headshot",
+    "locked": false,
+    "type": "image",
+    "required": false
+  },
+  {
+    "allow_new_line": false,
+    "default": "Mort Ricky",
+    "validation_regex": "",
+    "name": "human_name",
+    "show_emoji_picker": false,
+    "id": "human_name",
+    "label": "Name",
+    "locked": false,
+    "type": "text",
+    "required": false
+  },
+  {
+    "allow_new_line": false,
+    "default": "Chief Education Officer",
+    "validation_regex": "",
+    "name": "title",
+    "show_emoji_picker": false,
+    "id": "title",
+    "label": "Title",
+    "locked": false,
+    "type": "text",
+    "required": false
+  },
+  {
+    "default": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.<\/p>",
+    "name": "description",
+    "id": "description",
+    "label": "Description",
+    "locked": false,
+    "type": "richtext",
+    "required": false
+  }
+]

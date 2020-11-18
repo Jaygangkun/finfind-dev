@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "最新の投稿",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "投稿を取得するブログを選択",
+    "description": "",
+    "placeholders": null
+  },
+  "count.label": {
+    "message": "取得する投稿数",
+    "description": "",
+    "placeholders": null
+  }
+}

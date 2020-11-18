@@ -1,0 +1,14 @@
+{
+  "label": "Blog tag filter",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "host_template_types": ["BLOG_LISTING", "BLOG_POST"],
+  "icon": "../../images/module-icons/filter.svg",
+  "js_assets": [],
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "master_language": "en",
+  "is_available_for_new_content": true
+}

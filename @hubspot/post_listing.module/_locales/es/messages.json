@@ -1,0 +1,67 @@
+{
+  "list_title.default": {
+    "message": "Publicaciones recientes",
+    "description": null,
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Título de lista que se mostrará",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Lo más leído - todo",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Lo más leído - el mes pasado",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Lo más leído - los últimos seis meses",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Lo más leído - el año pasado",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Lo más reciente",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Ordenar publicaciones por",
+    "description": null,
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Buscar",
+    "description": null,
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Máximo de publicaciones de blog para mostrar",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Como valor predeterminado se mostrará el blog actual cuando se use en una plantilla de blog, o el blog principal cuando se utilice en otros lugares.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecciona el blog que se mostrará",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Listado de publicaciones",
+    "description": null,
+    "placeholders": null
+  }
+}

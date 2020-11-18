@@ -1,0 +1,32 @@
+{
+  "menu_tree.label": {
+    "message": "Proste menu",
+    "description": null,
+    "placeholders": null
+  },
+  "orientation.choices.horizontal": {
+    "message": "Poziomo",
+    "description": null,
+    "placeholders": null
+  },
+  "orientation.choices.vertical": {
+    "message": "Pionowo",
+    "description": null,
+    "placeholders": null
+  },
+  "orientation.label": {
+    "message": "Orientacja menu",
+    "description": null,
+    "placeholders": null
+  },
+  "orientation.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Proste menu",
+    "description": null,
+    "placeholders": null
+  }
+}

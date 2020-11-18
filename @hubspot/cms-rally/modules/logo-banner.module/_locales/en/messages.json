@@ -1,0 +1,52 @@
+{
+  "header_text.default": {
+    "message": "We've helped companies like:",
+    "description": "",
+    "placeholders": null
+  },
+  "header_text.label": {
+    "message": "Header text",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Agriflora logo",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.src": {
+    "message": "https://cdn2.hubspot.net/hubfs/7303166/Logos/white/agriflora.png",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.help_text": {
+    "message": "Upload logo images here",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "Logo images",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "Banner background color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "Banner foreground color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Style options",
+    "description": "",
+    "placeholders": null
+  }
+}

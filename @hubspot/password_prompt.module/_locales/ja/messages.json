@@ -1,0 +1,37 @@
+{
+  "bad_password_message.default": {
+    "message": "申し訳ありませんが、もう一度お試しください。",
+    "description": null,
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "不正なパスワードメッセージ",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "パスワード入力",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "パスワード",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "パスワードプレースホルダー",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "送信",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "送信ボタンテキスト",
+    "description": null,
+    "placeholders": null
+  }
+}

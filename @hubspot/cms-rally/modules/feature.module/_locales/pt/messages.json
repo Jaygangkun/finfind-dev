@@ -1,0 +1,77 @@
+{
+  "feature_description.default": {
+    "message": "Utilize um software fantástico e intuitivo, que permite economizar tempo e recupera sua empresa. Garantimos isso.",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_description.label": {
+    "message": "Descrição do recurso",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon.label": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_border_color.label": {
+    "message": "Cor da borda",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.icon_color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Ícone de recurso",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_image.label": {
+    "message": "Imagem em destaque",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.icon": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.image": {
+    "message": "Imagem",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_media_choice.label": {
+    "message": "Imagem/ícone em destaque",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.default": {
+    "message": "Simples e rápido",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_title.label": {
+    "message": "Título do recurso",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Recurso",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "value.default": {
+    "message": "Yhdessä rivissä on lisätietoja",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Teksti",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Yksi tekstirivi",
+    "description": null,
+    "placeholders": null
+  }
+}

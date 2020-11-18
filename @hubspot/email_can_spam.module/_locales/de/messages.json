@@ -1,0 +1,17 @@
+{
+  "html.default": {
+    "message": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\">{{site_settings.company_name}} &nbsp;&nbsp;{{site_settings.company_street_address_1}} &nbsp;{{site_settings.company_street_address_2}} &nbsp;{{site_settings.company_city}} &nbsp;{{site_settings.company_state}} &nbsp;&nbsp;{{site_settings.company_zip}} &nbsp;&nbsp;{{site_settings.company_country}} <br><br> Sie erhalten diese E-Mail, weil Sie {{ subscription_name }} von {{site_settings.company_name}} abonniert haben. <br><br> Aktualisieren Sie Ihre <a target=\"_blank\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">E-Mail-Einstellungen</a>, um die Art der E-Mails auszuwählen, die Sie erhalten wollen. <br><br> &nbsp;<a target=\"_blank\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">Keine weiteren E-Mails mehr erhalten</a> &nbsp;</p>",
+    "description": null,
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Standorttext",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Bürostandortinformationen",
+    "description": null,
+    "placeholders": null
+  }
+}

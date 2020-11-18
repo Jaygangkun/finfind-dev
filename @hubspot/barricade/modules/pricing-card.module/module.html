@@ -1,0 +1,48 @@
+{% set href = module.button_link.url.href %}
+{% if module.button_link.url.type is equalto "EMAIL_ADDRESS" %}
+  {% set href = "mailto:" + href %}
+{% endif %}
+{% set rel = [] %}
+{% if module.button_link.no_follow %}
+  {% do rel.append("nofollow") %}
+{% endif %}
+{% if module.button_link.open_in_new_tab %}
+  {% do rel.append("noopener") %}
+{% endif %}
+
+<div class="card pricing-card">
+  <div class="card-header">
+    <h2 class="card-heading">{{ module.tier }}</h2>
+    <p class="card-subtitle"> {{ module.description }}</p>
+  </div>
+  <hr>
+  <div class="card-body">
+    <ul>
+      {% for feature in module.features %}
+        <li>
+          {%- icon
+            name="{{ module.feature_icon.name }}"
+            style="{{ module.feature_icon.type }}"
+            unicode="{{ module.feature_icon.unicode }}"
+            no_wrapper=True
+          %}{{ feature }}
+        </li>
+      {% endfor %}
+    </ul>
+    <hr>
+    <h3 class="card-heading">{{ module.price }}</h3>
+    {% if href %}
+      <a href="{{ href }}"
+        class="button{% if module.style.button_type == 'secondary' %} button--secondary{% elif module.style.button_type == 'simple' %} button--simple{% endif %}{% if module.style.button_size == 'small' %} button--small{% elif module.style.button_size == 'large' %} button--large{% endif %}"
+        {% if module.link_field.open_in_new_tab %}target="_blank"{% endif %}
+        {% if rel %}rel="{{ rel|join(' ') }}"{% endif %}
+        >
+        {{ module.button_text }}
+      </a>
+    {% else %}
+        <button type="button"
+          class="button{% if module.style.button_type == 'secondary' %} button--secondary{% elif module.style.button_type == 'simple' %} button--simple{% endif %}{% if module.style.button_size == 'small' %} button--small{% elif module.style.button_size == 'large' %} button--large{% endif %}"
+        >{{ module.button_text }}</button>
+    {% endif %}
+  </div>
+</div>

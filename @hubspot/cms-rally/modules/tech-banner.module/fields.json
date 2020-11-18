@@ -1,0 +1,48 @@
+[
+  {
+    "label": "Banner heading",
+    "name": "banner_heading",
+    "type": "richtext",
+    "default": "<h4>Lorem ipsum dolor sit amet, consectetur.</h4>"
+  },
+  {
+    "label": "Banner images",
+    "name": "banner_images",
+    "type": "group",
+    "occurrence": { "min": 0, "max": 20 },
+    "children": [
+      {
+        "label": "Image",
+        "name": "banner_image",
+        "type": "image",
+        "resizable": false
+      }
+    ],
+    "default": [      
+      {
+        "banner_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Logos/color/cloud_city.png",
+          "alt": "Cloud City logo"
+        }
+      },
+      {
+        "banner_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Logos/color/agriflora.png",
+          "alt": "Agriflora logo"
+        }
+      },
+      {
+        "banner_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Logos/color/craftscan.png",
+          "alt": "Craftscan logo"
+        }
+      },
+      {
+        "banner_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Logos/color/vedantra_studio.png",
+          "alt": "Vedantra Studio logo"
+        }
+      }
+    ]
+  }
+]

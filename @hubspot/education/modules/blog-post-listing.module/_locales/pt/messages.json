@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Lista de posts de blog",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_id.label": {
+    "message": "Selecione um blog",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Exibir todos",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "filter.choices.id_and_tags": {
+    "message": "Por blog e tag",
+    "description": "",
+    "placeholders": null
+  },
+  "filter.choices.id_only": {
+    "message": "Por blog",
+    "description": "",
+    "placeholders": null
+  },
+  "filter.label": {
+    "message": "Filtrar",
+    "description": "",
+    "placeholders": null
+  },
+  "read_more.default": {
+    "message": "Ler mais",
+    "description": "",
+    "placeholders": null
+  },
+  "read_more.label": {
+    "message": "Texto de mais informações",
+    "description": "",
+    "placeholders": null
+  },
+  "tag.label": {
+    "message": "Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "title_text.default": {
+    "message": "Nas notícias",
+    "description": "",
+    "placeholders": null
+  },
+  "title_text.label": {
+    "message": "Texto do título",
+    "description": "",
+    "placeholders": null
+  }
+}

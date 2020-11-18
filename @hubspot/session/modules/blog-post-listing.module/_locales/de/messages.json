@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Listing des Blog-Beitrags",
+    "description": "",
+    "placeholders": null
+  },
+  "number_of_posts.label": {
+    "message": "Anzahl der Beiträge",
+    "description": "",
+    "placeholders": null
+  },
+  "read_more.default": {
+    "message": "Mehr erfahren",
+    "description": "",
+    "placeholders": null
+  },
+  "read_more.label": {
+    "message": "Weiterlesen",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Blog auswählen",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog_type.choices.popular_posts": {
+    "message": "Beliebte Beiträge",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog_type.choices.recent_posts": {
+    "message": "Neue Beiträge",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog_type.label": {
+    "message": "Blog-Typ auswählen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.background_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stiloptionen",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "Standardstil überschreiben",
+    "description": "",
+    "placeholders": null
+  },
+  "style.text_color.label": {
+    "message": "Textfarbe",
+    "description": "",
+    "placeholders": null
+  }
+}

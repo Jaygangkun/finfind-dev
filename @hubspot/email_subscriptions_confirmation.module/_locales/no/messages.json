@@ -1,0 +1,47 @@
+{
+  "header.label": {
+    "message": "Topptekst",
+    "description": null,
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Topptekst-tekst",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Hvis dette ikke er din e-postadresse, kan du ignorere denne siden, ettersom e-posten som er knyttet til denne siden, sannsynligvis ble videresendt til deg.",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Underoverskrift",
+    "description": null,
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Du har oppdatert e-postpreferansene dine.",
+    "description": null,
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Melding om abonnementsoppdatering",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Du har stoppet abonnementet på all e-postkommunikasjon",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Melding om stans av abonnement",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Melding om bekreftelse av abonnement",
+    "description": null,
+    "placeholders": null
+  }
+}

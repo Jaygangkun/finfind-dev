@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "Section carte",
+    "description": "",
+    "placeholders": null
+  },
+  "card.image.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "card.label": {
+    "message": "Carte",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more.default": {
+    "message": "En savoir plus",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more.label": {
+    "message": "Texte En savoir plus",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more_link.label": {
+    "message": "Lien En savoir plus",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.default": {
+    "message": "La publicité contextuelle peut être rentable. Elle peut couvrir les frais d'hébergement et de maintenance de votre site web ou bien plus encore.",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.label": {
+    "message": "Texte",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.default": {
+    "message": "Ceci est un titre",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.label": {
+    "message": "Titre",
+    "description": "",
+    "placeholders": null
+  }
+}

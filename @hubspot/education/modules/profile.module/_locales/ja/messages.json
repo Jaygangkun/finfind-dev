@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "プロファイル",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "<p>俗説に反して、Lorem Ipsumは単なるランダムなテキストではありません。紀元前45年に書かれた古典ラテン文学に由来し、2000年以上の歴史を誇ります。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "説明",
+    "description": "",
+    "placeholders": null
+  },
+  "headshot.default.alt": {
+    "message": "home_lecture",
+    "description": "",
+    "placeholders": null
+  },
+  "headshot.label": {
+    "message": "Headshot",
+    "description": "",
+    "placeholders": null
+  },
+  "human_name.default": {
+    "message": "Mort Ricky",
+    "description": "",
+    "placeholders": null
+  },
+  "human_name.label": {
+    "message": "氏名",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "最高教育責任者",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "タイトル",
+    "description": "",
+    "placeholders": null
+  }
+}

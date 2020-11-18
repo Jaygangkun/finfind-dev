@@ -1,0 +1,47 @@
+{
+  "button_text.default": {
+    "message": "Annulla iscrizione",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Testo pulsante",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Annullamento iscrizione e-mail",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Intestazione",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Indirizzo e-mail:",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Testo guida per l'input e-mail",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Testo del segnaposto dell'input e-mail",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Annullamento abbonamento a backup",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "link.help_text": {
+    "message": "Se nenhum URL for especificado, o logotipo vai encaminhar para o domínio principal.",
+    "description": null,
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL do link",
+    "description": null,
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Abrir o link em uma nova guia quando os visitantes clicarem",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logotipo",
+    "description": null,
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "Escolha um estilo de cabeçalho. H1 é o maior, seguido por H2 e assim por diante.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "Estilo de cabeçalho",
+    "description": "",
+    "placeholders": null
+  }
+}

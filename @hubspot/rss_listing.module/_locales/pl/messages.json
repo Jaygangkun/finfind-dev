@@ -1,0 +1,167 @@
+{
+  "attribution_text.default": {
+    "message": "autor",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.help_text": {
+    "message": "Tekst, który przypisuje autora do wpisu",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.label": {
+    "message": "Tekst przypisujący autora",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.default": {
+    "message": "Dowiedz się więcej",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.help_text": {
+    "message": "Tekst, który będzie wyświetlany jako łącze do informacji o klikalności na końcu podsumowania wpisu",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.label": {
+    "message": "Tekst podsumowania klikalności",
+    "description": null,
+    "placeholders": null
+  },
+  "content_group_id.label": {
+    "message": "Blog",
+    "description": null,
+    "placeholders": null
+  },
+  "include_featured_image.label": {
+    "message": "Dołącz wyróżniony obraz",
+    "description": null,
+    "placeholders": null
+  },
+  "limit_to_chars.label": {
+    "message": "Limit długości podsumowania (liczba znaków)",
+    "description": null,
+    "placeholders": null
+  },
+  "number_of_items.label": {
+    "message": "Maksymalna liczba wpisów do wyświetlenia",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.MMMM d, yyyy 'at' h:mm a": {
+    "message": "6 czerwca 2006, 00:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.h:mm a 'on' MMMM d, yyyy": {
+    "message": "00:00 6 czerwca 2006",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.long": {
+    "message": "6 czerwca 2017, 12:00:00 pm EDT",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.medium": {
+    "message": "6 czerwca 2006, 00:00:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.short": {
+    "message": "11.06.06 00:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.help_text": {
+    "message": "Format daty publikacji",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.label": {
+    "message": "Format daty publikacji",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.placeholder": {
+    "message": "Wybierz format daty",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.default": {
+    "message": "opublikowano",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.help_text": {
+    "message": "Tekst, który wskazuje, kiedy wpis został opublikowany",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.label": {
+    "message": "Opublikuj tekst wskaźnika daty",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.blog": {
+    "message": "Użyj bloga HubSpot",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.external": {
+    "message": "Użyj zewnętrznego źródła RSS",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.label": {
+    "message": "Dodaj źródło RSS",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_url.label": {
+    "message": "RSS URL",
+    "description": null,
+    "placeholders": null
+  },
+  "show_author.label": {
+    "message": "Pokaż imię autora",
+    "description": null,
+    "placeholders": null
+  },
+  "show_date.label": {
+    "message": "Pokaż datę publikacji",
+    "description": null,
+    "placeholders": null
+  },
+  "show_detail.label": {
+    "message": "Pokaż podsumowanie",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Test",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Nagłówek modułu RSS",
+    "description": null,
+    "placeholders": null
+  },
+  "topic_id.label": {
+    "message": "Filtrowanie według tagu",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Ogłoszenie RSS",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "header.default": {
+    "message": "A clear and bold header",
+    "description": "Filler copy for text input",
+    "placeholders": null
+  },
+  "header.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Section header content",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "header.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "A more subdued subheader",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Section subheader",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Section Header",
+    "description": null,
+    "placeholders": null
+  }
+}

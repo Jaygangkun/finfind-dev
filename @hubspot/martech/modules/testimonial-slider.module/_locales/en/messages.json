@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Testimonial Slider",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.help_text": {
+    "message": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_style.label": {
+    "message": "Override default style",
+    "description": "",
+    "placeholders": null
+  },
+  "style.background_color.label": {
+    "message": "Background color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Style options",
+    "description": "",
+    "placeholders": null
+  },
+  "style.navigation_active_color.label": {
+    "message": "Navigation active color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.navigation_color.label": {
+    "message": "Navigation color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.quote_color.label": {
+    "message": "Quote color",
+    "description": "",
+    "placeholders": null
+  },
+  "style.text_color.label": {
+    "message": "Text color",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.default": {
+    "message": "Mary Kindler",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author.label": {
+    "message": "Author",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.default": {
+    "message": "Founder of Syntecho",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.author_title.label": {
+    "message": "Author's title",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.default": {
+    "message": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.content.label": {
+    "message": "Testimonial text",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.label": {
+    "message": "Testimonials",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.default.alt": {
+    "message": "Placeholder Image",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial_carousel.testimonial_image.label": {
+    "message": "Testimonial image",
+    "description": "",
+    "placeholders": null
+  }
+}

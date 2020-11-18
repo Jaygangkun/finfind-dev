@@ -1,0 +1,37 @@
+{
+  "response_message.default": {
+    "message": "Tack för att du prenumererar!",
+    "description": null,
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Inline-svar för användare",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Standardinställning kommer att använda nuvarade blogg när den används i en bloggmall eller den primära bloggen när den används någon annanstans.",
+    "description": null,
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Välj blogg att visa",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Prenumerera här!",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titel att visa ovanför formuläret",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "E-postprenumeration för bloggen",
+    "description": null,
+    "placeholders": null
+  }
+}

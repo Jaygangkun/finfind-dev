@@ -1,0 +1,32 @@
+{
+  "value.default": {
+    "message": "Some additional information in one line",
+    "description": "Example text",
+    "placeholders": null
+  },
+  "value.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "value.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "value.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "One Line of Text",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "label": "Heading text",
+    "name": "heading_text",
+    "type": "text",
+    "required": true,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "default": "Recent Articles"
+  },
+  {
+    "label": "Select blog",
+    "name": "select_blog",
+    "type": "blog",
+    "required": true,
+    "locked": false
+  },
+  {
+    "label": "Select blog type",
+    "name": "select_blog_type",
+    "type": "choice",
+    "required": true,
+    "display": "select",
+    "choices": [
+      ["recent_posts", "Recent Posts"],
+      ["popular_posts", "Popular Posts"]
+    ],
+    "default": "recent_posts"
+  },
+  {
+    "label": "Override default style",
+    "name": "override_default_style",
+    "id": "override_default_style",
+    "type": "boolean",
+    "help_text": "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+    "default": false
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "override_default_style",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Background color",
+        "name": "background_color",
+        "type": "color",
+        "default": {
+          "color": "#FBF7F1",
+          "opacity": 100
+        }
+      },
+      {
+        "label": "Text color",
+        "name": "text_color",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#231F1F"
+        }
+      }
+    ]
+  }
+]

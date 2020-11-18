@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Automatisk flytting",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Ha alltid bildetekst under bildet",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Vis bildetekst over bildene",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Plassering av bildetekst",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Søk",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox-galleri",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standard glidebryter",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniatyrbilde-navigasjon",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningsmodus",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Søk",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rader for lightbox-galleri",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Rader for lightbox-gallery",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Gjentakende lysbilder",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tid i sekunder mellom automatisk rulling",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Vis navigasjonsknapper",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variabel høyde",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fast høyde",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variabel høyde",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Søk",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Bildetekst",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Bilde",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Lysbilde",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Koblings-URL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Åpne kopling i ny fane",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Vis bildetekst",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Toning",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Lysbilde",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Lysbildeoverganger",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Søk",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Bildegalleri",
+    "description": null,
+    "placeholders": null
+  }
+}

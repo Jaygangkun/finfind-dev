@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Centralizado",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Esquerda",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Direita",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Alinhamento",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Pesquisar",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Preto e branco",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Cinza",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Branco",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Esquema de cores",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Pesquisar",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Ícone e texto",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Exibição",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Estilo de fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Circular",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Original",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Quadrado",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Forma do ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Pesquisar",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Escala",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Rede social",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Ícone personalizado",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Site",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Rede",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Imagem de rede",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Texto de apoio",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Apenas texto",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Siga-me - LP",
+    "description": "",
+    "placeholders": null
+  }
+}

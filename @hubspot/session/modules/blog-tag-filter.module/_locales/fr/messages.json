@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Filtre de balise de blog",
+    "description": "",
+    "placeholders": null
+  },
+  "default_filter_text.default": {
+    "message": "Sélectionnez une catégorie",
+    "description": "",
+    "placeholders": null
+  },
+  "default_filter_text.label": {
+    "message": "Texte de filtre par défaut",
+    "description": "",
+    "placeholders": null
+  }
+}

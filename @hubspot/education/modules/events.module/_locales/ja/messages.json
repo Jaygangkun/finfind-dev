@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "イベント",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.default": {
+    "message": "2 Canal Park, Cambridge, MA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.label": {
+    "message": "住所",
+    "description": "",
+    "placeholders": null
+  },
+  "event.date.label": {
+    "message": "日付と時間",
+    "description": "",
+    "placeholders": null
+  },
+  "event.event_icon.label": {
+    "message": "イベントアイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "event.label": {
+    "message": "イベント",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link.label": {
+    "message": "リンク",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.default": {
+    "message": "もっと詳しく",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.label": {
+    "message": "リンクテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.default": {
+    "message": "SEMI-ANNUAL EDUCATION GALA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.label": {
+    "message": "タイトル",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.label": {
+    "message": "見出しコンテンツ",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_icon.label": {
+    "message": "見出しアイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link.label": {
+    "message": "見出しリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.default": {
+    "message": "すべて表示",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.label": {
+    "message": "見出しリンクのテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.default": {
+    "message": "今後のイベント",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.label": {
+    "message": "見出し",
+    "description": "",
+    "placeholders": null
+  }
+}

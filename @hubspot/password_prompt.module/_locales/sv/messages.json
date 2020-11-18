@@ -1,0 +1,37 @@
+{
+  "bad_password_message.default": {
+    "message": "Försök igen.",
+    "description": null,
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Meddelande om svagt lösenord",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Lösenordsprompt",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Lösenord",
+    "description": null,
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Lösenordsplatshållare",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Skicka",
+    "description": null,
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Text på knappen Skicka",
+    "description": null,
+    "placeholders": null
+  }
+}

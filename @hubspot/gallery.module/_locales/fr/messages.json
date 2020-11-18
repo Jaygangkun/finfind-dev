@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Avancement automatique",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Toujours afficher les légendes sous l'image",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Superposer les légendes au-dessus de l'image",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Position de la légende",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Rechercher",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galerie",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Module de défilement standard",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navigation avec vignettes",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mode d'affichage",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Rechercher",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Lignes pour la galerie de la lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Lignes pour la galerie de la lightbox",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Afficher les diapositives en boucle",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Durée du défilement automatique en secondes",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Montrer les boutons de navigation",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Hauteur variable",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Hauteur fixe",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Hauteur de variable",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Rechercher",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Légende",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Image",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slide",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL du lien",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Ouvrir le lien dans un nouvel onglet",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Afficher la légende",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Fondu",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slide",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Transitions entre les diapositives",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Rechercher",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Galerie d'images",
+    "description": null,
+    "placeholders": null
+  }
+}

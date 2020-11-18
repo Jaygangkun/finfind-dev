@@ -1,0 +1,49 @@
+{%- macro inlineDynamicButtonStyles(styleDict) -%}
+  {%- for prop, value in styleDict.items() -%}
+    {{ prop|replace('_', '-') ~ ': ' ~ value ~ ( loop.last ? '' : '; ') }}
+  {%- endfor -%}
+{%- endmacro -%}
+{%- set buttonStyles = {
+    background_color: module.style.button_bg.color,
+    color: module.style.button_text_color.color,
+    border: '1px solid' ~ module.style.button_bg.color
+  }
+-%}
+
+{% if module.button_link.url.type is equalto 'EMAIL_ADDRESS' %}
+  {% set href = 'mailto:' ~ module.button_link.url.href %}
+{% else %}
+  {% unless (module.button_link.url.href is string_containing '//') or !module.button_link.url.href %}
+    {% set href = '//' ~ module.button_link.url.href %}
+  {% else %}
+    {% set href = module.button_link.url.href || '' %}
+  {% endunless %}
+{% endif %}
+
+{% set rel = (module.button_link.open_in_new_tab ? 'noopener ' : null) ~ (module.button_link.no_follow ? 'nofollow' : null) %}
+
+<div class="card pricing-card" style="background-color: rgba({{ module.style.bg_color.color|convert_rgb }},{{ module.style.bg_color.opacity / 100 }});">
+  <div class="card-header">
+    <h2 class="card-heading">{{ module.tier }}</h2>
+    <p class="card-subtitle"> {{ module.description }}</p>
+  </div>
+  <hr>
+  <div class="card-body">
+    <ul>
+      {% for feature in module.features %}
+        <li>
+          {%- icon
+            name="{{ module.feature_icon.name }}"
+            purpose="decorative"
+            style="{{ module.feature_icon.type }}"
+            unicode="{{ module.feature_icon.unicode }}"
+            no_wrapper=True
+          %}{{ feature }}
+        </li>
+      {% endfor %}
+    </ul>
+    <hr>
+    <h3 class="card-heading">{{ module.price }}{{ module.timeframe }}</h3>
+    <{% if href %}a href="{{ href }}" rel="{{ rel }}" {% if module.button_link.open_in_new_tab %}target="_blank"{% endif %}{% else %}button{% endif %} class="button" style="{{ inlineDynamicButtonStyles(buttonStyles) }}">{{ module.button_text }}</{% if href %}a {% else %}button{% endif %}>
+  </div>
+</div>

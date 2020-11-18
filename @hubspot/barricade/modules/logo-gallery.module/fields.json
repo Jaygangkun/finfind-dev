@@ -1,0 +1,120 @@
+[
+  {
+    "label": "Logo Images",
+    "helptext": "Upload logo images here",
+    "name": "logo_images",
+    "required": false,
+    "type": "image",
+    "occurrence": { "min": 1, "max": 6 },
+    "default": [
+      {
+        "src": "https://cdn2.hubspotqa.net/hubfs/101074995/raw_assets/public/cms-martech-theme/images/salesforce-logo.svg",
+        "alt": "Salesforce Logo",
+        "width": 36,
+        "height": 44
+      },
+      {
+        "src": "https://cdn2.hubspotqa.net/hubfs/101074995/raw_assets/public/cms-martech-theme/images/wordpress-logo.svg",
+        "alt": "WordPress Logo",
+        "width": 38,
+        "height": 33
+      },
+      {
+        "src": "https://cdn2.hubspotqa.net/hubfs/101074995/raw_assets/public/cms-martech-theme/images/slack-logo.svg",
+        "alt": "Slack Logo",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "src": "https://cdn2.hubspotqa.net/hubfs/101074995/raw_assets/public/cms-martech-theme/images/magento-logo.svg",
+        "alt": "Magneto Logo",
+        "width": 59,
+        "height": 46
+      },
+      {
+        "src": "https://cdn2.hubspotqa.net/hubfs/101074995/raw_assets/public/cms-martech-theme/images/mailchimp-logo.svg",
+        "alt": "Mailchimp Logo",
+        "width": 44,
+        "height": 44
+      }
+    ]
+  },
+  {
+    "id": "style",
+    "name": "style",
+    "label": "Style options",
+    "required": false,
+    "locked": false,
+    "type": "group",
+    "children": [
+      {
+        "id": "style.override_default_style",
+        "name": "override_default_style",
+        "label": "Override default style",
+        "required": true,
+        "locked": false,
+        "type": "boolean",
+        "default": false
+      },
+      {
+        "label": "Banner Overlap Settings",
+        "help_text": "Settings for allowing the banner to overlap the area above or below",
+        "name": "logo_banner_overlap",
+        "sortable": false,
+        "required": true,
+        "locked": false,
+        "display": "select",
+        "choices": [
+          ["none", "No Overlap"],
+          ["top", "Overlap the section above"],
+          ["bottom", "Overlap the section below"]
+        ],
+        "type": "choice",
+        "default": "none",
+        "visibility": {
+          "controlling_field": "style.override_default_style",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        }
+      },
+      {
+        "label": "Banner Background Color",
+        "name": "banner_bg_color",
+        "required": false,
+        "locked": false,
+        "type": "color",
+        "default": {
+          "color": "#000000",
+          "opacity": 100
+        },
+        "visibility": {
+          "controlling_field": "style.override_default_style",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        }
+      },
+      {
+        "label": "Banner Foreground Color",
+        "name": "banner_fg_color",
+        "required": false,
+        "locked": false,
+        "type": "color",
+        "default": {
+          "color": "#ffffff",
+          "opacity": 40
+        },
+        "visibility": {
+          "controlling_field": "style.override_default_style",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        }
+      }
+    ]
+  }
+]

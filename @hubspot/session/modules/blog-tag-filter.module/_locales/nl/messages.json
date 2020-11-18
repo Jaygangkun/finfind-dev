@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Filter blogtags",
+    "description": "",
+    "placeholders": null
+  },
+  "default_filter_text.default": {
+    "message": "Categorie selecteren",
+    "description": "",
+    "placeholders": null
+  },
+  "default_filter_text.label": {
+    "message": "Standaard filtertekst",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "bad_password_message.default": {
+    "message": "Sorry, please try again.",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Bad password message",
+    "description": "Message displayed if password is not valid",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Password",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Password placeholder",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Submit",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Submit button text",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Password Prompt",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "button_text.default": {
+    "message": "Abmelden",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Button-Text",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Von E-Mail abmelden",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Überschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Ihre E-Mail-Adresse:",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "E-Mail-Eingabe-Hilfetext",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "E-Mail-Eingabe-Platzhaltertext",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Back-up Abo-Kündigung",
+    "description": null,
+    "placeholders": null
+  }
+}

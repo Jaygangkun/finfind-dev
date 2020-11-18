@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Afbeeldingengalerie",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.default.alt": {
+    "message": "Studentenhuis op campus",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.default.size_type": {
+    "message": "exact",
+    "description": "",
+    "placeholders": null
+  },
+  "image_field.label": {
+    "message": "Afbeelding",
+    "description": "",
+    "placeholders": null
+  }
+}

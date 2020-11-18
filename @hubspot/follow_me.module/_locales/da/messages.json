@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Åben links i nyt vindue",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Moduloverskrift",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Følg mig",
+    "description": null,
+    "placeholders": null
+  }
+}

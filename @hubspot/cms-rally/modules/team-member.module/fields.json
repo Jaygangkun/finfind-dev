@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Team member image",
+    "name": "team_member_image",
+    "type": "image",
+    "resizable": true,
+    "responsive": true,
+    "required": true,
+    "default": {
+      "src": "",
+      "alt": "",
+      "size_type": "auto"
+    }
+  },
+  {
+    "label": "Team member content",
+    "name": "team_member_content",
+    "type": "richtext",
+    "required": true,
+    "default": "<h3>Joshua Beck</h3><p>CEO, Co-Founder</p><p>Joshua has over 20 years of experience in the tech industry. He helped start this company in 2015 with the mission of helping people grow. In his spare time he loves hanging out with his kids, going to the beach, and cooking.</p>"
+  }
+]

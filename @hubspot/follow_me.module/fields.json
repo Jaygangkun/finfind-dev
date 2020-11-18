@@ -1,0 +1,25 @@
+[
+  {
+    "id": "98a15dc8-63cd-8460-825b-8042cac61ec7",
+    "name": "title",
+    "label": "Module header",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": null
+  },
+  {
+    "id": "62e6386f-dd2d-929c-b1d1-04ab9f8c18ae",
+    "name": "links",
+    "label": "Open links in new window",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "type": "boolean",
+    "default": true
+  }
+]

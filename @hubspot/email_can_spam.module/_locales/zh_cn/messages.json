@@ -1,0 +1,17 @@
+{
+  "html.default": {
+    "message": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\">{{site_settings.company_name}} &nbsp;&nbsp;{{site_settings.company_street_address_1}} &nbsp;{{site_settings.company_street_address_2}} &nbsp;{{site_settings.company_city}} &nbsp;{{site_settings.company_state}} &nbsp;&nbsp;{{site_settings.company_zip}} &nbsp;&nbsp;{{site_settings.company_country}} <br><br>您收到这封电邮，是因为您向{{site_settings.company_name}}订阅了{{ subscription_name }}。<br><br>更新您的<a target=\"_blank\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">电邮偏好设置</a>，选择您希望接收哪些类型的电邮。<br><br><a target=\"_blank\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">退订之后不会再收到这类电邮</a></p>",
+    "description": null,
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "位置文本",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "办公室位置信息",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,44 @@
+.hs-oembed__starter {
+  position: relative;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 56.25%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s ease-in;
+}
+
+.hs-oembed__starter.loading {
+  background-color: #222222;
+  border: 1px solid #000000;
+}
+
+.hs-oembed__starter > img {
+  height: auto;
+}
+
+.hs-oembed__starter > :first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html.hs-inline-edit .hs-oembed__starter > iframe {
+  pointer-events: none;
+}
+.hs-oembed__error,
+.hs-oembed__error a {
+  color: #ffffff;
+}
+.hs-oembed__error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  text-align: center;
+  padding: 0 20px;
+}

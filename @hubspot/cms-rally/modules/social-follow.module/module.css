@@ -1,0 +1,35 @@
+.social-links {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .social-links {
+    justify-content: center;
+  }
+}
+
+.social-links__icon {
+  background-color: #d0d0d0;
+  border-radius: 50%;
+  display: inline-flex !important;
+  height: 40px;
+  margin: 0 10px;
+  position: relative;
+  width: 40px;
+}
+
+.social-links__icon:hover {
+  background-color: #eb4e54;
+}
+
+.social-links__icon svg {
+  fill: #fff;
+  height: 15px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}

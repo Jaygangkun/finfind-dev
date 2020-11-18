@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Μενού",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.choices.horizontal": {
+    "message": "Οριζόντια",
+    "description": null,
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Μενού",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Στατικό - Πάντα να εμφανίζονται οι σελίδες ανωτάτου επιπέδου στο μενού",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Δυναμικό ανά ενότητα - Να εμφανίζονται στο μενού σελίδες που σχετίζονται με την ενότητα που προβάλλεται",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Καθορίζει πόσοι κλάδοι του δέντρου μενού μπορούν να επεκταθούν στο μενού",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Στα οριζόντια μενού τα στοιχεία εμφανίζονται πλάι το ένα στο άλλο, ενώ στα κατακόρυφα μενού εμφανίζονται από πάνω προς τα κάτω",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Μέγ. αρ. επιπέδων",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Κατακόρυφα",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Προσανατολισμός",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Τα εξελιγμένα μενού εμφανίζουν διαφορετικά τμήματα ενός δέντρου μενού, ανάλογα με το ποια σελίδα προβάλλεται.",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": null,
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Οι θυγατρικές επιλογές μενού θα εμφανίζονται όταν περνάτε τον δείκτη επάνω από τον γονέα. Αν δεν επιλεγεί, οι θυγατρικές επιλογές μενού θα εμφανίζονται πάντα",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Μενού με αρθρωτή διαδρομή (χρησιμοποιεί οριζόντια ροή)",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": null,
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Το δέντρο μενού είναι η δομή σελίδων που δημιουργεί τα στοιχεία επιλογών του μενού. Ένα μόνο δέντρο μενού μπορεί να χρησιμοποιηθεί με περισσότερα του ενός μενού. Μπορείτε να δημιουργήσετε πολλά μενού για σύνθετες δομές ιστότοπων. Η δημιουργία και διαχείριση των μενού γίνεται στις Ρυθμίσεις περιεχομένου σας",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Αναζήτηση",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Δυναμικό ανά σελίδα - Να εμφανίζονται στο μενού σελίδες που σχετίζονται με τη σελίδα που προβάλλεται",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Τύπος εξελιγμένου μενού",
+    "description": null,
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Να ενεργοποιηθούν τα αναδυόμενα στοιχεία;",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": null,
+    "placeholders": null
+  }
+}

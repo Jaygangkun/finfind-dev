@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontal",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertical",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Menus horizontais exibem itens lado a lado e menus verticais são de cima para baixo",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientação",
+    "description": null,
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Pesquisar",
+    "description": null,
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Os itens de menu filho serão exibidos ao pairar sobre o pai. Se desmarcado, os itens de menu filho sempre serão exibidos",
+    "description": null,
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Ativar submenus?",
+    "description": null,
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "A árvore de menu é a estrutura de página que gera os itens no menu. Uma única árvore de menu pode ser usada com vários menus. Você pode criar vários menus para estruturas de site complexas. Menus são criados e gerenciados nas Configurações de conteúdo",
+    "description": null,
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Determina o número de filhos da árvore do menu que podem ser expandidos no menu.",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Níveis máximos",
+    "description": null,
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Pesquisar",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Menu de caminho de estilo \"Breadcrumb\" (usa fluxo horizontal)",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinâmico por página - mostra páginas no menu que estão relacionadas à página em visualização",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Estático - sempre mostra páginas de nível superior no menu",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinâmico por seção - mostra páginas no menu que estão relacionadas à seção em visualização",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Menus avançados mostram diferentes partes de uma árvore de menu dependendo da página em visualização.",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Tipo de menu avançado",
+    "description": null,
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Pesquisar",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": null,
+    "placeholders": null
+  }
+}

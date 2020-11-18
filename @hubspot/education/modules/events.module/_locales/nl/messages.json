@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Gebeurtenissen",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.default": {
+    "message": "2 Canal Park, Cambridge, MA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.address.label": {
+    "message": "Adres",
+    "description": "",
+    "placeholders": null
+  },
+  "event.date.label": {
+    "message": "Datum en tijd",
+    "description": "",
+    "placeholders": null
+  },
+  "event.event_icon.label": {
+    "message": "Gebeurtenispictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "event.label": {
+    "message": "Gebeurtenissen",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link.label": {
+    "message": "Koppeling",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.default": {
+    "message": "Meer informatie",
+    "description": "",
+    "placeholders": null
+  },
+  "event.link_text.label": {
+    "message": "Tekst link",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.default": {
+    "message": "HALFJAARLIJKS ONDERWIJSGALA",
+    "description": "",
+    "placeholders": null
+  },
+  "event.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.label": {
+    "message": "Kopinhoud",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_icon.label": {
+    "message": "Koppictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link.label": {
+    "message": "Kopkoppeling",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.default": {
+    "message": "Alles bekijken",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_link_text.label": {
+    "message": "Tekst kopkoppeling",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.default": {
+    "message": "Aankomende evenementen",
+    "description": "",
+    "placeholders": null
+  },
+  "heading.main_title.label": {
+    "message": "Kop",
+    "description": "",
+    "placeholders": null
+  }
+}

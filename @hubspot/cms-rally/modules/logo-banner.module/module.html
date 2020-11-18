@@ -1,0 +1,26 @@
+<div class="logo-banner">
+  <div class="logo-banner__container">
+    <p class="logo-banner_text">{{ module.header_text }}</p>
+
+    {% for logo in module.logo_images %}
+      {% if logo.src %}
+        {% set sizeAttrs = 'width="{{ logo.width }}" height="{{ logo.height }}"' %}
+        {% if logo.size_type == 'auto' %}
+          {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+        {% elif logo.size_type == 'auto_custom_max' %}
+          {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ logo.max_width }}px; max-height: {{ logo.max_height }}px"' %}
+        {% endif %}
+        <div class="logo-banner_image">
+          <img src="{{ logo.src }}" alt="{{ logo.alt }}" {{ sizeAttrs }}>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .logo-banner {
+    background-color: rgba({{ module.style.banner_bg_color.color|convert_rgb }},{{ module.style.banner_bg_color.opacity * 0.01 }});
+    color: rgba({{ module.style.banner_fg_color.color|convert_rgb }},{{ module.style.banner_fg_color.opacity * 0.01 }});
+  }
+</style>

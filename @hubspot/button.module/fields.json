@@ -1,0 +1,138 @@
+[ {
+  "id" : "5b6d3945-6c99-0c6e-5fd1-9019b2ac9f65",
+  "name" : "link",
+  "label" : " ",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS" ],
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "type" : "EXTERNAL",
+      "href" : "www.hubspot.com",
+      "content_id" : null
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "9c00985f-01db-ac5d-73f5-80ed6c0c7863",
+  "name" : "button_text",
+  "label" : "Button text",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Add a button link here"
+}, {
+  "id" : "62e1bdd3-8b04-aaea-a8e0-12dd17918856",
+  "name" : "style",
+  "label" : "Style options",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "311e733d-c194-d925-af1d-a24e1fef7571",
+    "name" : "override_default_style",
+    "label" : "Override default style",
+    "required" : true,
+    "locked" : false,
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "2b9f9788-5eaf-d3ec-a441-efa1a7712c5f",
+    "name" : "button_font",
+    "label" : "Button Font",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "311e733d-c194-d925-af1d-a24e1fef7571",
+      "controlling_value_regex" : "true",
+      "operator" : "EQUAL",
+      "access" : null,
+      "hidden_subfields" : null
+    },
+    "type": "font",
+    "load_external_fonts": true,
+    "default": {
+      "color": "#FFFFFF",
+      "font_set": "DEFAULT",
+      "size_unit": "px"         
+    }
+  }, {
+    "id" : "f8d6eea6-b35a-aa5b-5f92-0ec6e563f0fa",
+    "name" : "button_color",
+    "label" : "Button color",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "311e733d-c194-d925-af1d-a24e1fef7571",
+      "controlling_value_regex" : "true",
+      "operator" : "EQUAL",
+      "access" : null,
+      "hidden_subfields" : null
+    },
+    "type" : "color",
+    "default" : {
+      "color" : "#000000",
+      "opacity" : 100
+    }
+  }, {
+    "id" : "3489e8b6-5c97-975b-c0fc-bb585afe0486",
+    "name" : "text_hover_color",
+    "label" : "Text hover color",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "311e733d-c194-d925-af1d-a24e1fef7571",
+      "controlling_value_regex" : "true",
+      "operator" : "EQUAL",
+      "access" : null,
+      "hidden_subfields" : null
+    },
+    "type" : "color",
+    "default" : {
+      "color" : "#000000",
+      "opacity" : 100
+    }
+  }, {
+    "id" : "944c5c03-9a71-5921-3c1c-fa73d252d105",
+    "name" : "button_hover_color",
+    "label" : "Button hover color",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "311e733d-c194-d925-af1d-a24e1fef7571",
+      "controlling_value_regex" : "true",
+      "operator" : "EQUAL",
+      "access" : null,
+      "hidden_subfields" : null
+    },
+    "type" : "color",
+    "default" : {
+      "color" : "#CCCCCC",
+      "opacity" : 100
+    }
+  } ],
+  "type" : "group",
+  "default" : {
+    "override_default_style" : false,
+    "button_font" : {
+      "color" : "#FFFFFF",
+      "size_unit" : "px"
+    },
+    "button_color" : {
+      "color" : "#000000",
+      "opacity" : 100
+    },
+    "text_hover_color" : {
+      "color" : "#000000",
+      "opacity" : 100
+    },
+    "button_hover_color" : {
+      "color" : "#CCCCCC",
+      "opacity" : 100
+    }
+  }
+} ]

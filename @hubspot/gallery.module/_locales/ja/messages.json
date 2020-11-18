@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "自動先送り",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "画像の下に常にキャプションを表示",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "画像の上部にキャプションを重ね合わせる",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "キャプション位置",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "検索",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightboxギャラリー",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "標準スライダー",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "サムネイルナビゲーション",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "表示モード",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "検索",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Lightboxギャラリー用の行",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Lightboxギャラリー用の行",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "ループスライド",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "自動スクロール間の秒数",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "ナビゲーションボタンを表示",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "高さ変更可能",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "高さ固定",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "高さ変更可能",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "検索",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "キャプション",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "画像",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "スライド",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "リンクURL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "リンクを新しいタブで開く",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "キャプションを表示",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "フェード",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "スライド",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "スライドトランジション",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "検索",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "画像ギャラリー",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "link.help_text": {
+    "message": "Wird keine URL angegeben, verlinkt Ihr Logo auf Ihre Hauptdomain.",
+    "description": null,
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "Link-URL",
+    "description": null,
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Link in neuem Tab öffnen, wenn Besucher ihn anklicken",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": null,
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "Wählen Sie einen Überschriftenstil aus. H1 ist die größte Überschrift, gefolgt von H2 und so weiter.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "Überschriftenstil",
+    "description": "",
+    "placeholders": null
+  }
+}

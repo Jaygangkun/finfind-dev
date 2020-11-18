@@ -1,0 +1,287 @@
+{
+  "alignment.choices.center": {
+    "message": "Center",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Left",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Right",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Alignment",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Black and white",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Grey",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "White",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Color scheme",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Icon and text",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Text only",
+    "description": "",
+    "placeholders": null
+  },
+  "display.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Display",
+    "description": "",
+    "placeholders": null
+  },
+  "display.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Font style",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Circular",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Original",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Square",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Icon shape",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Follow Me - LP",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Scale",
+    "description": "",
+    "placeholders": null
+  },
+  "social.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Social Network",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Custom Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Website",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Network",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.default": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Network Image",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.default": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Supporting text",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Spacing",
+    "description": "",
+    "placeholders": null
+  }
+}

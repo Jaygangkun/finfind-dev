@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "ロゴギャラリー",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.default.alt": {
+    "message": "Salesforceロゴ",
+    "description": "",
+    "placeholders": null
+  },
+  "logo_images.label": {
+    "message": "ロゴ画像",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_bg_color.label": {
+    "message": "バナーの背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.banner_fg_color.label": {
+    "message": "バナーの前景色",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "スタイルオプション",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.bottom": {
+    "message": "下のセクションにオーバーラップ",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.none": {
+    "message": "オーバーラップなし",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.choices.top": {
+    "message": "上のセクションにオーバーラップ",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.help_text": {
+    "message": "バナーが上または下の領域にオーバーラップすることを許可する設定",
+    "description": "",
+    "placeholders": null
+  },
+  "style.logo_banner_overlap.label": {
+    "message": "バナーのオーバーラップ設定",
+    "description": "",
+    "placeholders": null
+  },
+  "style.override_default_style.label": {
+    "message": "既定のスタイルを上書き",
+    "description": "",
+    "placeholders": null
+  }
+}

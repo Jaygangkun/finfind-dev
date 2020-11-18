@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Links in einem neuen Fenster öffnen",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Modulüberschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Folgen",
+    "description": null,
+    "placeholders": null
+  }
+}

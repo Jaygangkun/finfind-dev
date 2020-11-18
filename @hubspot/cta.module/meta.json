@@ -1,0 +1,19 @@
+{
+  "content_tags": [
+    { "name": "AVIATION", "source": "MARKETPLACE" },
+    { "name": "COMPATIBLE_ANY", "source": "MARKETPLACE" }
+  ],
+  "css_assets": [],
+  "editable_contexts": [],
+  "external_js": [],
+  "extra_classes": "widget-type-cta",
+  "host_template_types": ["ANY"],
+  "icon": "../img/icon/edited-ctas-2.svg",
+  "is_available_for_new_content": true,
+  "js_assets": [],
+  "master_language": "en",
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "label": "Call-to-Action"
+}

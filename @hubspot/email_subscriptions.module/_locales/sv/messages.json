@@ -1,0 +1,87 @@
+{
+  "button_text.default": {
+    "message": "Uppdatera e-postinställningar",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text för knappen Uppdatera inställningar",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Kommunikationsinställningar",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Titel",
+    "description": null,
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Ja, jag prenumererar igen!",
+    "description": null,
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Text för knappen Prenumerera igen",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Om det här inte är din e-postadress kan du ignorera den här sidan eftersom den e-postadress som associeras med den här sidan förmodligen har vidarebefordrats till dig.",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Underrubrik",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Sluta prenumerera på alla e-postlistor.",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Eitkett för Sluta prenumerera på allt",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Alternativt kan du markera här och aldrig få några e-postmeddelanden:",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Hjälptext för Sluta prenumerera på allt",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Du har för närvarande slutat prenumerera på alla våra e-postmeddelanden. Vill du få våra e-postmeddelanden igen?",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Hjälptexten \"Sluta prenumerera på alla\" för en aktuell användare som inte prenumererar",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Avmarkera typerna av e-postmeddelanden som du inte vill få:",
+    "description": null,
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Hjälptext för Inställningsval",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Prenumerationsinställningar",
+    "description": null,
+    "placeholders": null
+  }
+}

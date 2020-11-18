@@ -1,0 +1,43 @@
+{% if module.select_blog_type == "recent_posts" %}
+  {% set post_listing = blog_recent_posts(module.select_blog, module.number_of_posts) %}
+{% else %}
+  {% set post_listing = blog_popular_posts(module.select_blog, module.number_of_posts) %}
+{% endif %}
+
+<section class="blog-post-listing" id="blog-post-listing--{{ name }}">
+  <div class="blog-post-listing__listing">
+    {% for post in post_listing %}
+      <article class="blog-post-listing__article">
+        {% if post.featured_image %}
+          <div class="blog-post-listing__image">
+            <img src="{{ post.featured_image }}" alt="">
+          </div>
+        {% endif %}
+        <div class="blog-post-listing__content">
+          <p class="blog-post-listing__blog-name">{{ post.parent_blog.public_title }}</p>
+          <h2 class="blog-post-listing__title">{{ post.name }}</h2>
+          <a class="button button" href="{{ post.absolute_url }}">{{ module.read_more }}</a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+
+{% require_css %}
+  <style>
+    .blog-post-listing__article {
+      background-color: {{ theme.colors.secondary.color }};
+    }
+
+  {% if module.style.override_default_style %}
+    #blog-post-listing--{{ name }} .blog-post-listing__article {
+      background-color: rgba({{ module.style.background_color.color|convert_rgb }}, {{ module.style.background_color.opacity * 0.01 }});
+    }
+    #blog-post-listing--{{ name }} .blog-post-listing__blog-name,
+    #blog-post-listing--{{ name }} .blog-post-listing__title {
+      color: rgba({{ module.style.text_color.color|convert_rgb }}, {{ module.style.text_color.opacity * 0.01 }});
+    }
+  {% endif %}
+  </style>
+{% end_require_css %}

@@ -1,0 +1,17 @@
+{
+  "links.label": {
+    "message": "Öppnar länkar i nytt fönster",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Modultitel",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Följ mig",
+    "description": null,
+    "placeholders": null
+  }
+}

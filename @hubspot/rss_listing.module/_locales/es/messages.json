@@ -1,0 +1,167 @@
+{
+  "attribution_text.default": {
+    "message": "por",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.help_text": {
+    "message": "El texto que atribuye un autor a una publicación",
+    "description": null,
+    "placeholders": null
+  },
+  "attribution_text.label": {
+    "message": "Texto de atribución del autor",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.default": {
+    "message": "Lee mas",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.help_text": {
+    "message": "El texto que se mostrará para el enlace al final de un resumen de publicación",
+    "description": null,
+    "placeholders": null
+  },
+  "click_through_text.label": {
+    "message": "Texto del enlace de resumen",
+    "description": null,
+    "placeholders": null
+  },
+  "content_group_id.label": {
+    "message": "Blog",
+    "description": null,
+    "placeholders": null
+  },
+  "include_featured_image.label": {
+    "message": "Incluir imagen destacada",
+    "description": null,
+    "placeholders": null
+  },
+  "limit_to_chars.label": {
+    "message": "Límite de longitud de resumen (número de caracteres)",
+    "description": null,
+    "placeholders": null
+  },
+  "number_of_items.label": {
+    "message": "Número máximo de publicaciones para mostrar",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.MMMM d, yyyy 'at' h:mm a": {
+    "message": "6 de junio de 2006 a las 00:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.h:mm a 'on' MMMM d, yyyy": {
+    "message": "00:00 del 6 de junio de 2006",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.long": {
+    "message": "6 de junio de 2017 12:00:00 pm EDT",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.medium": {
+    "message": "6 de junio de 2006 a las 12:00:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.choices.short": {
+    "message": "06/11/06 12:00",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.help_text": {
+    "message": "Formato para la fecha de publicación",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.label": {
+    "message": "Formato de fecha de publicación",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_format.placeholder": {
+    "message": "Seleccionar formato de fecha",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.default": {
+    "message": "publicado a las",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.help_text": {
+    "message": "El texto que indica cuándo se publicó una publicación",
+    "description": null,
+    "placeholders": null
+  },
+  "publish_date_text.label": {
+    "message": "Texto del indicador de fecha de publicación",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.blog": {
+    "message": "Usar un blog alojado en HubSpot",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.choices.external": {
+    "message": "Usar una fuente RSS externa",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.label": {
+    "message": "Agregar una fuente RSS",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_feed_type.placeholder": {
+    "message": "Buscar",
+    "description": null,
+    "placeholders": null
+  },
+  "rss_url.label": {
+    "message": "URL de RSS",
+    "description": null,
+    "placeholders": null
+  },
+  "show_author.label": {
+    "message": "Mostrar nombre del autor",
+    "description": null,
+    "placeholders": null
+  },
+  "show_date.label": {
+    "message": "Mostrar fecha de publicación",
+    "description": null,
+    "placeholders": null
+  },
+  "show_detail.label": {
+    "message": "Mostrar resumen",
+    "description": null,
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Prueba",
+    "description": null,
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Encabezamiento del módulo RSS",
+    "description": null,
+    "placeholders": null
+  },
+  "topic_id.label": {
+    "message": "Filtrar por etiqueta",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Listado de RSS",
+    "description": null,
+    "placeholders": null
+  }
+}

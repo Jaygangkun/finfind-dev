@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "Sección de tarjetas",
+    "description": "",
+    "placeholders": null
+  },
+  "card.image.label": {
+    "message": "Imagen",
+    "description": "",
+    "placeholders": null
+  },
+  "card.label": {
+    "message": "Tarjeta",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more.default": {
+    "message": "Más información",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more.label": {
+    "message": "Texto de más información",
+    "description": "",
+    "placeholders": null
+  },
+  "card.learn_more_link.label": {
+    "message": "Enlace de más información",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.default": {
+    "message": "La publicidad contextual puede ser rentable. Puede pagar los costos de alojamiento y mantenimiento de tu sitio web o puede pagar mucho más.",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.label": {
+    "message": "SMS",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.default": {
+    "message": "Esto es un título",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.label": {
+    "message": "Título",
+    "description": "",
+    "placeholders": null
+  }
+}

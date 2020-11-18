@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "Un titre clair et en gras",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Titre d'en-tête de section",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Un sous-titre plus sobre",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Sous-titre de section",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "En-tête de section",
+    "description": null,
+    "placeholders": null
+  }
+}

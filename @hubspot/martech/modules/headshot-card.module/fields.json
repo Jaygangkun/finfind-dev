@@ -1,0 +1,35 @@
+[
+  {
+    "label": "Headshot",
+    "name": "headshot",
+    "default": {
+      "max_width": 300,
+      "size_type": "auto",
+      "src": "https://cdn2.hubspot.net/hubfs/7303166/Martech/home-library-couch.png",
+      "alt": "home_lecture",
+      "width": 300,
+      "max_height": 205,
+      "height": 205
+    },
+    "responsive": true,
+    "type": "image"
+  },
+  {
+    "label": "Name",
+    "name": "human_name",
+    "type": "text",
+    "default": "Mort Ricky"
+  },
+  {
+    "label": "Title",
+    "name": "title",
+    "type": "text",
+    "default": "Chief Education Officer"
+  },
+  {
+    "label": "Description",
+    "name": "description",
+    "type": "richtext",
+    "default": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.<\/p>"
+  }
+]

@@ -1,0 +1,262 @@
+{
+  "auto_advance.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Auto advance",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Always keep captions below the image",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Superimpose captions on top of images",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Caption Position",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standard slider",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Thumbnail Navigation",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Display mode",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rows for lightbox gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Loop slides",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Time in seconds between auto scrolling",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Show navigation buttons",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variable height",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fixed height",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variable height",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.undefined.default": {
+    "message": "",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.undefined.help_text": {
+    "message": "",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.undefined.label": {
+    "message": "",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.default": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Caption",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.default": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slide",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.default": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Link URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Open link in new tab",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Show caption",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Fade",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slide",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Slide transitions",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Image Gallery",
+    "description": null,
+    "placeholders": null
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "置中",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "靠左",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "靠右",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "對齊",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "黑白",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "顏色",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "灰色",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "白色",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "顏色配置",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "圖示",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "圖示和文字",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "僅限文字",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "顯示",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "字體樣式",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "圓型",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "原始",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "方形",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "圖示形狀",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "追蹤我 - LP",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "等級範圍",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "社交網絡",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "自訂圖示",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "電郵",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "網站",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "網絡",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "網絡圖片",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "輔助文字",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "字距",
+    "description": "",
+    "placeholders": null
+  }
+}

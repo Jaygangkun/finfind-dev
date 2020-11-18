@@ -1,0 +1,91 @@
+<!--
+  templateType: global_partial
+  label: Footer
+-->
+
+<footer class="footer">
+  <div class="footer__main-bar">
+    <div class="footer__container">
+
+      <div class="footer__left">
+        {% module 'secondary-logo'
+          path='@hubspot/linked_image',
+          extra_classes='footer__main-bar__logo',
+          label='logo image',
+          img={
+          'alt': 'Rally Logo',
+          'src': get_asset_url('../../images/logo-icon.png'),
+          'width': '40'
+          }
+        %}
+        {% module_block module 'footer_social'
+          extra_classes='footer__main-bar__social',
+          path='../../modules/social-follow'
+        %}
+          {% module_attribute 'social_link' is_json=True %}
+            [
+              {"social_account": "twitter"},
+              {"social_account": "facebook-f"},
+              {"social_account": "linkedin-in"},
+              {"social_account": "youtube"}
+            ]
+          {% end_module_attribute %}
+        {% end_module_block %}
+        {% module_block module 'footer_menu'
+          extra_classes='footer__main-bar__menu',
+          path='@hubspot/simple_menu',
+          label='Footer menu'
+        %}
+          {% module_attribute 'menu_tree' is_json=True %}
+            [
+              {"linkLabel": "Home", "linkUrl": "#"},
+              {"linkLabel": "About", "linkUrl": "#"},
+              {"linkLabel": "Blog", "linkUrl": "#"},
+              {"linkLabel": "News", "linkUrl": "#"},
+              {"linkLabel": "Contact", "linkUrl": "#"}
+            ]
+          {% end_module_attribute %}
+        {% end_module_block %}
+      </div>
+
+      <div class="footer__right">
+        {% module_block module 'footer_form'
+          path='@hubspot/form',
+          label='Form',
+          extra_classes='footer__form',
+          form_to_use='',
+          title='Get News and Updates about Rally'
+          overrideable=True
+        %}
+        {% end_module_block %}
+      </div>
+
+    </div>
+  </div>
+  <div class="footer__copyright-bar">
+      <div class="footer__container">
+        <div class="footer__copyright-bar__copyright">
+          {% module_block module "footer_copyright_text"
+            path="@hubspot/text",
+            label="Copyright text (left)"
+          %}
+            {% module_attribute 'value' %}
+              Copyright © {{ year }}, Rally LLC
+            {% end_module_attribute %}
+          {% end_module_block %}
+        </div>
+        <div class="footer__copyright-bar__secondary-links">
+          {% module_block module "footer_seconday_text"
+            path="@hubspot/rich_text",
+            label="Copyright text (right)"
+          %}
+            {% module_attribute 'html' %}
+              <a href="#">Privacy Policy</a> |
+              <a href="#">Terms of Use</a>
+            {% end_module_attribute %}
+          {% end_module_block %}
+          
+        </div>
+      </div>
+  </div>
+</footer>

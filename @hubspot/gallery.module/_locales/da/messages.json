@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Gå automatisk videre",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Behold altid billedtekst under billedet",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Sæt billedtekster ovenpå billeder",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Placering af billedtekst",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Søg",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox-galleri",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardskyder",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniaturenavigation",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningstilstand",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Søg",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rækker til lightbox-galleri",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Rækker til lightbox-galleri",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Gentagne dias",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tid i sekunder mellem automatisk skift",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Vis navigationsknapper",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Justerbar højde",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fast højde",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Justerbar højde",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Søg",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Billedtekst",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Billede",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dias",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL til link",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Åben link i ny fane",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Vis billedtekst",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Udtoning",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Dias",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Diasovergange",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Søg",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Billedgalleri",
+    "description": null,
+    "placeholders": null
+  }
+}

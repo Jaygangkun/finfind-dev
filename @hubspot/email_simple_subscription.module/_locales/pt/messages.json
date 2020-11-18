@@ -1,0 +1,47 @@
+{
+  "button_text.default": {
+    "message": "Cancelar assinatura",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto do botão",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Cancelar assinatura de e-mail",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Cabeçalho",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Seu endereço de e-mail:",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Texto de ajuda para entrada de e-mail",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@exemplo.com",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Texto do espaço reservado para entrada de e-mail",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Cancelar assinatura de backup",
+    "description": null,
+    "placeholders": null
+  }
+}

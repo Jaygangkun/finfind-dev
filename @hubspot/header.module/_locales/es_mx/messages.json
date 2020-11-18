@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 es el más grande, seguido de H2, y así sucesivamente",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Tipo de encabezado",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Buscar",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Un encabezado claro y audaz",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Contenido del encabezado",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Encabezado",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Ocultar controles de nivel de encabezado",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Ocultar los controles de nivel de encabezado evitará que se cambie el nivel de encabezado en las herramientas de contenido",
+    "description": null,
+    "placeholders": null
+  }
+}

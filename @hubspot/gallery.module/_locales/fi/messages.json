@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Automaattinen kehitys",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Pidä kuvaukset aina kuvien alapuolella",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Päällekkäin asetetut kuvaukset kuvien päällä",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Kuvaussijainti",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Hae",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Kuvagalleria",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Vakiosiirrin",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Pikkukuvanavigointi",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Näkymätila",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Hae",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Valokuvagallerian rivit",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Valokuvagallerian rivit",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Kiertävät diat",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Automaattisten vieritysten välinen aika sekunneissa",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Näytä siirtymispainikkeet",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Vaihteleva korkeus",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Kiinteä korkeus",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Vaihteleva korkeus",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Hae",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Kuvaus",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Kuva",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dia",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Linkitä URL",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Avaa linkki uudessa välilehdessä",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Näytä kuvaus",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Häivytys",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Dia",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Diasiirtymät",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Hae",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Kuvagalleria",
+    "description": null,
+    "placeholders": null
+  }
+}

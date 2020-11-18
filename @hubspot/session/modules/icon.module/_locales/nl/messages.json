@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.label": {
+    "message": "Toegankelijkheidsopties",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.choices.decorative": {
+    "message": "Genegeerd door schermlezer",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.choices.semantic": {
+    "message": "Gelezen door schermlezer",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.purpose.label": {
+    "message": "Doel",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_field.label": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "style.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Stijlopties",
+    "description": "",
+    "placeholders": null
+  },
+  "style.size.help_text": {
+    "message": "Breedte in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "style.size.label": {
+    "message": "Grootte",
+    "description": "",
+    "placeholders": null
+  }
+}

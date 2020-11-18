@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Pricing Card",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Button link",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Sign up for free",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Button text",
+    "description": "",
+    "placeholders": null
+  },
+  "description.default": {
+    "message": "For teams that need additional security, control, and support.",
+    "description": "",
+    "placeholders": null
+  },
+  "description.label": {
+    "message": "Product description",
+    "description": "",
+    "placeholders": null
+  },
+  "feature_icon.label": {
+    "message": "Features list icon bullet",
+    "description": "",
+    "placeholders": null
+  },
+  "features.default": {
+    "message": "10 users included",
+    "description": "",
+    "placeholders": null
+  },
+  "features.label": {
+    "message": "Features",
+    "description": "",
+    "placeholders": null
+  },
+  "price.default": {
+    "message": "$0",
+    "description": "",
+    "placeholders": null
+  },
+  "price.label": {
+    "message": "Price",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.large": {
+    "message": "Large",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.regular": {
+    "message": "Regular",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.choices.small": {
+    "message": "Small",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_size.label": {
+    "message": "Button size",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.primary": {
+    "message": "Primary",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.secondary": {
+    "message": "Secondary",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.choices.simple": {
+    "message": "Simple",
+    "description": "",
+    "placeholders": null
+  },
+  "style.button_type.label": {
+    "message": "Button style",
+    "description": "",
+    "placeholders": null
+  },
+  "style.label": {
+    "message": "Style options",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.default": {
+    "message": "Free",
+    "description": "",
+    "placeholders": null
+  },
+  "tier.label": {
+    "message": "Product Tier",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.default": {
+    "message": "/ mo",
+    "description": "",
+    "placeholders": null
+  },
+  "timeframe.label": {
+    "message": "Price timeframe",
+    "description": "",
+    "placeholders": null
+  }
+}

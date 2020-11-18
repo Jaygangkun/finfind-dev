@@ -1,0 +1,92 @@
+{
+  "img.default.alt": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "img.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "img.label": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "link.default": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "If no url is specified, your logo will link to your primary domain",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "Link URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "link.validation_regex": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.help_text": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Open link in new tab when visitors click",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.help_text": {
+    "message": "Choose a heading style. H1 is the largest, followed by H2, and so on",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.label": {
+    "message": "Heading Style",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_style.placeholder": {
+    "message": "",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "Dobře čitelný, výrazný nadpis",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Obsah nadpisu oddílu",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Méně nápadný podnadpis",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Podnadpis oddílu",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Nadpis oddílu",
+    "description": null,
+    "placeholders": null
+  }
+}

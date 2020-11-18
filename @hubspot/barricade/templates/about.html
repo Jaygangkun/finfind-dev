@@ -1,0 +1,280 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: About
+  screenshotPath: ../images/template-previews/about.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+<main>
+  {% dnd_area "dnd_area_main_banner" label='Main Content' %}
+    
+    {# Hero section #}
+    {% dnd_section
+      background_image = {
+        'backgroundPosition': 'MIDDLE_CENTER',
+        'backgroundSize': 'cover',
+        'imageUrl': get_asset_url("../images/hero-internal.png")
+      },
+      padding={
+        'top': 60,
+        'bottom': 60,
+        'left': 25,
+        'right': 25
+      },
+      max_width=600
+       %}
+          {% dnd_module
+            path="@hubspot/rich_text", 
+            flexbox_positioning="TOP_CENTER"
+          %}
+            {% module_attribute "html" %}
+              <div style="text-align: center;">  
+                <h1 style="color: #ffffff">Meet our team</h1>
+                <p style="color: #ffffff">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet sapien sed efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet sapien sed efficitur.</p>
+              </div>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+    {% end_dnd_section %}
+
+    {# Who we are section #}
+    {% dnd_section %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+            {% module_attribute "html" %}
+              <h2 style="text-align: center;">Who we are</h2>          
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_column width=6, offset=0 %}
+            {% dnd_row %}
+              {% dnd_module path='@hubspot/rich_text' %}
+                {% module_attribute "html"%}
+                  <h3>We are a creative, energetic group</h3>
+                  <p>Morbi et dolor est. Donec at dolor vehicula, molestie erat non, rutrum tellus. 
+                  Vestibulum in eros non augue convallis pulvinar. Aliquam erat volutpat. Cras interdum 
+                  felis at sem pharetra, sed convallis elit auctor. Nulla semper ut ante eu dapibus. Mauris 
+                  dui orci, pulvinar sit amet ligula vel. </p>
+
+                  <p> Suspendisse faucibus ullamcorper massa, nec eleifend ante imperdiet in. 
+                  Aliquam consequat bibendum ante, vitae placerat odio gravida eu. Maecenas 
+                  eleifend est risus, sed luctus neque faucibus sit amet.</p>
+                    
+                  <ul>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                  </ul>
+                {% end_module_attribute %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+
+          {% dnd_column width=6, offset=6 %}
+            {% dnd_row 
+              padding={
+                'top': 40
+              }
+            %}
+              {% dnd_module 
+                path='@hubspot/linked_image',
+                img={
+                  'src': get_asset_url('../images/employees.jpg'),
+                  'size_type': 'auto',
+                  'alt': 'group of employees looking at screen'
+                }
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+    {# Headshot card section #}
+    {% dnd_section 
+      max_width=1160
+    %}
+      {% dnd_column %}
+        {% dnd_row 
+          vertical_alignment='TOP'
+        %}
+          {% dnd_module 
+            path='../modules/headshot-card',
+            width=4, 
+            offset=0,
+            headshot={
+              src: "{{ get_asset_url('../images/headshot1.png') }}"
+            }
+            %}
+          {% end_dnd_module %}
+          {% dnd_module 
+            path='../modules/headshot-card',
+            width=4, 
+            offset=4,
+            headshot={
+              src: "{{ get_asset_url('../images/headshot2.png') }}"
+            },
+            human_name='Alex Portino',
+            title='VP of Learning'
+          %}
+          {% end_dnd_module %}
+          {% dnd_module 
+            path='../modules/headshot-card',
+            width=4, 
+            offset=8,
+            headshot={
+              src: "{{ get_asset_url('../images/headshot3.png') }}"
+            },
+            human_name='John Filingo',
+            title='Director of Academics'
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}  
+
+
+    {# How we work section 1 #}
+    {% dnd_section %}
+      {% dnd_column %}        
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+            {% module_attribute "html" %}
+              <h2 style="text-align: center;">How we work</h2>          
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+
+        {% dnd_row %}
+          {% dnd_column width=6, offset=0 %}
+            {% dnd_row %}
+              {% dnd_module path='@hubspot/rich_text' %}
+                {% module_attribute "html"%}
+                  <h3>We are a creative, energetic group</h3>
+                  <p>Morbi et dolor est. Donec at dolor vehicula, molestie erat non, rutrum tellus. 
+                  Vestibulum in eros non augue convallis pulvinar. Aliquam erat volutpat. Cras interdum 
+                  felis at sem pharetra, sed convallis elit auctor. Nulla semper ut ante eu dapibus. Mauris 
+                  dui orci, pulvinar sit amet ligula vel. </p>
+
+                  <p> Suspendisse faucibus ullamcorper massa, nec eleifend ante imperdiet in. 
+                  Aliquam consequat bibendum ante, vitae placerat odio gravida eu. Maecenas 
+                  eleifend est risus, sed luctus neque faucibus sit amet.</p>
+                    
+                  <ul>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                  </ul>
+                {% end_module_attribute %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+
+          {% dnd_column width=6, offset=6 %}
+            {% dnd_row 
+              padding={
+                top: 40
+              }
+            %}
+              {% dnd_module 
+                path='@hubspot/linked_image',
+                img={
+                  'src': get_asset_url('../images/employees.jpg'),
+                  'size_type': 'auto',
+                  'alt': 'group of employees looking at screen'
+                }
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+        {% end_dnd_row %}
+
+        {% dnd_row %}
+          {% dnd_column width=6, offset=0 %}
+            {% dnd_row 
+              padding={
+                top: 40
+              }
+            %}
+              {% dnd_module 
+                path='@hubspot/linked_image',
+                img={
+                  'src': get_asset_url('../images/employees.jpg'),
+                  'size_type': 'auto',
+                  'alt': 'group of employees looking at screen'
+                }
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+
+          {% dnd_column width=6, offset=6 %}
+            {% dnd_row %}
+              {% dnd_module path='@hubspot/rich_text' %}
+                {% module_attribute "html"%}
+                  <h3>We are a creative, energetic group</h3>
+                  <p>Morbi et dolor est. Donec at dolor vehicula, molestie erat non, rutrum tellus. 
+                  Vestibulum in eros non augue convallis pulvinar. Aliquam erat volutpat. Cras interdum 
+                  felis at sem pharetra, sed convallis elit auctor. Nulla semper ut ante eu dapibus. Mauris 
+                  dui orci, pulvinar sit amet ligula vel. </p>
+
+                  <p> Suspendisse faucibus ullamcorper massa, nec eleifend ante imperdiet in. 
+                  Aliquam consequat bibendum ante, vitae placerat odio gravida eu. Maecenas 
+                  eleifend est risus, sed luctus neque faucibus sit amet.</p>
+                    
+                  <ul>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia</li>
+                  </ul>
+                {% end_module_attribute %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}        
+        {% end_dnd_row %}
+
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+
+
+    {# CTA section #}
+    {% dnd_section 
+      padding={
+        'top': 50,
+        'bottom': 50,
+        'left': 25,
+        'right': 25
+      }
+    %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module path="@hubspot/rich_text" %}
+            {% module_attribute "html" %}
+              <div class="cta__text">
+                <h2>Ready to Grow Your Business?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet sapien sed efficitur 
+                elementum.</p>
+              </div>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module 
+            path="../modules/button",
+            button_text='Get Started'
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+  {% end_dnd_area %}
+</main>
+
+      
+{% endblock body %}

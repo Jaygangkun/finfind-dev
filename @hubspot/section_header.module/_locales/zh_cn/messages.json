@@ -1,0 +1,27 @@
+{
+  "header.default": {
+    "message": "清晰醒目的标题",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "章节标题内容",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "更简洁的副标题",
+    "description": null,
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "章节副标题",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "章节标题",
+    "description": null,
+    "placeholders": null
+  }
+}

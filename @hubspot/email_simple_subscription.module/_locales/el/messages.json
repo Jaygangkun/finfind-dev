@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Αντίγραφο ασφαλείας κατάργησης εγγραφής",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Κείμενο κουμπιού",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Κατάργηση εγγραφής σε email",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Κείμενο κράτησης θέσης εισαγωγής email",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Η διεύθυνση email σας:",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Κατάργηση εγγραφής",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Κεφαλίδα",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Κείμενο βοήθειας εισαγωγής email",
+    "description": null,
+    "placeholders": null
+  }
+}

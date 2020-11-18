@@ -1,0 +1,47 @@
+{
+  "button_text.default": {
+    "message": "Odhlásit odběr",
+    "description": null,
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text tlačítka",
+    "description": null,
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Odhlášení odběru e-mailů",
+    "description": null,
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Nadpis",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Vaše e-mailová adresa",
+    "description": null,
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Text nápovědy k zadání e-mailu",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": null,
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Zástupný text pro zadání e-mailu",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Záložní odhlášení odběru",
+    "description": null,
+    "placeholders": null
+  }
+}

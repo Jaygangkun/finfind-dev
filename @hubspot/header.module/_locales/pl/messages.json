@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Największym jest H1, następnie H2 itd.",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Typ nagłówka",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Szukaj",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Nagłówek przezroczysty i pogrubiony",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Treść nagłówka",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Nagłówek",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Ukryj elementy sterujące poziomem nagłówka",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Ukrycie elementów sterujących poziomem nagłówka zapobiegnie zmianie poziomu nagłówka w narzędziach do tworzenia treści",
+    "description": null,
+    "placeholders": null
+  }
+}

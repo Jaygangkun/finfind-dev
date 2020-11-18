@@ -1,0 +1,152 @@
+{
+  "auto_advance.label": {
+    "message": "Avanzamento automatico",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Mantieni le didascalie sempre sotto l'immagine",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Sovrapponi le didascalie sopra le immagini",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Posizione della didascalia",
+    "description": null,
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Cerca",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Raccolta dei riquadri",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Dispositivo di scorrimento standard",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Spostamento anteprima",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modalità di visualizzazione",
+    "description": null,
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Cerca",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Righe per la raccolta dei riquadri",
+    "description": null,
+    "placeholders": null
+  },
+  "lightboxrows.label": {
+    "message": "Righe per la raccolta dei riquadri",
+    "description": null,
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Riproduci a ciclo continuo le diapositive",
+    "description": null,
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tempo in secondi tra lo scorrimento automatico",
+    "description": null,
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Mostra pulsanti di spostamento",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Altezza variabile",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Altezza fissa",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Altezza variabile",
+    "description": null,
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Cerca",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Didascalia",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Immagine",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Diapositiva",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL link",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Apri il link in una nuova scheda",
+    "description": null,
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Mostra didascalia",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Dissolvenza",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Diapositiva",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Transizioni diapositiva",
+    "description": null,
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Cerca",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Galleria immagini",
+    "description": null,
+    "placeholders": null
+  }
+}

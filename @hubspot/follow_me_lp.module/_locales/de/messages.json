@@ -1,0 +1,197 @@
+{
+  "alignment.choices.center": {
+    "message": "Center",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Ausrichtung",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.placeholder": {
+    "message": "Suchen",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.black": {
+    "message": "Schwarz und weiß",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.color": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.grey": {
+    "message": "Grau",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.choices.white": {
+    "message": "Weiß",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.label": {
+    "message": "Farbschema",
+    "description": "",
+    "placeholders": null
+  },
+  "color_scheme.placeholder": {
+    "message": "Suchen",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.icon_text": {
+    "message": "Symbol und Text",
+    "description": "",
+    "placeholders": null
+  },
+  "display.label": {
+    "message": "Anzeigen",
+    "description": "",
+    "placeholders": null
+  },
+  "font_style.label": {
+    "message": "Schriftstil",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.circle": {
+    "message": "Kreisförmig",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.original": {
+    "message": "Original",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.choices.square": {
+    "message": "Quadrat",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.label": {
+    "message": "Symbolform",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_shape.placeholder": {
+    "message": "Suchen",
+    "description": "",
+    "placeholders": null
+  },
+  "scale.label": {
+    "message": "Maßstab",
+    "description": "",
+    "placeholders": null
+  },
+  "social.label": {
+    "message": "Social-Media-Netzwerk",
+    "description": "",
+    "placeholders": null
+  },
+  "social.link.label": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.facebook": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.icon": {
+    "message": "Benutzerdefiniertes Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.instagram": {
+    "message": "Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.linkedin": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.mail": {
+    "message": "E-Mail-Adresse",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.pinterest": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.twitter": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.website": {
+    "message": "Website",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.whatsapp": {
+    "message": "Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.choices.youtube": {
+    "message": "YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network.label": {
+    "message": "Netzwerk",
+    "description": "",
+    "placeholders": null
+  },
+  "social.network_image.label": {
+    "message": "Netzwerkbild",
+    "description": "",
+    "placeholders": null
+  },
+  "social.supporting_text.label": {
+    "message": "Unterstützender Text",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Abstand",
+    "description": "",
+    "placeholders": null
+  },
+  "display.choices.text_only": {
+    "message": "Nur Text",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Folge mir – LP",
+    "description": "",
+    "placeholders": null
+  }
+}

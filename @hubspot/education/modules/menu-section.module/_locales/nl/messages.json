@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Menugedeelte",
+    "description": "",
+    "placeholders": null
+  },
+  "duplicate_mobile_menu.label": {
+    "message": "Mobiele menu dupliceren",
+    "description": "",
+    "placeholders": null
+  },
+  "primary_menu_field.label": {
+    "message": "Primair menuveld",
+    "description": "",
+    "placeholders": null
+  }
+}

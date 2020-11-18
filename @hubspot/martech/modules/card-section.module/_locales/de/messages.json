@@ -1,0 +1,52 @@
+{
+  "name": {
+    "message": "Kartenbereich",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_link.label": {
+    "message": "Schaltflächen-Link",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_text.default": {
+    "message": "Mehr erfahren",
+    "description": "",
+    "placeholders": null
+  },
+  "card.button_text.label": {
+    "message": "Button-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "card.image.label": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "card.label": {
+    "message": "Karte",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.default": {
+    "message": "Kontextbezogene Werbung kann profitabel sein, nicht nur um Hosting- und Wartungskosten für Ihre Website zu decken, sondern weit darüber hinaus.",
+    "description": "",
+    "placeholders": null
+  },
+  "card.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.default": {
+    "message": "Dies ist ein Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "card.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  }
+}

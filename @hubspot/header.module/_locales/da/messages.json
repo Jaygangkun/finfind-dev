@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 er den største, herefter kommer H2 osv.",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Overskrifttype",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Søg",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "En klar og tydelig overskrift",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Overskriftindhold",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Overskrift",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Skjul kontroller for overskriftsniveau",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Hvis du skjuler kontrollerne for overskriftsniveauet, forhindres det, at overskriftsniveauet ændres i indholdsværktøjerne",
+    "description": null,
+    "placeholders": null
+  }
+}

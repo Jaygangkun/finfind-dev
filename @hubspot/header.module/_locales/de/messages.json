@@ -1,0 +1,62 @@
+{
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "H1 ist die größte, dann kommt H2 usw.",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Überschrifttyp",
+    "description": null,
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Suchen",
+    "description": null,
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Eine klare und auffällige Überschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Überschrift-Content",
+    "description": null,
+    "placeholders": null
+  },
+  "name": {
+    "message": "Überschrift",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Steuerelemente der Überschriftenebene ausblenden",
+    "description": null,
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Durch Ausblenden der Steuerelemente der Überschriftenebene wird verhindert, dass die Überschriftenebene in den Content-Tools geändert wird.",
+    "description": null,
+    "placeholders": null
+  }
+}

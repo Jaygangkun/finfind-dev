@@ -1,0 +1,137 @@
+<!--
+  templateType: global_partial
+  label: Page Footer
+-->
+<footer class="footer">
+  <div class="footer__container">
+
+    <div class="footer__row footer__row--one">
+
+      {# Logo #}
+      <div class="footer__logo">
+        {% module 'footer_logo'
+          path='@hubspot/logo',
+          label='Logo',
+          img={
+            'src': get_asset_url('../../images/vitality-theme-logo.png'),
+            'alt': 'Vitality logo',
+            'width': '502',
+            'height': '104'
+          }
+        %}
+      </div>
+
+      {# Footer Navigation #}
+      <div class="footer__navigation">
+        {% module_block module 'footer_menu' path='@hubspot/simple_menu' overrideable=True, orientation='horizontal', label='Menu'  %}
+          {% module_attribute 'menu_tree' is_json=True %}[{"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Studio", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false}, {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Schedule", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false}, {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Classes", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false}, {"contentType": null, "subCategory": null, "pageLinkName": null, "pageLinkId": null, "isPublished": false, "categoryId": null, "linkParams": null, "linkLabel": "Membership", "linkTarget": null, "linkUrl": "#", "children": [], "isDeleted": false}]{% end_module_attribute %}
+        {% end_module_block %}
+      </div>
+
+      {# Social Follow #}
+      <div class="footer__follow-me">
+        {% module_block module 'footer__follow-me' path='../../modules/social-follow' label='Social Follow' %}
+          {% module_attribute 'social_links' is_json=True %}
+            [
+              {"social_account": "facebook-f"},
+              {"social_account": "instagram"}
+            ]
+          {% end_module_attribute %}
+        {% end_module_block %}
+      </div>
+
+    </div>
+
+    <div class="footer__row footer__row--two">
+
+        {# Address #}
+        <div class="footer__contact footer__contact--address">
+          {% module_block module 'footer_address_icon'
+            path='../../modules/icon'
+            label='Address Icon'
+          %}
+            {% module_attribute 'icon_field' is_json=True %}
+              {
+                "name": "map-marker-alt",
+                "type": "SOLID"
+              }
+            {% end_module_attribute %}
+            {% module_attribute 'accessibility' is_json=True %}
+              {
+                "purpose": "decorative"
+              }
+            {% end_module_attribute %}
+          {% end_module_block %}
+          {% module 'footer_address'
+            path='@hubspot/text',
+            label='Address',
+            value='31 Woodrow Drive | Ames, NY 98910'
+          %}
+        </div>
+
+        {# Phone Number #}
+        <div class="footer__contact footer__contact--phone">
+          {% module_block module 'footer_phone_icon'
+            path='../../modules/icon'
+            label='Phone Icon'
+          %}
+            {% module_attribute 'icon_field' is_json=True %}
+              {
+                "name": "phone",
+                "type": "SOLID"
+              }
+            {% end_module_attribute %}
+            {% module_attribute 'accessibility' is_json=True %}
+              {
+                "purpose": "decorative"
+              }
+            {% end_module_attribute %}
+          {% end_module_block %}
+          {% module 'footer_phone_number'
+            path='@hubspot/text',
+            label='Phone Number',
+            value='103.892.1002'
+          %}
+        </div>
+
+        {# Email #}
+        <div class="footer__contact footer__contact--email">
+          {% module_block module 'footer_mail_icon'
+            path='../../modules/icon'
+              label='Mail Icon'
+          %}
+            {% module_attribute 'icon_field' is_json=True %}
+              {
+                "name": "envelope",
+                "type": "SOLID"
+              }
+            {% end_module_attribute %}
+            {% module_attribute 'accessibility' is_json=True %}
+              {
+                "purpose": "decorative"
+              }
+            {% end_module_attribute %}
+          {% end_module_block %}
+
+          {% module 'footer_email'
+            path='@hubspot/text',
+            label='Email',
+            value='info@vitalitystudios.com'
+          %}
+        </div>
+
+    </div>
+
+    <div class="footer__row footer__row--three">
+
+      {# Copyright #}
+      {% module_block module 'footer_copyright' path='@hubspot/rich_text', label='Copyright' %}
+        {% module_attribute 'html' %}
+          <p>Copyright © {{ year }} {{ site_settings.company_name }}. All Rights Reserved. <a href="#">Privacy Policy</a>. <a href="#">Terms and Conditions</a>.</p>
+        {% end_module_attribute %}
+      {% end_module_block %}
+
+    </div>
+
+  </div>
+</footer>

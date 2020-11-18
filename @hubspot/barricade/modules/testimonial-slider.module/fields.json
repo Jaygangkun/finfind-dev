@@ -1,0 +1,98 @@
+[
+  {
+    "label": "Testimonials",
+    "name": "testimonial_carousel",
+    "type": "group",
+    "occurrence": { "min": 3, "max": 40, "default": 6, "sorting_label_field": "testimonial_carousel.author" },
+    "children": [
+      {
+        "name": "content",
+        "label": "Testimonial Text",
+        "required": true,
+        "type": "richtext",
+        "default": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>"
+      },
+      {
+        "name": "author",
+        "label": "Author",
+        "type": "text",
+        "default": "Mary Kindler"
+      },
+      {
+        "name": "author_title",
+        "label": "Author's Title",
+        "type": "text",
+        "default": "Founder of Syntecho"
+      },
+      {
+        "name": "testimonial_image",
+        "label": "Testimonial image",
+        "required": true,
+        "responsive": false,
+        "resizable": true,
+        "type": "image",
+        "default": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Barricade/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      }
+    ],
+    "type": "group",
+    "default": [
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Barricade/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      },
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Barricade/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      },
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Barricade/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      },
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Barricade/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      },
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Barricade/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      },
+      {
+        "content": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Aliquam a risus at eros molestie pretium dolor set amiut. </p>",
+        "author": "Mary Kindler",
+        "author_title": "Founder of Syntecho",
+        "testimonial_image": {
+          "src": "https://cdn2.hubspot.net/hubfs/7303166/Barricade/placeholder-testimonial.jpg",
+          "alt": "Placeholder Image"
+        }
+      }
+    ]
+  }
+]

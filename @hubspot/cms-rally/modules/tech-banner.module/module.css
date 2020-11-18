@@ -1,0 +1,42 @@
+/* Tech Banner */
+
+.tech-banner {
+  background-color: #fff;
+  box-shadow: 2.427px 1.763px 21px 0 rgba(0, 0, 0, 0.1);
+  padding: 45px 35px 35px;
+  text-align: center;
+}
+
+.tech-banner_images {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.tech-banner_image {
+  flex: 1 0 25%;
+  margin-bottom: 25px;
+}
+
+.tech-banner_image img {
+  height: 100%;
+  max-height: 60px;
+  width: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .tech-banner {
+    padding: 48px 90px 35px;
+  }
+
+  .tech-banner_images {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tech-banner_images {
+    flex-direction: column;
+  }
+}
