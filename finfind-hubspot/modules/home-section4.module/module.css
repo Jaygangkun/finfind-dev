@@ -1,10 +1,12 @@
 .home-section4-item-wrap{
     border: 2px solid #FFFFFF;
-    width: 100%;
-    padding-top: 100%;
+    width: 280px;
+    padding-top: 280px;
     height: 0px;
     border-radius: 50%;
     position: relative;
+    margin: auto;
+    max-width: 450px;
 }
 
 .home-section4-item-wrap:hover{
@@ -34,7 +36,7 @@
 }
 
 .home-section4-item__text{
-    font-size: 40px;
+    font-size: 32px;
     color: #FFFFFF;
     position: absolute;
     left: 50%;
@@ -48,7 +50,7 @@
     color: #000000;
 }
 .home-section4-item-col{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .home-section4-wave-img--top{
