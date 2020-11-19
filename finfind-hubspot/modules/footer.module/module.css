@@ -6,10 +6,10 @@
 }
 
 .footer-title{
-    font-size: 30px;
+    font-size: 28px;
     color: #333333;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .footer-link-wrap{
@@ -19,23 +19,23 @@
 .footer-menu-link{
     font-weight: bold;
     color: #666666;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
 }
 
 .footer-menu-link:hover{
     text-decoration: none;
-    color: #666666;
+    color: #999999 ;
 }
 
 .footer-contact__title{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: #666666;
 }
 
 .footer-contact__value{
-    font-size: 24px;
+    font-size: 22px;
     color: #666666;
 }
 
@@ -44,19 +44,31 @@
     margin-bottom: 50px;
 }
 
-.footer-note-text{
+.footer-note-text,
+.footer-note-text p{
     color: #333333;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 500;
 }
 
 .footer-menu-links-col{
+    text-align: right;
+    border-right: 1px solid #666666;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer-menu-links-col-wrap{
+    display: inline-block;
+    margin-right: 180px;
     text-align: left;
 }
 
 .footer-social-links-col{
     text-align: left;
     padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .footer-logo__img{
@@ -64,7 +76,7 @@
 }
 
 .footer-links-container{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .footer-contact-row{
@@ -88,9 +100,18 @@
     background: #343133;    
     border-radius: 50%;
 }
+
+.social-links__link-wrap:hover{
+    background: #666666;
+}
+
 .social-links__link{
     margin-right: 20px;
     display: inline-block;
+}
+
+.social-links__link:last-of-type{
+    margin-right: 0px;
 }
 
 .social-links__link i{

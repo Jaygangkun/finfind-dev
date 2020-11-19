@@ -20,12 +20,14 @@
         <div class="footer-links-container">
             <div class="row">
                 <div class="col-lg-6 footer-menu-links-col">
-                    <div class="footer-title">{{module.menu.title}}</div>
-                    {% for menu_item in module.menu.menu_items %}
-                        <div class="footer-link-wrap">
-                            <a class="footer-menu-link" href="{{menu_item.url.url}}">{{menu_item.text}}</a>
-                        </div>
-                    {% endfor %}
+                    <div class="footer-menu-links-col-wrap">
+                        <div class="footer-title">{{module.menu.title}}</div>
+                        {% for menu_item in module.menu.menu_items %}
+                            <div class="footer-link-wrap">
+                                <a class="footer-menu-link" href="{{menu_item.url.url}}">{{menu_item.text}}</a>
+                            </div>
+                        {% endfor %}
+                    </div>
                 </div>
                 <div class="col-lg-6 footer-social-links-col">
                     <div class="footer-title">{{module.contact.title}}</div>
@@ -43,7 +45,7 @@
         <div class="footer-logos-list">
             <div class="row">
                 {% for logo in module.logos %}
-                <div class="col-lg-3 footer-logo-item-col">
+                <div class="col-lg-3 col-md-3 footer-logo-item-col">
                     <img class="footer-partner-logo__img" src="{{logo.image.src}}">
                 </div>                
                 {% endfor %}

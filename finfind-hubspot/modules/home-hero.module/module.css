@@ -2,6 +2,7 @@
     text-align: center;
     color: #333333;
     margin-bottom: 50px;
+    font-size: 26px;
 }
 
 .home-hero{
@@ -31,14 +32,17 @@
 
 .home-hero-content-col{
     width: 420px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 60px;
 }
 
 .home-hero-content-col--left{
-    margin-left: 110px;
+    /* margin-left: 110px; */
 }
 
 .home-hero-content-col--right{
-    width: 530px;
+    /* width: 530px; */
 }
 
 .home-hero-women__img{
@@ -55,4 +59,11 @@
     bottom: 0px;
     transform: translateX(-50%);
     transform: translate(-50%, 50%);
+}
+
+.home-hero-content-col .link{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
 }
