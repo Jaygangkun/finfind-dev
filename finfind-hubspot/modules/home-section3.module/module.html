@@ -1,11 +1,11 @@
 
 <div class="home-section3">
     <div class="container--w-80">
-        <h2 class="section__title">{{module.title}}</h2>
-        <div class="section__desc">{{module.description}}</div>
+        <h2 class="section__title wow fadeIn" data-wow-duration="0.3" data-wow-delay="0.5">{{module.title}}</h2>
+        <div class="section__desc wow fadeIn" data-wow-duration="0.3" data-wow-delay="0.8">{{module.description}}</div>
         <div class="row">
             {% for item in module.items %}
-            <div class="col-lg-4 home-section3-item-col">
+            <div class="col-lg-4 home-section3-item-col wow fadeIn" data-wow-duration="0.3" data-wow-delay="{{1.1 + 0.3 * loop.index}}">
                 <div class="home-sectoin3-item-chart-wrap">
                     <div class="home-section3-item-circle-chart" id="circle_{{loop.index}}"></div>
                 </div>
@@ -13,10 +13,10 @@
             </div>
             {% endfor %}
         </div>
-        <div class="link-wrap">
+        <div class="link-wrap wow fadeIn" data-wow-duration="0.3" data-wow-delay="2">
             <a class="link link--blue">{{module.link_text}}</a>
         </div>
-        <div class="home-section3-desc--small">{{module.small_description}}</div>
+        <div class="home-section3-desc--small" data-wow-duration="0.3" data-wow-delay="2.3">{{module.small_description}}</div>
     </div>
 </div>
 <script>

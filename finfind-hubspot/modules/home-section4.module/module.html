@@ -3,18 +3,18 @@
     <img class="home-section4__img-top" src="{{module.image.src}}">
     <div class="home-section4-content">
         <div class="container--w-80">
-            <h2 class="section__title">{{module.title}}</h2>
-            <div class="section__desc">{{module.description}}</div>
-            <div class="row">
+            <h2 class="section__title wow fadeIn" data-wow-duration="0.3" data-wow-delay="0.5">{{module.title}}</h2>
+            <div class="section__desc wow fadeIn" data-wow-duration="0.3" data-wow-delay="0.8">{{module.description}}</div>
+            <div class="home-section4-row">
                 {% for item in module.items %}
-                <div class="col-lg-4 col-md-6 home-section4-item-col">
+                <div class="home-section4-item-col wow fadeIn" data-wow-duration="0.3" data-wow-delay="{{1.1 + 0.3 * loop.index}}">
                     <div class="home-section4-item-wrap">
                         <div class="home-section4-item__text">{{item.text}}</div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
-            <div class="link-wrap">
+            <div class="link-wrap wow fadeIn" data-wow-duration="0.3" data-wow-delay="2.1">
                 <a class="link link--white">{{module.link_text}}</a>
             </div>
         </div>

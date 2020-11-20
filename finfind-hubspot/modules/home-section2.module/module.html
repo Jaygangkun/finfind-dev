@@ -2,20 +2,20 @@
     <img class="home-section2-wave-img--top" src="{{get_asset_url('../images/home-section2-wave-top.png')}}">
     <img class="home-section2-wave-img--bottom" src="{{get_asset_url('../images/home-section2-wave-bottom.png')}}">
     <div class="container--w-80">
-        <h2 class="section__title">{{module.title}}</h2>
+        <h2 class="section__title wow fadeIn" data-wow-duration="0.3" data-wow-delay="0.5">{{module.title}}</h2>
         <div class="row d-flex justify-content-center">
             {% for item in module.items%}
-            <div class="col-lg-3 col-md-6 home-section2-item-col">
+            <div class="col-lg-3 col-md-6 home-section2-item-col wow fadeIn" data-wow-duration="0.3" data-wow-delay="{{0.8 + 0.3 * loop.index}}">
                 <img class="home-section2-item__img" src="{{item.icon.src}}" alt="{{item.icon.alt}}">
                 <div class="item__desc">{{item.description}}</div>
                 <div class="home-section2-item-hr"></div>
             </div>
             {% endfor %}
         </div>
-        <div class="link-wrap">
+        <div class="link-wrap wow fadeIn" data-wow-duration="0.3" data-wow-delay="2.3">
             <a class="link link--white" href="{{module.link_url.src}}">{{module.link_text}}</a>
         </div>
-        <div class="home-section2-desc--small">{{module.small_description}}</div>
+        <div class="home-section2-desc--small wow fadeIn" data-wow-duration="0.3" data-wow-delay="2.6">{{module.small_description}}</div>
     </div>
     <div class="home-section2-btn-wrap down-btn-wrap">
         <div class="down-btn-inner-wrap">

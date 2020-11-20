@@ -1,9 +1,9 @@
 <div class="home-section1">
     <div class="container--w-80">
-        <h2 class="section__title">{{module.title}}</h2>
+        <h2 class="section__title wow fadeIn" data-wow-duration="0.3" data-wow-delay="0.5">{{module.title}}</h2>
         <div class="row">
             {% for step in module.steps %}
-            <div class="col-lg-3 col-md-6 home-section-item-col">
+            <div class="col-lg-3 col-md-6 home-section-item-col wow fadeIn" data-wow-duration="0.3" data-wow-delay="{{0.8 + 0.3 * loop.index}}">
                 <div class="home-section1-item-wrap">
                     <div class="home-section1-item-step-number-wrap">
                         <span class="home-section1-item-step__number">{{step.number}}</span>
@@ -14,7 +14,7 @@
             </div>
             {% endfor %}
         </div>
-        <div class="link-wrap">
+        <div class="link-wrap wow fadeIn" data-wow-duration="0.3" data-wow-delay="2.8">
             <a class="link link--blue" href="{{module.link_url.src}}">{{module.link_text}}</a>
         </div>
     </div>

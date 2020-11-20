@@ -36,7 +36,7 @@
 }
 
 .home-section4-item__text{
-    font-size: 32px;
+    font-size: 28px;
     color: #FFFFFF;
     position: absolute;
     left: 50%;
@@ -44,13 +44,16 @@
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    text-transform: capitalize;
 }
 
 .home-section4-item-wrap:hover .home-section4-item__text{
     color: #000000;
 }
 .home-section4-item-col{
-    margin-bottom: 60px;
+    margin-bottom: 75px;
+    margin-left: 37.5px;
+    margin-right: 37.5px;
 }
 
 .home-section4-wave-img--top{

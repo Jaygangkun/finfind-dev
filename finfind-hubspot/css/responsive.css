@@ -20,15 +20,12 @@
 
 @media screen and (max-width: 1300px){
     .navbar-nav .nav-link{
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 10px !important;
     }
 
     .header-login-link{
-        font-size: 22px;
-    }
-
-    .header-login-link{
+        font-size: 18px;
         margin-left: 20px;
         padding-left: 20px;
     }
@@ -73,14 +70,14 @@
     }
 
     .section__desc, .section__desc p {
-        font-size: 27px;
+        font-size: 24px;
     }
 
     .home-section4-item-wrap{
     }
 
     .home-section4-item__text{
-        font-size: 30px;
+        font-size: 26px;
     }
 }
 
@@ -90,11 +87,11 @@
     }
 
     .navbar-nav .nav-link{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .header-login-link{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .link{
@@ -293,7 +290,7 @@
     }
 
     .section__desc, .section__desc p {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .home-section4-content{
@@ -306,7 +303,7 @@
     }
 
     .home-section4-item__text {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .footer-logo__img{
@@ -323,15 +320,15 @@
     }
 
     .footer-menu-link{
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .footer-contact__title{
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .footer-contact__value{
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .footer-logo-item-col{
@@ -457,7 +454,7 @@
     }
 
     .home-section4-item__text{
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .home-section4-item-wrap {
@@ -471,11 +468,11 @@
     }
 
     .footer-menu-link{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .footer-link-wrap{
-        margin-bottom: 5px;
+        /* margin-bottom: 5px; */
     }
 
     .footer-title {

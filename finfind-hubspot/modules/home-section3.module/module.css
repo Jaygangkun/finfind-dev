@@ -53,3 +53,7 @@
 .home-section3-item-col{
     margin-bottom: 30px;
 }
+
+.home-section3 .section__desc p{
+    margin-bottom: 0px;
+}

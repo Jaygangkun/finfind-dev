@@ -139,4 +139,8 @@
   });
 
   $("#nav_bar").sticky({topSpacing:0});
+
+  if(typeof WOW === 'function'){
+    new WOW().init();
+  }  
 })();
